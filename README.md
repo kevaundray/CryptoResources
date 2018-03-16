@@ -1,3 +1,17 @@
-# My Awesome Book
+# Decentralised knowledge
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+## Chapter 1 - Blockchain Foundation
+
+* Hashing
+
+  * Overview of Hashing
+  * Checksum
+  * Merkle Root and Merkle Trees
+
+* Encryption
+
+  * Asymmetric
+  * Symmetric
+
+
+

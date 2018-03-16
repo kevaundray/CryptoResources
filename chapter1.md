@@ -1,1 +1,14 @@
-# First Chapter
+# **Blockchain Foundation**
+
+
+
+
+
+#### What is hashing?
+
+
+
+
+
+
+
