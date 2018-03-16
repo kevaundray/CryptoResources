@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Overview of Hashing](chapter1.md)
 * Second Chapter
 * Third Chapter
 
