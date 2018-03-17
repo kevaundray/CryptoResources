@@ -1,6 +1,6 @@
 # **Blockchain Foundation**
 
-#### Overview of Cryptographic Hashing?
+#### Overview of Cryptographic Hashing
 
 **High Level Explanation**
 
@@ -13,22 +13,19 @@ After a year of typing in different messages, you notice three things:
 
 * The message length was always 32 characters, no matter what was typed in.
 * The message displayed gives no clue as to what was inputted. The only way to know what input generated that message, is to input the message itself and check. There are no shortcuts.
-*  No message ever repeated. Whatever you typed in, a new message was displayed. Could there be a repeat of, but you never saw it? How long would it take to find this repeat? Is there a systematic way to find each repeat?
+* No message ever repeated. Whatever you typed in, a new message was displayed. Could there be a repeat of, but you never saw it? How long would it take to find this repeat? Is there a systematic way to find each repeat?
 
 **Low Level Explanation**
 
-You may have heard of SHA256 and MD5. These are what we call hashing algorithms. They define instructions on how to take an input which can be any size, and output a pseudo-random output of fixed length. The reason it is pseudo-random, is because with the same random input, we get the same random output.  
-  
+You may have heard of SHA256 and MD5. These are what we call hashing algorithms. They define instructions on how to take an input which can be any size, and output a pseudo-random output of fixed length. The reason it is pseudo-random, is because with the same random input, we get the same random output.
+
 _A random algorithm would give a different output each time, even if you kept giving it the same input._
 
 The output is always the same length, whether the input is larger or smaller than the output length.
 
-
-
 The letter 'a' with SHA256 would hash to _'CA978112CA1BBDCAFAC231B39A23DC4DA786EFF8147C4E72B9807785AFEE48BB'_
 
-The poem below would hash to "_5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2FB3505BF337A42D_"  
-
+The poem below would hash to "_5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2FB3505BF337A42D_"
 
 > _It was easy enough  
 > to bend them to my wish,  
@@ -96,9 +93,13 @@ The poem below would hash to "_5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2
 > of my power and magic  
 > for your glance._
 
+Since the input is unbounded and the output is bounded by some fixed length. There will be inevitably be different two inputs with the same output. This is called a collision. A hashing function can never be collision-free, due to the fixed output requirement. However, it can be collision resistant, meaning it is hard to find two inputs which give the same output.
 
-
-Since the input is unbounded and the output is bounded by some fixed length. There will be inevitably be different two inputs with the same output. This is called a collision. A hashing function can never be collision-free, due to the fixed output requirement. However, it can be collision resistant, meaning it is hard to find two inputs which give the same output.  
+The question now arises, as to why must the output be a fixed length. Think back to not being able to gather any information from the output, as to what the input would be. If the output varied along with the input, then this function would be leaking information as to what the input would be and would not be secure.   
   
-The question now arises, as to why must the output be fixed length. In order to answer this question, we should firs
+For example, imagine you inputted the word 'hi' and the function outputted '1A3D451W'. Then you inputted 'g' and the function outputted '2D4G1'. The input has halved and so did the output, a hacker could then use this information to guess what the input is by lowering the possible solutions. This would make the function less secure.
+
+
+
+
 

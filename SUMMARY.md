@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Overview of Hashing](chapter1.md)
-* Second Chapter
+* [Blockchain Foundation - Overview of Hashing](chapter1.md)
+* [Blockchain Foundation - Checksum](second-chapter.md)
 * Third Chapter
 
