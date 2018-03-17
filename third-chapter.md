@@ -24,37 +24,29 @@ After asking Martin for his parents, he knows he only needs to check Ingreds fam
 
 Oliver only needed partial parts of his family tree in order to verify that someone was a family member.
 
-
-
 **Low Level Explanation**
 
-On your computer, you have a 100GB file. You decide to split it into four 25GB files and send them to four friends so that you can free up space on your laptop. When you ask for the files back, how can you be certain that your friends did not edit one of the files? What if you only needed one out of the four files back, is there a way to validate that one file without getting the other three files? Remember you no longer have a the 100GB file with you, it's takes up too much space.  
-  
-In order to do it, we will form a merkle tree. To do this we must first hash all four files. Like so:  
-  
+On your computer, you have a 100GB file. You decide to split it into four 25GB files and send them to four friends so that you can free up space on your laptop. When you ask for the files back, how can you be certain that your friends did not edit one of the files? What if you only needed one out of the four files back, is there a way to validate that one file without getting the other three files? Remember you no longer have a the 100GB file with you, it's takes up too much space.
+
+In order to do it, we will form a merkle tree. To do this we must first hash all four files. Like so:
+
 ![](/assets/filetohash.png)
 
+We will now send all four files to our friends, so that we no longer have F1... F4, just their hashes which are significantly lower in storage space, due to their fixed length output.
 
-
-We will now send all four files to our friends, so that we no longer have F1... F4, just their hashes which are significantly lower in storage space, due to their fixed length output.  
-  
-We now pair up each hash, concatenate them  and hash the result. I.e Hash\(H1+H2\) 
+We now pair up each hash, concatenate them  and hash the result. I.e Hash\(H1+H2\)
 
 _Note: H1H2  refers to concatenating H1 and H2 then taking their hash. Hash\(H1H2\)._
 
-
-
 ![](/assets/Group.png)
-
-
 
 The final step would be to hash the two hashes H1H2 and H3H4.
 
 ![](/assets/Group2.png)
 
-
-
-The top hash is called the **merkle root**. The bottom hashes are called the **merkle leaves** and everything in between is called a **merkle nodes**.
+The top hash is called the **merkle root**. The bottom hashes are called the **merkle leaves** and everything in between is called a **merkle nodes or merkle branches**.
 
 Notice that if any of the merkle leaves or nodes change, then the merkle root changes.
+
+
 
