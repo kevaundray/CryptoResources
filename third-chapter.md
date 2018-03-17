@@ -48,5 +48,29 @@ The top hash is called the **merkle root**. The bottom hashes are called the **m
 
 Notice that if any of the merkle leaves or nodes change, then the merkle root changes.
 
+Saving this tree diagram onto your computer, we can now use this to check if a friend sends you an altered file, without the other three files.  
+  
+Scenario one:
 
+
+
+Your friend James, sends you file number two, F2. You now want to check using your merkle tree, whether the file has been altered.  
+  
+You take the file number two and then hash it, to get H'\(2\). You then take the known H\(1\) from Storage, and do H1H'2.
+
+If H1H'2  equals H1H2 then the file has not been altered.  
+  
+Now what If I only wanted to store the merkle root and still be able to verify the transactions?  
+  
+Again we would take the file F2, and hash it to get H'2. We would then ask friend one for the H1, not the file itself, the Hash of the file.  
+  
+Then ask friend 3 and 4 to hash the files themselves and send me H3H4.  
+  
+Now, we now have H1,H'2, and H3H4. The only thing we know to be true, is the merkle root.  
+  
+In order to verify that H'2 is valid, we must first derive H1H'2. Using this we can then derive H1H'2H3H4.
+
+
+
+If H1H'2H3H4 equals our merkle root H1H2H3H4, then F2 was indeed not altered.
 
