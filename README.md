@@ -8,8 +8,6 @@
 
 * Encryption
 
-  * Overview of encryption
-
 * * Asymmetric encryption
   * Symmetric encryption
 
