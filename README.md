@@ -12,5 +12,22 @@
   * Symmetric encryption
   * Digital Signatures
 
+## Decentralised Technology
+
+Bitcoin
+
+* Building Bitcoin from scratch
+* Simplified model of how a bank works
+* Naive model of how bitcoin would work
+* Byzantine Generals problem
+* Deep dive: Blocks
+* Deep dive: transactions
+  * Pay to PubKey Hash / Pay To Script Hash
+* Deep dive: Mining
+* Deep dive: Coinbase transaction
+  * What happens when the miner runs out of possible nonces?\(time increment, extraNonce\)
+
+
+
 
 
