@@ -12,5 +12,5 @@ Notice Oliver at the top? If any one of the below family members change, then he
 
 We will call the guy at the very top, the **family root. **He is the glue that connects every single other member together. We will call the other members **family leaves** and the structure you see above will be called a **family tree**.
 
-One day a really old lady walks up to the guy at the top, Bob, and says "I am a part of your family tree. I am four generations down and I the second person from the left with a yellow shirt". How would Bob verify this? Efficiently? Without going through every family member?
+One day a really old lady walks up to Oliver and says "I am a part of your family tree. My name is Brenda". How would Bob verify this? Efficiently? Without going through every family member?
 
