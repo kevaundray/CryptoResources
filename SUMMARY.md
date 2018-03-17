@@ -2,8 +2,8 @@
 
 ## Introduction
 
+* [Notes](notes.md)
 * [Contents Page](README.md)
-  * [Notes](notes.md)
 
 ## BlockChain Foundation
 
