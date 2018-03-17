@@ -20,12 +20,12 @@ What if your friend copies the key? This means that you cannot send important in
 
 You start to think, if you are the only person to have your private key, then you could use this as to claim ownership of messages. Similar to putting your PIN into an ATM to get your funds. The bank assumes that no-one else has your PIN and so when your pin is entered along with your card into an ATM, the bank can verify that it was you.
 
-No one has your private key and so when you lock a box with a message inside of it, everyone can verify that it was you who wrote the message by using the public key to open the box.  
-  
+No one has your private key and so when you lock a box with a message inside of it, everyone can verify that it was you who wrote the message by using the public key to open the box.
+
 **Low Level Overview**
 
-Asymmetric key algorithms require two keys in order to work. The public key and the private key. The public key can be given to anyone, while the private key must be kept secret.  
-  
+Asymmetric key algorithms require two keys in order to work. The public key and the private key. The public key can be given to anyone, while the private key must be kept secret.
+
 The public and private key are connected mathematically with a one to one relationship; each public key has only one private key.
 
 
