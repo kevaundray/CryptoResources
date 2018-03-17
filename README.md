@@ -1,6 +1,4 @@
-# Decentralised knowledge
-
-## Chapter 1 - Blockchain Foundation
+# Chapter 1 - Blockchain Foundation
 
 * Hashing
 
