@@ -19,9 +19,12 @@ Naively, I would put the document into the encryption algorithm with my private 
 * Asymmetric encryption algorithms are slow to encrypt and decrypt. So the bigger the document, the longer it will take to encrypt and decrypt
 * If on tranmission over the internet, some of the file is corrupted then the receiver would have no way to know.
 
+An efficient way would be to:
 
+1. Hash the pdf document. This will output a hashed text of fixed length. We will call this H.
+2. Encrypt the hashed output with your private key. We will call this ecnrypted hashed text HP.
+3. Send HP along with the pdf document to the receiver.
 
-  
 
 
 
