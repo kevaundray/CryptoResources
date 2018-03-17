@@ -1,3 +1,7 @@
+
+
+
+
 Who regulates Bitcoin?
 
 If Bill gates or Warren Buffet or The President of America went into Bitcoin, how much power would he have?
@@ -12,6 +16,5 @@ How do we shut down bitcoin?
 
 Is Bitcoin neutral?
 
-Can Bitcoin scale?  
-
+Can Bitcoin scale?
 
