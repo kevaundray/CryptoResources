@@ -4,6 +4,7 @@
 
 * [Notes](notes.md)
 * [Contents Page](README.md)
+* [Who Is This Book For?](who-is-this-book-for.md)
 
 ## BlockChain Foundation
 
@@ -16,5 +17,5 @@
 
 ## Decentralised Technology
 
-* [Terminology](decentralised-technology/terminology.md)
+* [Building Bitcoin From Scratch](decentralised-technology/terminology.md)
 
