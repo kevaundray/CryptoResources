@@ -10,6 +10,7 @@
 
 * * Asymmetric encryption
   * Symmetric encryption
+  * Digital Signatures
 
 
 

@@ -12,4 +12,5 @@
 * [Blockchain Foundation - Merkle Roots and Trees](third-chapter.md)
 * [Blockchain Foundation - Symmetric Encryption](symmetric-encryption.md)
 * [Blockchain Foundation - Asymmetric Encryption](blockchain-foundation-asymmetric-encryption.md)
+* [Blockchain Foundation - Digital Signatures](blockchain-foundation-digital-signatures.md)
 
