@@ -25,6 +25,17 @@ An efficient way would be to:
 2. Encrypt the hashed output with your private key. We will call this ecnrypted hashed text HP.
 3. Send HP along with the pdf document to the receiver.
 
+Upon receiving the file. The user will:
+
+1. Decrypt the hash, HP. Resulting in H.
+2. Hash the pdf received. We will call this hash, H prime.
+3. Check if H Prime = H.
+
+If H Prime = H, this means that the original document was not tampered with upon transmission and the receiver can be sure that the sender is who they say they are.
+
+
+
+_Question: If a malicious party was to intercept the pdf along the way and edit it, how would the receiver know that the file was edited? _  
 
 
 
