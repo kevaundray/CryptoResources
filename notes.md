@@ -4,7 +4,11 @@ This book will normally begin with a high level explanation of each topic, then 
 
 Bitcoin is like 'Lord of The Flies'
 
-
-
 Philosophical chapter on blockchain - Problems with central authority
+
+
+
+Blockchain business use cases - Ask yourself, is there an element of trust needed?
+
+ 
 
