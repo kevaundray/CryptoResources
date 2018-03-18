@@ -6,8 +6,6 @@ This chapter assumes you have a reasonable understanding of what Bitcoin is.
 
 **Terminology**
 
-
-
 _What is a decentralised application?_
 
 A decentralised application is an application without any central authority.
@@ -28,5 +26,8 @@ _What is a centralised blockchain?_
 
 A blockchain that is centralised, is merely a distributed database.
 
+_Why do we have consensus algorithms?_
 
+Consensus algorithms are used by the blockchain to elect the next person who will add to the blockchain._  
+_
 
