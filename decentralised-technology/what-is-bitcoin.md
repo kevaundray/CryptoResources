@@ -2,8 +2,6 @@
 
 Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical.
 
-
-
 This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
 
 First let's forget about a Bitcoin for a moment.
@@ -24,5 +22,11 @@ _What if someone tries to change their list?_
 
 The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, they will then check their database and see that this person does not have 100 Bitcoin's, according to _their_ database.
 
-Now that everyone has a copy of the list and we can all communicate with each other. How do we all decide what gets put onto the list? How do we reach consensus?
+Now that everyone has a copy of the list and we can all communicate with each other. How do we all agree on what gets put onto the list? There could be friends who are not really friends and they may decide to send two copies simultaneously to another person, who really owns the picture? Remember, everything is done over the internet and you don't want to phone up all of your friends each time to see if someone also sent them an image.   
+  
+In other words, how do we reach consensus, a general agreement, on the state of our lists?
+
+
+
+You may answer, 
 
