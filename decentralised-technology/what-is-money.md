@@ -1,5 +1,7 @@
 # **What Is Money And The Motivation For Bitcoin?**
 
+_This is an optional topic._
+
 Money has been in our lives since the day we were born and much like the air we breathe, when asked to define what it is, we are lost for words.
 
 Let's go back a couple hundreds of years, when we were trading cows and goats for services. Cows and Goats for all intensive purposes was seen as money. We were trading animals for services and products.
