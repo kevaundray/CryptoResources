@@ -14,5 +14,5 @@ What if we decided to make a public database, that everyone can see and whenever
 What if everyone had the database? There is no longer a single point of failure. The database is now distributed.
 
 How does each node know about each other and each transaction?  
-Using a Peer to peer network
+Using a Peer to peer network ... 
 
