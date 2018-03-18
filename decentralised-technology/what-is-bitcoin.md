@@ -44,12 +44,16 @@ _Note: Hashing was covered in a previous chapter._
 
 _Why is this hashing part important?_
 
-Without the hashing, then the person elected will have nothing to lose. There will be no punishment in not following the rules, and so no incentive to not include the bad transactions.
+Without the hashing, then the person elected will have nothing to lose. There will be no punishment in not following the rules, and so no incentive to not include the bad transactions. The hashing also provides a way to make the block immutable. If information inside of the block is changed, then the block becomes invalid.
 
 This was a medium level overview of bitcoin. In the deep dive section, we will answer possible unanswered questions such as:
+
+
 
 _How does the person elected get his reward?  
 Who originally decides on the consensus rules?_
 
 _Who decides on the pattern for the hash output?_
+
+_Let's say that someone wanted to join this 'network', they would have to download all of the information from somewhere. What's to say that the person they download it from, has not corrupted the fifth batch in the database to make themselves rich. Doing this would mean that I would receive Bitcoins from them, when in fact they do not have any Bitcoins? _
 
