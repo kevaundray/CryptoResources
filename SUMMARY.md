@@ -17,6 +17,6 @@
 
 ## Decentralised Technology
 
-* [What Is Money?](decentralised-technology/what-is-money.md)
+* [What Is Money And Bitcoin Motivation](decentralised-technology/what-is-money.md)
 * [Building Bitcoin From Scratch](decentralised-technology/terminology.md)
 
