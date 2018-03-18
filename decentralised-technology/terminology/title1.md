@@ -22,3 +22,7 @@ _What is a blockchain?_
 
 A blockchain is a decentralised distributed database.
 
+_What is a centralised blockchain?_
+
+A blockchain that is centralised, is merely a distributed database.
+
