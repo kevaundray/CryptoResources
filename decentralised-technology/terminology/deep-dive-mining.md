@@ -29,7 +29,14 @@ It is a random number that can only be used once. A miner uses it because he nee
 
 _What happens if the miner gets to four billion and he does not get the amount of leading zeroes?_
 
-That is a good question, and we will go 
+That is a good question.
+
+Ways to change the hash:  
+- Iterate the timestamp
+
+* Change the extraNonce
+* Re-order the transactions
+* Add extra transactions that come across while you were hashing
 
 
 
