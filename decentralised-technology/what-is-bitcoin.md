@@ -26,5 +26,16 @@ In other words, how do we reach consensus, a general agreement, on the state of 
 
 You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _
 
-The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the incentives of the elected, align perfectly with the interest of the network.
+The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the incentives of the elected, align perfectly with the interest of the network.  
+  
+To make this persons job more convenient, instead of verifying one transaction, he will verify batches of transactions.  
+  
+_How does this stop someone from sending to two people simultaneously?_
+
+Now when someone sends a transaction, it gets put into a pool or a list of unconfirmed transactions. To become elected you must take as many transactions as the rules says you can take. You then check each transaction to verify that each transaction is valid and there are no conflicting transactions like the same person spending the same amount of money each twice. If you leave that transaction in, you will be punished by the network, if you take it out you could potentially get a reward. Once you have finished checking you must then do some work and only then will you be elected and have the right to append to everyone else's database.   
+
+
+_What is this work that the elected person does?_
+
+ When we referred the network punishing the elected person
 
