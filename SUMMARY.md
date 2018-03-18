@@ -19,4 +19,5 @@
 
 * [What Is Money And Bitcoin Motivation](decentralised-technology/what-is-money.md)
 * [Building Bitcoin From Scratch](decentralised-technology/terminology.md)
+  * [Title1](decentralised-technology/terminology/title1.md)
 
