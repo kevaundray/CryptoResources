@@ -2,6 +2,8 @@
 
 _Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical._
 
+_**Overview of Bitcoin**_
+
 This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
 
 Let's assume that we want to send an image over the internet, and the image is only allowed to be sent once.
@@ -36,7 +38,7 @@ Now when someone sends a transaction, it gets put into a pool or a list of uncon
 
 _What is this work that the elected person does?_
 
-When we referred to the network punishing the elected person for doing wrong, this is what we meant. When you verify that all transactions in your batch of transactions are good, you must then hash the data appending a number to the data input, until you get some pattern at the prefix of the output. This is computationally intensive and so would incur electricity, which is not free. If you include a bad transaction or you do not do everything according to the rules, then you will have incurred electricity cost for nothing, as the majority of people who verify your batches of transactions, will reject it and thus you have just been punished, economically.  
-  
+When we referred to the network punishing the elected person for doing wrong, this is what we meant. When you verify that all transactions in your batch of transactions are good, you must then hash the data appending a number to the data input, until you get some pattern at the prefix of the output. This is computationally intensive and so would incur electricity, which is not free. If you include a bad transaction or you do not do everything according to the rules, then you will have incurred electricity cost for nothing, as the majority of people who verify your batches of transactions, will reject it and thus you have just been punished, economically.
+
 _Note: Hashing was covered in a previous chapter._
 
