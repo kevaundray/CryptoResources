@@ -1,10 +1,8 @@
 # What Is Bitcoin?
 
-Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical.
+_Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical._
 
 This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
-
-First let's forget about a Bitcoin for a moment.
 
 Let's assume that we want to send an image over the internet, and the image is only allowed to be sent once.
 
@@ -26,7 +24,7 @@ Now that everyone has a copy of the list. How do we all agree on the general sta
 
 In other words, how do we reach consensus, a general agreement, on the state of everybodies lists?
 
-You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _ 
+You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _
 
-The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will verify ourselves that what they are writing is valid, if not we reject their data.If we verify and they did a good job, the majority of the network says they did a good job, then the network should reward them.If we verify and they did a bad job, or tried to cheat, then the network should punish them.The incentives of the elected, align perfectly with the interest of the network.
+The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the incentives of the elected, align perfectly with the interest of the network.
 
