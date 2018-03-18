@@ -6,6 +6,8 @@ This chapter assumes you have a reasonable understanding of what Bitcoin is.
 
 **Terminology**
 
+
+
 _What is a decentralised application?_
 
 A decentralised application is an application without any central authority.
@@ -25,4 +27,6 @@ A blockchain is a decentralised distributed database.
 _What is a centralised blockchain?_
 
 A blockchain that is centralised, is merely a distributed database.
+
+
 
