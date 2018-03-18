@@ -1,5 +1,7 @@
 # **The Beginning**
 
+**Overview of Bitcoin**
+
 This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
 
 First let's forget about a Bitcoin for a moment.
@@ -12,9 +14,23 @@ A centralised solution would be to have a list somewhere that is guarded by a co
 
 If the company becomes corrupt, then you have no way of proving that images are in fact yours. The same principle applies if they get hacked. The hacker could transfer all ownership of the images to themselves.
 
-The list is clearly needed, the problem is that if only one person has it, then that one person is suddenly God and he can do whatever he wants. So what if everyone had the list? What if instead of one company checking and verifying each images ownership, we all did? 
+The list is clearly needed, the problem is that if only one person has it, then that one person is suddenly God and he can do whatever he wants. So what if everyone had the list? What if instead of one company checking and verifying each images ownership, we all did?
+
+Now replace the word 'image' with 'digital money' or with 'Bitcoin'.
+
+_What if someone tries to change their list?_
+
+The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, they will then check their database and see that this person does not have 100 Bitcoin's, according to _their_ database.  
+
+
+_What actually happens when I send 2 Bitcoins to Alice?_
+
+Alice verifies that you indeed have that two Bitcoins to send. She then puts the transaction in a 'pending' state and other users will try and verify this pending state
 
   
-  
+_What if someone does have 1BTC and they simulateneously send it to two other people?_
+
+
+
 
 
