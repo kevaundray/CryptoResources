@@ -19,7 +19,17 @@ We will now outline the process in which mining is done:
 3. Martin, A miner hears news of this transaction.
 4. Martin verifies that this transaction is valid.
 5. He then verifies this transaction and adds it into memory to hold for about 10 minutes.
-6. After 10 minutes, Martin gets all of the transactions
+6. After 10 minutes, Martin gets all of the transactions that he verified from memory and puts them into a Block, along with another field called a _nonce. Note: There are more fields, this is a deep dive : mining and so we are not too worried about the details in the block that does not pertain to mining._
+7. He then starts to hash the Block, incrementing the field called the nonce from zero to 4 billion.
+8. Once he finds a hash output with a certain pattern, in Bitcoin, it is a pre-requesite of zeroes. Then he can submit the block and receive his reward. _Remember: There are other miners in the network who are trying to 'mine a block' and so the fastest one will win. The fastest one is the one elected to append to the block._
+
+_What is a nonce and why do miners use it?_
+
+It is a random number that can only be used once. A miner uses it because he needs a pre-requesite amount of zeroes from the hash, and so incrementing the nonce changes the output. He can increment to 4 billion looking for a hash with for example four leading zeroes.
+
+_What happens if the miner gets to four billion and he does not get the amount of leading zeroes?_
+
+That is a good question, and we will go 
 
 
 
