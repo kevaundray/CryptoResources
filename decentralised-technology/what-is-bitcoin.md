@@ -45,7 +45,7 @@ _Note: Hashing was covered in a previous chapter._
 _Why is this hashing part important?_
 
 Without the hashing, then the person elected will have nothing to lose. There will be no punishment in not following the rules, and so no incentive to not include the bad transactions.  
-_Why are the transactions batched?_
+
 
 
 
