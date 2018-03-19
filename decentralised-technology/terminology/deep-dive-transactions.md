@@ -51,7 +51,7 @@ The locktime is a feature which allows you to specify the earliest time, the ele
 
 **VIN**
 
-Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs. **In the above example, we have one, it is possible to have multiple inputs.
+Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs that will become inputs for this transaction. **In the above example, we have one, it is possible to have multiple inputs. 
 
 **VIN: TXID**
 
@@ -69,25 +69,37 @@ _The 'VIN:Sequence' field has been omitted and will be covered in a separate mod
 
 > "vout": \[
 >
+> ```
+> {
+>
+>     "value": "0.31637000",
+>
+>     "n": 0,
+>
+>     "scriptPubKey":
+>
 >     {
 >
->         "value": "0.31637000",
+>         "hex": "76a91401c801d8687ab1c05c23bb8cd8110203072a29e688ac",
 >
->         "n": 0,
+>         "asm": "OP\_DUP OP\_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP\_EQUALVERIFY OP\_CHECKSIG",
 >
->         "scriptPubKey":
+>         "addresses": \["1ARGwJhKursys5K4M6zgyDKcH6inAJ3oR"\]
 >
->         {
+>     }
 >
->             "hex": "76a91401c801d8687ab1c05c23bb8cd8110203072a29e688ac",
->
->             "asm": "OP\_DUP OP\_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP\_EQUALVERIFY OP\_CHECKSIG",
->
->             "addresses": \["1ARGwJhKursys5K4M6zgyDKcH6inAJ3oR"\]
->
->         }
->
->     }\]
+> }]
+> ```
 
+**VOUT**
 
+Vout can be seen as the array of outputs for this transaction.
+
+**VOUT : VALUE**
+
+This is the amount you wish to send.
+
+**VOUT : N**
+
+This is the position of this output in the list of outputs. Remember that VOUT  is an array 
 
