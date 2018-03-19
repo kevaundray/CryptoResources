@@ -23,6 +23,7 @@
   * [Overview of Bitcoin](decentralised-technology/what-is-bitcoin.md)
   * [Deep Dive : UTXOs](decentralised-technology/terminology/deep-dive-utxos.md)
   * [Deep Dive : Transactions](decentralised-technology/terminology/deep-dive-transactions.md)
+  * Deep Dive : Scripts
   * [Deep Dive : Full Nodes](decentralised-technology/terminology/deep-dive-full-nodes.md)
   * [Deep Dive: Mempool](decentralised-technology/terminology/deep-dive-mempool.md)
   * [Deep Dive: Blocks](decentralised-technology/terminology/deep-dive-mining/deep-dive-blocks.md)
