@@ -50,7 +50,14 @@ Then this condition is true.
 
 In the previous chapter, we alluded to the fact that the script signature was used so that one can prove that they are who they say they are, that they do own the inputs that they are attempting to spend.
 
-The scriptsig is used to unlock the scriptPubKey, by providing two components. A **public key **and a \*\*digital signature.
+The scriptsig is used to unlock the scriptPubKey or make the funds locked by the scriptPubKey available, by providing two components. A **public key **and a **digital signature.**
 
--- Each input has a scriptpubkey and for each one a scriptsig is needed to unlock the funds\*\*
+
+
+If this still alludes you, then a simple analogy would be as follows.  
+  
+Alice sends 5 BTC to Bob.  
+She creates a transaction and proves that she can spend 5 BTC , using her ScriptSig in the input.  
+She then states in the output that the 5 BTC can be spent, by whomever can unlock the script.  
+Bob can only unlock this script, if the public key provided can be turned into Bob's public address and if the digital signature provided matches the public key and approves the funds to be spent.
 
