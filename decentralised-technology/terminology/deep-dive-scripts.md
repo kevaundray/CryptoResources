@@ -50,5 +50,5 @@ Then this condition is true.
 
 In the previous chapter, we alluded to the fact that the script signature was used so that one can prove that they are who they say they are, that they do own the inputs that they are attempting to spend.
 
-The scriptsig is used to unlock the scriptPubKey.
+The scriptsig is used to unlock the scriptPubKey, by providing two components. A **public key **and a **digital signature.**
 
