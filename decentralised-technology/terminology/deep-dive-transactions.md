@@ -51,7 +51,7 @@ The locktime is a feature which allows you to specify the earliest time, the ele
 
 **VIN**
 
-Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs that will become inputs for this transaction. **In the above example, we have one, it is possible to have multiple inputs. 
+Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs that will become inputs for this transaction. **In the above example, we have one, it is possible to have multiple inputs.
 
 **VIN: TXID**
 
@@ -101,5 +101,9 @@ This is the amount you wish to send.
 
 **VOUT : N**
 
-This is the position of this output in the list of outputs. Remember that VOUT  is an array 
+This is the position of this particular output in the list of outputs. Remember that you can send to multiple people in one transaction
+
+**VOUT : SCRIPTPUBKEY**
+
+We have not gone into detail on scripts. What you need to know right now, is that ScriptPubKey specifies who the amount is being sent to.
 
