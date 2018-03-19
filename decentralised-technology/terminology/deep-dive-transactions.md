@@ -49,12 +49,6 @@ The locktime is a feature which allows you to specify the earliest time, the ele
 >
 >     "sequence": 4294967295,
 >
->     "n": 0,
->
->     "addr": "1DJAbVv5MMRBnfqUqxpSAggi6RFjpgU25Z",
->
->     "value": 0.91837,
->
 > }\]
 > ```
 
@@ -70,5 +64,13 @@ In the UTXO chapter, we also discussed the concept of an input coming from anoth
 
 Now that we know what transaction Alice got this 5 BTC from. Vout tells you what position it is in the list of outputs. Remember, that if Alice wants to send 5BTC to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bobs and the second being Charlies. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one.
 
-**ScriptSig:**
+**VIN : ScriptSig**
+
+We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are. 
+
+**VIN : Sequence**
+
+Imagine you send a 
+
+
 
