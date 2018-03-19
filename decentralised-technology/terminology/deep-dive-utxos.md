@@ -40,6 +40,8 @@ Bitcoin has no concept of what an account is. All it sees, is previous unspent t
 
 _Possible questions you may have:_
 
+_Why does Bitcoin not work like a normal account, where you can send any amount_
+
 _I thought that Bitcoin was anonymous, how can Alice know Bob?_
 
 Bitcoin is pseudo-anonymous. The names Alice and Bob are an oversimplification of how identities actually work in Bitcoin. This chapter was solely used as a means to understand the UTXO model.
