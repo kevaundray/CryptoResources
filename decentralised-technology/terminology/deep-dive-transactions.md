@@ -63,7 +63,7 @@ Now that we know what transaction Alice got this 5 BTC from. Vout tells you what
 
 **VIN : ScriptSig**
 
-We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are.
+We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are. Akin to the From address.
 
 _The 'VIN:Sequence' field has been omitted and will be covered in a separate module._
 
