@@ -32,5 +32,15 @@ If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transa
 
 > True or False: Only UTXOs can be used as inputs to transactions
 
-We will now call **inputs** to a transaction, **Unspent Transaction Outputs. **This is because you can only spend Bitcoin which you have, and if you have Bitcoin then someone must have given it to you from a previous transaction. Therefore, all inputs will be **unspent** and would have came from previous **transaction outputs.** 
+We will now call **inputs** to a transaction, **Unspent Transaction Outputs. **This is because you can only spend Bitcoin which you have, and if you have Bitcoin then someone must have given it to you from a previous transaction. Therefore, all inputs will be **unspent** and would have came from previous **transaction outputs.**
+
+In order to finalise this chapter, we will need to dive one level deeper.  
+  
+Bitcoin has no concept of what an account is. All it sees, is previous unspent transaction outputs becoming spent transaction outputs. Essentially, the Bitcoins are changing ownership. When Alice send 5BTC to Bob, she is telling Bitcoin that Bob is the only person who can unlock these Bitcoins.  
+  
+_Possible questions you may have:  
+  
+I thought that Bitcoin was anonymous, how can Alice know Bob?_
+
+Bitcoin is pseudo-anonymous. The names Alice and Bob are an oversimplification of how identities actually work in Bitcoin. This chapter was solely used as a means to understand the UTXO model.
 
