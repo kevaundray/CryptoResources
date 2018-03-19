@@ -32,5 +32,5 @@ If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transa
 
 > True or False: Only UTXOs can be used as inputs to transactions
 
-We will now call **inputs** to a transaction, **Unspent Transaction Outputs. ** 
+We will now call **inputs** to a transaction, **Unspent Transaction Outputs. **This is because you can only spend Bitcoin which you have, and if you have Bitcoin then someone must have given it to you from a previous transaction. Therefore, all inputs will be **unspent** and would have came from previous **transaction outputs.** 
 
