@@ -12,14 +12,14 @@ In the previous chapter, we alluded to the fact that the scriptPubKey specifies 
 
 _Why provide a script and not the to address?_
 
-To understand this, we need to think about how we would specify in the transaction, that you would like to send 0.5 bitcoins to a shared address that can only be spent, if two out of the three people sharing it, agree. In short, this is not possible. Using a script allows you to add the above features and more. 
+To understand this, we need to think about how we would specify in the transaction, that you would like to send 0.5 bitcoins to a shared address that can only be spent, if two out of the three people sharing it, agree. In short, this is not possible. Using a script allows you to add the above features and more.
 
 ```
 OP_DUP OP_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 The above is an example of an "output" address. You are not expected to understand the semantics.  
-The script above states that given a **public key **and **a digital signature**. 
+The script above states that given a **public key **and **a digital signature**.
 
 If:
 
@@ -31,13 +31,11 @@ AND
 
 _Return True_
 
-Let's break that down a little further:  
-
+Let's break that down a little further:
 
 ##### Condition 1:
 
-  
-Given the public key, If I can hash it and perform some amount of manipulation to it and it evaluates to the **public address. ** 
+Given the public key, If I can hash it and perform some amount of manipulation to it and it evaluates to the **public address. **
 
 Then this condition is true.
 
@@ -45,7 +43,8 @@ Note: The public key is not the public address. The **public address**, which no
 
 **Condition 2:**
 
-Given the digital signature. If it matches the public key provided and it states that the user would like to spend that particular input 
+Given the digital signature. If it matches the public key provided and it states that the user would like to spend that particular input.  
+Then this condition is true.
 
 #### Script Signature \(ScriptSig\)
 
