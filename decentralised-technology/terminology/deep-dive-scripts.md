@@ -6,7 +6,7 @@ This chapter assumes that you have read the Blockchain Foundation module, and or
 
 #### 
 
-#### Script Public Key \(ScriptPubKey\)
+#### Script Public Key \(ScriptPubKey\) - Locking Script
 
 In the previous chapter, we alluded to the fact that the scriptPubKey specifies who the amount of bitcoins is being sent to. The scriptPubKey however, does not specify an Address like with a bank you would specify the receivers account number. Instead, it specifies a script that must evaluate to true.
 
@@ -46,11 +46,11 @@ Note: The public key is not the public address. The **public address**, which no
 Given the digital signature. If it matches the public key provided and it states that the user would like to spend that particular input.  
 Then this condition is true.
 
-#### Script Signature \(ScriptSig\)
+#### Script Signature \(ScriptSig\) - Unlocking Script
 
 In the previous chapter, we alluded to the fact that the script signature was used so that one can prove that they are who they say they are, that they do own the inputs that they are attempting to spend.
 
-The scriptsig is used to unlock the scriptPubKey, by providing two components. A **public key **and a **digital signature.  
-  
--- Each input has a scriptpubkey and for each one a scriptsig is needed to unlock the funds**
+The scriptsig is used to unlock the scriptPubKey, by providing two components. A **public key **and a \*\*digital signature.
+
+-- Each input has a scriptpubkey and for each one a scriptsig is needed to unlock the funds\*\*
 
