@@ -6,7 +6,9 @@ Following the UTXO deep dive, I would like to clarify that UTXOs are not the tra
 
 **Breaking Down The Components of A Transaction**
 
+> ```
 > "txid": "8e7cf6b752bd7a33c95dc3b581b1bf0b325353855190b0e8e4e790486687e0ed",
+> ```
 >
 > ```
 > "version": 1,
@@ -28,43 +30,45 @@ The locktime is a feature which allows you to specify the earliest time, the ele
 
 > "vin": \[
 >
+> ```
+> {
+>
+>     "txid": "40d9b71aecc36b2a276372702fbb9e6b31b259c67c183afec036e3b45052acf1",
+>
+>     "vout": 0,
+>
+>     "scriptSig":
+>
 >     {
 >
->         "txid": "40d9b71aecc36b2a276372702fbb9e6b31b259c67c183afec036e3b45052acf1",
+>         "asm": "30440220561688bbd95013a817274f399fd7476f965f805904b886ac2cc2c291d883beed02201aa9467404c3dec4702468eee9c7bfe7940ea9531a8e5158b162ab5b705a6d22\[ALL\] 0399145f0981fcfefc8424b7730a71aa168b0b33389a88fb732257517c318c7ca5",
 >
->         "vout": 0,
+>         "hex": "4730440220561688bbd95013a817274f399fd7476f965f805904b886ac2cc2c291d883beed02201aa9467404c3dec4702468eee9c7bfe7940ea9531a8e5158b162ab5b705a6d2201210399145f0981fcfefc8424b7730a71aa168b0b33389a88fb732257517c318c7ca5"
 >
->         "scriptSig":
+>     },
 >
->         {
+>     "sequence": 4294967295,
 >
->             "asm": "30440220561688bbd95013a817274f399fd7476f965f805904b886ac2cc2c291d883beed02201aa9467404c3dec4702468eee9c7bfe7940ea9531a8e5158b162ab5b705a6d22\[ALL\] 0399145f0981fcfefc8424b7730a71aa168b0b33389a88fb732257517c318c7ca5",
+>     "n": 0,
 >
->             "hex": "4730440220561688bbd95013a817274f399fd7476f965f805904b886ac2cc2c291d883beed02201aa9467404c3dec4702468eee9c7bfe7940ea9531a8e5158b162ab5b705a6d2201210399145f0981fcfefc8424b7730a71aa168b0b33389a88fb732257517c318c7ca5"
+>     "addr": "1DJAbVv5MMRBnfqUqxpSAggi6RFjpgU25Z",
 >
->         },
+>     "value": 0.91837,
 >
->         "sequence": 4294967295,
->
->         "n": 0,
->
->         "addr": "1DJAbVv5MMRBnfqUqxpSAggi6RFjpgU25Z",
->
->         "value": 0.91837,
->
->     }\]
+> }\]
+> ```
 
 **VIN**
 
-Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs. **In the above example, we have one, it is possible to have multiple inputs.  
-  
+Remembering what we discussed in the UTXO chapter, VIN can be seen to be the individual notes, the **unspent transaction outputs. **In the above example, we have one, it is possible to have multiple inputs.
+
 **VIN: TXID**
 
 In the UTXO chapter, we also discussed the concept of an input coming from another output, which is why it is named unspent transaction output. This transaction id, tells you the id for the transaction where this input was an output. In other words, If Alice is paying Bob and Charlie a combined amount of 5BTC. This transaction id, tells us which previous transaction Alice got the 5 BTC from.
 
 **VIN : VOUT**
 
-Now that we know what transaction Alice got this 5 BTC from. Vout tells you what position it is in the list of outputs. Remember, that if Alice wants to send 5BTC to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bobs and the second being Charlies. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one.  
-  
+Now that we know what transaction Alice got this 5 BTC from. Vout tells you what position it is in the list of outputs. Remember, that if Alice wants to send 5BTC to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bobs and the second being Charlies. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one.
+
 **ScriptSig:**
 
