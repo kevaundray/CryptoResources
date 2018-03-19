@@ -27,3 +27,7 @@
   * [Deep Dive: Blocks](decentralised-technology/terminology/deep-dive-mining/deep-dive-blocks.md)
   * [Deep Dive: Mining](decentralised-technology/terminology/deep-dive-mining.md)
 
+## Answers To Test Questions
+
+* [Answers - Deep Dive : UTXOs](answers-to-test-questions/answers-deep-dive-utxos.md)
+

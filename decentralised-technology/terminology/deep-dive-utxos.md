@@ -12,7 +12,11 @@ This is an important concept that Bitcoin uses. The important thing to note, is 
 
 In Bitcoin transactions work in a similar manner. Relating back to the \_overview of Bitcoin, \_If Alice wants to send 5 Bitcoins to Bob, and in the past she has received 3 Bitcoins from Sally and 3 Bitcoin from James. Then  in order to send Bob 5 Bitcoins, she must send the 3 Bitcoin that she received from Sally and the 3 Bitcoins that she received from James. This means that she is sending a total of 6 Bitcoins. She only wants to send 5 to Bob, so what she will do in the Bitcoin software, is she will send the remaining Bitcoin to herself.
 
-If that sounded confusing, then imagine that the cashier in the shop is the Bitcoin software and we are in the weird world we described above. Alice gives the cashier 6 Bitcoins with a note, because she only has two 3 Bitcoin notes, one she received from Sally and one She received from James. The note states that she wants to send 5 Bitcoins to Bob and she wants the change to go back to her. The cashier gives 5 Bitcoins to Bob, and gives Alice a 1 Bitcoin 'note'.
+If that sounded confusing, then imagine that the cashier in the shop is the Bitcoin software and we are in the weird world we described above. Alice gives the cashier 6 Bitcoins with a note, because she only has two 3 Bitcoin notes, one she received from Sally and one She received from James. The note states that she wants to send 5 Bitcoins to Bob and she wants the change to go back to her. The cashier gives 5 Bitcoins to Bob, and gives Alice a 1 Bitcoin 'note'.  
+  
+_We will discuss what happens when Alice decides to not state that she would like the change to go back to her, in a later chapter_
 
 In order to test your understanding, we will go over some questions:
+
+_Alice has now received 1 Bitcoin, from her transaction with Bob. She would like to now send Kate, 0.5BTC for a new phone and Nicole 0.2BTC for a new computer. Describe the process for this transaction._
 
