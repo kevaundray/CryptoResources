@@ -6,7 +6,7 @@ For example, you go to the supermarket and you want to buy a drink for $1. You h
 
 Another example, you go to the electronic store and you buy groceries. The groceries cost $24.90. You have a $35.85 note, which you give to the cashier. She gives you back as _change a_ $10.95 note. You now have an unspent $10.95 note.
 
-A harder example. Let's say you go to the store to buy a game for $35. You have a $20 note, a $10 and a $6 note. Your \_unspent \_notes all come to $36. You give this to the cashier, and she gives you back a $1 note. You now have an unspent $1 note.
+A harder example. Let's say you go to the store to buy a game for $35. You have a $20 note, a $10 and a $6 note. Your unspent notes all sum to $36. You give this to the cashier, and she gives you back a $1 note. You now have an unspent $1 note.
 
 This is an important concept that Bitcoin uses. The important thing to note, is that no matter what your change is, you will always get a note back. The notes, just like money in the real world, are indivisible, you cannot rip a $20 note in half and have half the value, for example.
 
@@ -34,13 +34,13 @@ If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transa
 
 We will now call **inputs** to a transaction, **Unspent Transaction Outputs. **This is because you can only spend Bitcoin which you have, and if you have Bitcoin then someone must have given it to you from a previous transaction. Therefore, all inputs will be **unspent** and would have came from previous **transaction outputs.**
 
-In order to finalise this chapter, we will need to dive one level deeper.  
-  
-Bitcoin has no concept of what an account is. All it sees, is previous unspent transaction outputs becoming spent transaction outputs. Essentially, the Bitcoins are changing ownership. When Alice send 5BTC to Bob, she is telling Bitcoin that Bob is the only person who can unlock these Bitcoins.  
-  
-_Possible questions you may have:  
-  
-I thought that Bitcoin was anonymous, how can Alice know Bob?_
+In order to finalise this chapter, we will need to dive one level deeper.
+
+Bitcoin has no concept of what an account is. All it sees, is previous unspent transaction outputs becoming spent transaction outputs. Essentially, the Bitcoins are changing ownership. When Alice send 5BTC to Bob, she is telling Bitcoin that Bob is the only person who can unlock these Bitcoins.
+
+_Possible questions you may have:_
+
+_I thought that Bitcoin was anonymous, how can Alice know Bob?_
 
 Bitcoin is pseudo-anonymous. The names Alice and Bob are an oversimplification of how identities actually work in Bitcoin. This chapter was solely used as a means to understand the UTXO model.
 
