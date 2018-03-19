@@ -22,3 +22,9 @@ In order to test your understanding, we will go over some questions:
 
 
 
+Formalising this a bit, A transaction has inputs and outputs. Alice uses some amount of Bitcoins as **input **and Bob gets some amount of Bitcoins as **output.**  
+  
+Let's do another example with this terminology.  
+  
+Alice has 6 Bitcoins that she received from James. She wants to send_ 5BTC_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have two **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.
+
