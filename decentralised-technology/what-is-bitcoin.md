@@ -55,5 +55,7 @@ Who originally decides on the consensus rules?_
 
 _Who decides on the pattern for the hash output?_
 
+Where is this pool of unconfirmed transactions?
+
 _Let's say that someone wanted to join this 'network', they would have to download all of the information from somewhere. What's to say that the person they download it from, has not corrupted the fifth batch in the database to make themselves rich. Doing this would mean that I would receive Bitcoins from them, when in fact they do not have any Bitcoins? _
 
