@@ -18,13 +18,19 @@ _We will discuss what happens when Alice decides to not state that she would lik
 
 In order to test your understanding, we will go over some questions:
 
-1\) _Alice has now received 1 Bitcoin, from her transaction with Bob. She would like to now send Kate, 0.5BTC for a new phone and Nicole 0.2BTC for a new computer. Describe the process for this transaction._
+> 1\) _Alice has now received 1 Bitcoin, from her transaction with Bob. She would like to now send Kate, 0.5BTC for a new phone and Nicole 0.2BTC for a new computer. Describe the process for this transaction._
 
+Formalising this a bit, A transaction has inputs and outputs. Alice uses some amount of Bitcoins as **input **and Bob gets some amount of Bitcoins as **output.**
 
+Let's do another example with this terminology.
 
-Formalising this a bit, A transaction has inputs and outputs. Alice uses some amount of Bitcoins as **input **and Bob gets some amount of Bitcoins as **output.**  
+Alice has 6 Bitcoins that she received from James. She wants to send_ 5BTC_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have two **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.  
   
-Let's do another example with this terminology.  
-  
-Alice has 6 Bitcoins that she received from James. She wants to send_ 5BTC_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have two **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.
+Formalising this further, the two outputs from the transaction above are unspent. They are called **Unspent Transaction Outputs \(UTXOs\).**
+
+If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transaction output will no longer be unspent. It will then be called a **Spent Transaction Output.**
+
+> True or False: Only UTXOs can be used as inputs to transactions
+
+
 

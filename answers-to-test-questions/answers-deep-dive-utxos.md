@@ -11,8 +11,10 @@ Scenario 1: Alice sends it to both of them in one transaction. \*\*\_
 **Alice uses her 1BTC and sends 0.5BTC to Kate, 0.2BTC to Nicole and sends 0.3BTC back to herself as change.**
 
 Scenario 2: Alice sends it to each of them in seperate transactions.  
-**Alice uses her 1BTC and sends 0.5BTC to Kate. She receives 0.5BTC as change.   
+**Alice uses her 1BTC and sends 0.5BTC to Kate. She receives 0.5BTC as change.  
 Alice uses her 0.5BTC and sends 0.2 BTC to Nicole. She receives 0.3BTC back as change.**
 
+**2\) **True or False: Only UTXOs can be used as inputs to transactions
 
+True. A UTXO is an unspent transaction output. If you attempt to spend a transaction output that you have already spent, then the elected person we mentioned in the _'overview of bitcoin' _ will reject the transaction.
 
