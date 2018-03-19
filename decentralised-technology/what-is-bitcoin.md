@@ -2,6 +2,8 @@
 
 _Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical._
 
+_This section serves as a primer, to understand the Bitcoin protocol, and will not include all information for each component of Bitcoin. These will be included in the Deep Dive sections._
+
 _**Overview of Bitcoin**_
 
 This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
@@ -28,13 +30,13 @@ In other words, how do we reach consensus, a general agreement, on the state of 
 
 You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _
 
-The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the incentives of the elected, align perfectly with the interest of the network.
+The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will also verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the interest of the elected, align perfectly with the interest of the network.
 
 To make this persons job more convenient, instead of verifying one transaction, he will verify batches of transactions.
 
 _How does this stop someone from sending to two people simultaneously?_
 
-Now when someone sends a transaction, it gets put into a pool or a list of unconfirmed transactions. To become elected you must take as many transactions as the rules says you can take. You then check each transaction to verify that each transaction is valid and there are no conflicting transactions like the same person spending the same amount of money each twice. If you leave that transaction in, you will be punished by the network, if you take it out you could potentially get a reward. Once you have finished checking you must then do some work and only then will you be elected and have the right to append to everyone else's database.Note that just like every other race for election, there are more than one candidate and only one can be elected periodically.
+Now when someone sends a transaction, it gets put into a pool or a list of unconfirmed transactions. To become elected you must take as many transactions as the rules says you can take, from this list of unconfirmed transactions. You then check each transaction to verify that each transaction is valid and there are no conflicting transactions like the same person spending the same amount of money each twice. If you leave that transaction in, you will be punished by the network, if you take it out you could _potentially_ get a reward. Once you have finished checking you must then do some work and only then will you be elected and have the right to append to everyone else's database.Note that just like every other race for election, there are more than one candidate and only one can be elected periodically. _This is why we say potentially get a reward, more on this in Deep Dive: Mining._
 
 _What is this work that the elected person does?_
 
@@ -47,8 +49,6 @@ _Why is this hashing part important?_
 Without the hashing, then the person elected will have nothing to lose. There will be no punishment in not following the rules, and so no incentive to not include the bad transactions. The hashing also provides a way to make the block immutable. If information inside of the block is changed, then the block becomes invalid.
 
 This was a medium level overview of bitcoin. In the deep dive section, we will answer possible unanswered questions such as:
-
-
 
 _How does the person elected get his reward?  
 Who originally decides on the consensus rules?_
