@@ -24,13 +24,13 @@ Formalising this a bit, A transaction has inputs and outputs. Alice uses some am
 
 Let's do another example with this terminology.
 
-Alice has 6 Bitcoins that she received from James. She wants to send_ 5BTC_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have two **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.  
-  
+Alice has 6 Bitcoins that she received from James. She wants to send_ 5BTC_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have two **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.
+
 Formalising this further, the two outputs from the transaction above are unspent. They are called **Unspent Transaction Outputs \(UTXOs\).**
 
 If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transaction output will no longer be unspent. It will then be called a **Spent Transaction Output.**
 
 > True or False: Only UTXOs can be used as inputs to transactions
 
-
+We will now call **inputs** to a transaction, **Unspent Transaction Outputs. ** 
 
