@@ -82,7 +82,7 @@ _The 'VIN:Sequence' field has been omitted and will be covered in a separate mod
 >
 >         "hex": "76a91401c801d8687ab1c05c23bb8cd8110203072a29e688ac",
 >
->         "asm": "OP\_DUP OP\_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP\_EQUALVERIFY OP\_CHECKSIG",
+>         "asm": "OP_DUP OP_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP_EQUALVERIFY OP_CHECKSIG",
 >
 >     }
 >
