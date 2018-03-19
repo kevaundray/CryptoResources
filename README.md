@@ -27,7 +27,5 @@ Bitcoin
 * Deep dive: Coinbase transaction
   * What happens when the miner runs out of possible nonces?\(time increment, extraNonce\)
 
-\*Please read the course outline for the rest of the chapters\*
-
-
+_\*Please read the course outline for the rest of the chapters\*_
 
