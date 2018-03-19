@@ -84,8 +84,6 @@ _The 'VIN:Sequence' field has been omitted and will be covered in a separate mod
 >
 >         "asm": "OP\_DUP OP\_HASH160 01c801d8687ab1c05c23bb8cd8110203072a29e6 OP\_EQUALVERIFY OP\_CHECKSIG",
 >
->         "addresses": \["1ARGwJhKursys5K4M6zgyDKcH6inAJ3oR"\]
->
 >     }
 >
 > }]
