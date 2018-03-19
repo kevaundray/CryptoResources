@@ -45,11 +45,8 @@ The locktime is a feature which allows you to specify the earliest time, the ele
 >
 >         "hex": "4730440220561688bbd95013a817274f399fd7476f965f805904b886ac2cc2c291d883beed02201aa9467404c3dec4702468eee9c7bfe7940ea9531a8e5158b162ab5b705a6d2201210399145f0981fcfefc8424b7730a71aa168b0b33389a88fb732257517c318c7ca5"
 >
->     },
->
->     "sequence": 4294967295,
->
-> }\]
+>     }
+> }]
 > ```
 
 **VIN**
@@ -66,11 +63,7 @@ Now that we know what transaction Alice got this 5 BTC from. Vout tells you what
 
 **VIN : ScriptSig**
 
-We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are. 
-
-**VIN : Sequence**
-
-Imagine you send a 
+We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are.
 
 
 
