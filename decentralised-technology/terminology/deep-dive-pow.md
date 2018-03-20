@@ -89,5 +89,7 @@ Bringing it to full circle:
 Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
 In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target.
 
+_You mentioned that the nonce has a limit of 32 bytes, what happens when the nonce is exhausted and a number below the target is not found?_
 
+This will be covered in '_Deep Dive: Extra Nonce_'
 
