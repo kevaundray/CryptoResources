@@ -1,16 +1,10 @@
 # Deep Dive : Coinbase Transaction
 
-In the '_overview of bitcoin' chapter, _we discussed the person who would like to be elected, getting a reward for doing a good job.
-
-
+In the 'overview of bitcoin' chapter, we discussed the person who would like to be elected, getting a reward for doing a good job.
 
 Upon batching together a collection of transactions, the person who would like to be elected can then create one transaction that gifts him some amount of bitcoins. This transaction is known as the **coinbase transaction.**
 
-
-
 The Bitcoins that are transferred within this transaction come out of thin air, and have no previous inputs.
-
-
 
 The person who would like to be elected can also be rewarded in **transaction fees.**
 
@@ -23,4 +17,6 @@ If Alice wants to send 3 BTC to Bob and pay 0.2BTC in transaction fees. She woul
 _If transaction fees are optional, why would Alice opt to pay?_
 
 As mentioned earlier, the person who would like to be elected **picks **the transactions that they would like to include. When searching for transactions to include into the batch of transactions, the transactions with higher transaction fees, take priority.
+
+Since transactions are processed in batches and periodically, if you include no transaction fee, the person who would like to be elected may never choose your transaction each time. Remember there is also a limit to how many transactions he can choose.
 
