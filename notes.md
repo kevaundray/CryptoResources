@@ -44,12 +44,6 @@ Using a Peer to peer network ...
 
 // another throwaway possibly
 
-
-
-
-
-
-
 **The Byzantine Generals Problem**
 
 _Please note that the Two Generals Problem is unsolvable, while the Byzantine Generals Problem which is a generalisation is solvable._
@@ -57,4 +51,10 @@ _Please note that the Two Generals Problem is unsolvable, while the Byzantine Ge
 10 generals want to attack a city. If they both do it at the same time, they will be able to take the city. If they do not co-ordinate their attack then the city will defeat them. The problem lies in that five generals are on one side of the city, and five on the other. Using a messenger, they need a send a message to the other side agreeing on a date and time to storm the city. The messenger has to go through the city in order to deliver the message, and as there is a chance that the message could be corrupted, the messenger cannot be trusted. How can these generals agree on a time and date using the messenger?
 
 So the blockchain uses consensus algorithms to elect the next person who will add to the next block.
+
+
+
+
+
+_Another analogy for transactions, is that it is a game of lock and unlock. I will lock up these funds with your public key, you can unlock it and put another lock on it to someone elses public key._
 
