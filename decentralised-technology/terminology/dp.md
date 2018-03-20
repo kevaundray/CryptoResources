@@ -33,8 +33,8 @@ _What if two miners validate a block at the same time?_
 
 This will be covered in 'Forks' and other chapters
 
-_What happens if a miner is not a full node?  
-_If a miner is not a full node, this means that he does not have the UTXO set, discussed in 'Deep Dive : Full Nodes' and so he is not able to verify the transactions he is given. If he receives an invalid transaction, one that someone is trying to spend twice, then when he solves the block, the network will reject his block and he will have wasted electricity on the proof of work.
+What happens if a miner is not a full node?  
+If a miner is not a full node, this means that he does not have the UTXO set, discussed in 'Deep Dive : Full Nodes' and so he is not able to verify the transactions he is given. If he receives an invalid transaction, one that someone is trying to spend twice, then when he solves the block, the network will reject his block and he will have wasted electricity on the proof of work.
 
 _Can anyone become a miner?_
 
@@ -49,4 +49,8 @@ There is a probability of you finding the correct hash below the target number.
 The more tickets you buy, the higher your chances
 
 The more faster you can hash and iterate through the nonce, the higher your chance of finding the correct output.
+
+_Some people say that Proof of Work wastes electricity, why don't we increase the target and make it easier to find blocks. This way less electricity will have been expended?_
+
+
 
