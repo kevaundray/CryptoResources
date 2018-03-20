@@ -8,13 +8,13 @@ This chapter will assume that you have some understanding of bitcoin already. Th
 
 Let's assume that we want to send an image over the internet, and the image is only allowed to be sent once.
 
-How can we assure this?
+_How can we assure this?_
 
-A centralised solution would be to have a list somewhere that is guarded by a company and in order to send an image, you must tell the company who you are sending it to and what image it is. Before you send it, the company checks to see if you have sent that image to someone else before and that you also own the image.
+A centralised solution would be to have a database that is guarded by a company and in order to send an image, you must tell the company who you are sending it to\(recipient\) and what image it is\(Image Identifier\). Before you send it, the company checks to see if you have sent that image to someone else before and that you also own the image.
 
 If the company becomes corrupt, then you have no way of proving, that images are in fact yours. The same principle applies if they get hacked. The hacker could transfer all ownership of the images to themselves.
 
-The list is clearly needed to track ownership, the problem is that if only one person has it, then that one person is suddenly God and he can do whatever he wants and if something happens to that one person, then your information can be modified. So what if everyone had the list? What if instead of one company checking and verifying each images ownership, we all did?
+The database is clearly needed to track ownership, the problem is that if only one person or company has it, then that one person is suddenly God and he can do whatever he wants and if something happens to that one person, then your information can be modified. So what if everyone had the list? What if instead of one company checking and verifying each images ownership, we all did?
 
 Now replace the word 'image' with 'digital money' or with 'Bitcoin'.
 
