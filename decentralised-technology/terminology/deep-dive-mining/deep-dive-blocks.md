@@ -15,7 +15,11 @@ Consensus rules concerning block size state that:
 
 #### Transaction counter
 
+_This is a number which states the amount of transactions in this block_
+
 #### Block Header
+
+
 
 #### The List Of Transactions
 
