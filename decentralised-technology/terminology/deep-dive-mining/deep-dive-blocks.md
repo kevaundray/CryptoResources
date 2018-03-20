@@ -19,7 +19,24 @@ _This is a number which states the amount of transactions in this block_
 
 #### Block Header
 
+_This contains the summary of the block, or the metadata. _
 
+_  
+_**Block Version**
+
+**Previous Block Hash**
+
+**Merkle Root**
+
+**Timestamp**
+
+**Target**
+
+**Nonce**
+
+
+
+#### 
 
 #### The List Of Transactions
 
