@@ -16,7 +16,7 @@ The miners must follow the Bitcoin consensus rules, which have a section that te
 
 _Where can you find the list of consensus rules? _
 
-In the code. To my knowledge there is no website that has gathered the explicit rules in terms of mining blocks and so in order to find them , you will need to inspect the code and or ask another miner who has experience. 
+In the code. To my knowledge there is no website that has gathered the explicit rules in terms of mining blocks and so in order to find them , you will need to inspect the code and or ask another miner who has experience.
 
 We will now outline the process in which mining is done:
 
@@ -31,9 +31,7 @@ We will now outline the process in which mining is done:
 8. Once he finds a hash output with a certain pattern, in Bitcoin, it is a pre-requesite of zeroes. Then he can submit the block and receive his reward.
    _Remember: There are other miners in the network who are trying to 'mine a block' and so the fastest one will win. The fastest one is the one elected to append to the block._
 
-_What is a nonce and why do miners use it?_
 
-It is a random number that can only be used once. A miner uses it because he needs a pre-requesite amount of zeroes from the hash, and so incrementing the nonce changes the output. He can increment to 4 billion looking for a hash with for example four leading zeroes.
 
 _What happens if the miner gets to four billion and he does not get the amount of leading zeroes?_
 
