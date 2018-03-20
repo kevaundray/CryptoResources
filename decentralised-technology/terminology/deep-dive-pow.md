@@ -87,9 +87,25 @@ If we increase the target, the probability of finding an output that is less tha
 Bringing it to full circle:
 
 Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
-In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target.
+In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target. This is known as **Finding a block. **For clarity, we may refer to this as **Solving a block.**
 
 _You mentioned that the nonce has a limit of 32 bytes, what happens when the nonce is exhausted and a number below the target is not found?_
 
 This will be covered in '_Deep Dive: Extra Nonce_'
+
+_How does this make sure the person who wants to be elected solves the problem within 10 minutes?_
+
+The bitcoin protocol checks every 2016 blocks, what the average time for solving the previous 2016 blocks were. If it was less than 10 minutes, then the target is decreased, making it more difficult to find a suitable hash output number. If the time was more than 10 minutes, then the target is increased, making it easier to find a suitable hash output number.  
+  
+_Why 2016 blocks?_
+
+If every block should take 10 minutes. Then 2016 blocks will take 2016 minutes.This is equivalent to two weeks .
+
+_Why was two weeks chosen and not every block or every day?_
+
+If we set it to every block, then every time someone **solves a block, ** the difficulty would change. Changing the difficulty too often.
+
+If we set it to be one month, then the difficulty would take too long to change.
+
+Two weeks seems like a happy medium.
 
