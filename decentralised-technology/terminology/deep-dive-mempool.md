@@ -14,3 +14,7 @@ This means that if the memory pool has 9MB of transactions, and you decide that 
 
 There has been debate on allowing the person who would like to elected to take more than 1MB, so more transactions can be batched. Or, to make the transaction data smaller, so more transactions can fit inside of the 1MB. _These topics will be discussed in a later chapter._
 
+
+
+SHOULD WE TALK ABOUT TRANSACTION FEES HERE? OR IT'S OWN DEEP DIVE? RELEVANT HERE DUE TO THEM DICTATING WHAT TRANSACTIONS GET THROUGH FIRST
+
