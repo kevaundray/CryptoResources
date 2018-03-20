@@ -21,7 +21,7 @@ _This is a number which states the amount of transactions in this block_
 
 _This contains the summary of the block, or the metadata. _
 
-_        
+_          
 _**Block Version**
 
 As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
@@ -48,7 +48,7 @@ As mentioned in the\_ 'Deep Dive : mempool'  \_chapter, the work that the person
 
 **Nonce**
 
-The nonce is a number. It is related to the target and is used by the person who wants to be elected, in order to complete the work. For all intents and purposes, since we are only concerned with the _Blocks. _This is a sufficient 
+The nonce is a number. It is related to the target and is used by the person who wants to be elected, in order to complete the work. For all intents and purposes, since we are only concerned with the \_Blocks. \_This is a sufficient enough definition.
 
 #### The List Of Transactions
 
