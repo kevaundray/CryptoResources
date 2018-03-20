@@ -18,5 +18,9 @@ _If transaction fees are optional, why would Alice opt to pay?_
 
 As mentioned earlier, the person who would like to be elected **picks **the transactions that they would like to include. When searching for transactions to include into the batch of transactions, the transactions with higher transaction fees, take priority.
 
-Since transactions are processed in batches and periodically, if you include no transaction fee, the person who would like to be elected may never choose your transaction each time. Remember there is also a limit to how many transactions he can choose.
+Since transactions are processed in batches and periodically, if you include no transaction fee, the person who would like to be elected may never choose your transaction each time. Remember there is also a limit to how many transactions he can choose. It is normally customary, when sending transactions to include a transaction fee.
+
+_How do I decide the right amount to put as a transaction fee?_
+
+There are formulas that calculate the optimal transaction fee value. In short, these formulas are based on how many input and how many outputs you have in a transaction, the more input and outputs, the higher the transaction fee. This is because the more inputs/outputs you have the bigger the size of the transaction. If your transaction is picked and it is quite large, it is occupying space that two or three transactions could have occupied.
 
