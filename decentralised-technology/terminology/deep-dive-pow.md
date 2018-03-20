@@ -86,7 +86,6 @@ If we increase the target, the probability of finding an output that is less tha
 
 Bringing it to full circle:
 
-Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. \_See 'Deep Dive: Blocks' for further information.  
-\_In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target.  
-
+Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
+In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target.
 
