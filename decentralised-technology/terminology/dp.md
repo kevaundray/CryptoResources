@@ -24,12 +24,10 @@ We will now outline the process in which mining is done in regards to the whole 
 2. She then broadcasts this transaction to the rest of the network.
 3. Each person on the network, who is a full node, collects these transactions into their **mempool.**
 4. If a miner is also a full node, then the miner verifies the transaction and starts to build a block with Alices transaction and many other transactions.
-5. The miner then starts to **mine the block ** looking for a hash of the header which equates to less than the target number, by incrementing the nonce value. 
+5. The miner then starts to **mine the block ** looking for a hash of the block header which equates to less than the target number, by incrementing the nonce value. 
 6. Once this hash hash been found. The miner then broadcasts this block to the rest of the network. If no other miner has broadcasted a block with those transactions and the block is valid. Then he will rewarded with the coinbase transaction.
 
 _Possible questions:_
 
 _What if two miners validate a block at the same time?_
-
-
 
