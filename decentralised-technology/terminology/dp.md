@@ -59,7 +59,9 @@ If we increased the target number to such a number, where the blocks were no lon
 
 Using the lottery analogy:
 
-If the price of a lottery ticket were to reduce to $0.00002 then everyone would buy one. The financial burden of losing  
+If the price of a lottery ticket were to reduce to $0.00002 then everyone would buy one. The financial burden of losing $0.00002 is negligible, and so if you do not get it on this ticket, you do not care. If the ticket gets wet you may not care also, if you lose 10 tickets you may not care.
 
+If a ticket were to cost $100 however , you would take extra precaution when buying it, you would make sure that it was in the right conditions to submit incase you won, i.e. not wet or ripped and  not winning would weigh heavier on you.
 
+**The great electricity expenditure is not a flaw in the system, it was made that way by design. Whether the economical loss of proof of work outweighs what Bitcoin could be, is another discussion.**
 
