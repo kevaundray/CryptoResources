@@ -1,6 +1,6 @@
 # Deep Dive : Proof Of Work
 
-The elected person we alluded to earlier, is known in the Bitcoin protocol as a**miner**.
+The elected person we have continually eluded to, is known in the Bitcoin protocol as a **miner**.
 
 As mentioned before, the reason we have miners is to stop 'double spend' attacks, whereby a bad actor tries to spend the same funds twice.
 
