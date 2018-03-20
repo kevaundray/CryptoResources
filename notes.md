@@ -52,9 +52,13 @@ _Please note that the Two Generals Problem is unsolvable, while the Byzantine Ge
 
 So the blockchain uses consensus algorithms to elect the next person who will add to the next block.
 
-
-
-
-
 _Another analogy for transactions, is that it is a game of lock and unlock. I will lock up these funds with your public key, you can unlock it and put another lock on it to someone elses public key._
+
+
+
+
+
+_Bitcoin uses blockchain technology, so a distributed decentralized database, in order to keep track of everyones 'accounts' and transaction history. Bitcoin uses a Peer to Peer network, so that each person on the Bitcoin network can communicate with each other, making sure that their databases are identical._
+
+
 
