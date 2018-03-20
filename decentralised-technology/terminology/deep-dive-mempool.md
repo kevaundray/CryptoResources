@@ -12,6 +12,5 @@ We also discussed a periodical changing of the person elected. To be more concis
 
 This means that if the memory pool has 9MB of transactions, and you decide that you want to send Bitcoins. It will take on average 10 \* 9 = 90 minutes for your transaction to confirm.
 
-There has been debate on allowing the person who would like to elected to take more than 1MB, so more transactions can be batched. Or, to make the transaction data smaller, so more transactions can fit inside of the 1MB.  
-
+There has been debate on allowing the person who would like to elected to take more than 1MB, so more transactions can be batched. Or, to make the transaction data smaller, so more transactions can fit inside of the 1MB. _These topics will be discussed in a later chapter._
 
