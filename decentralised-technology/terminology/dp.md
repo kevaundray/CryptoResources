@@ -31,3 +31,5 @@ _Possible questions:_
 
 _What if two miners validate a block at the same time?_
 
+This will be covered in 'Forks' and other chapters
+
