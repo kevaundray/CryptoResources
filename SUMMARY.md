@@ -28,8 +28,9 @@
   * [Deep Dive: Mempool](decentralised-technology/terminology/deep-dive-mempool.md)
   * [Deep Dive: Blocks](decentralised-technology/terminology/deep-dive-mining/deep-dive-blocks.md)
   * [Deep Dive : POW](decentralised-technology/terminology/deep-dive-pow.md)
-  * [Deep Dive : Extra Nonce](decentralised-technology/terminology/deep-dive-extra-nonce.md)
   * [Deep Dive : Mining](decentralised-technology/terminology/dp.md)
+  * [Deep Dive: Identity](decentralised-technology/terminology/deep-dive-identity.md)
+  * [Deep Dive : Extra Nonce](decentralised-technology/terminology/deep-dive-extra-nonce.md)
 
 ## Answers To Test Questions
 
