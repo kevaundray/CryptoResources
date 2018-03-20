@@ -21,20 +21,32 @@ _This is a number which states the amount of transactions in this block_
 
 _This contains the summary of the block, or the metadata. _
 
-_  
+_      
 _**Block Version**
+
+As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
 
 **Previous Block Hash**
 
+The Block hash is synonymous with Block Id. The previous block hash is the hash of the contents of the block that came before this block. If the previous block changes, then the previous block hash changes. Since the previous block hash is a part of the contents of the current block, then the hash for the current block also changes. This principle **chains **the **blocks** together.
+
+Again, If one block is changed, then all blocks after that block is also changed. This is because each block is linked to the previous block via the previous block hash, and the previous block hash is calculated by hashing the content of the block.
+
 **Merkle Root**
+
+_This chapter assumes that you have read the Merkle root chapter._
+
+The leaves of the merkle root, will be the transaction IDs. The merkle root will therefore represent a hash such that if any of the transactions change, then the merkle root changes.
 
 **Timestamp**
 
+This is the time that the person elected included was finished completing this block and appending it to other peoples database.
+
 **Target**
 
+As mentioned in the_ 'Deep Dive : mempool'  _chapter, the problem 
+
 **Nonce**
-
-
 
 #### 
 
