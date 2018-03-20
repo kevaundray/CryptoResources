@@ -20,13 +20,13 @@ Now replace the word 'image' with 'digital money' or with 'Bitcoin'.
 
 _What if someone tries to change their list?_
 
-The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, they will then check their database and see that this person does not have 100 Bitcoin's, according to _their_ database.
+The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, the receiver will then check their database and see that this person does not have 100 Bitcoin's, according to _their_ database.
 
-Now that everyone has a copy of the list. How do we all agree on the general state of the list? There could be friends who are not really friends and they may decide to send two copies simultaneously to two different people, who really owns the picture now, person A or person B? Remember, everything is done over the internet and you don't want to phone up all of your friends each time to see if someone also sent them an image. It would become even more arduous if you did not know the people you were sending to.
+Now that everyone has a copy of the list. _How do we all agree on the general state of the list?_ There could be friends who are not really friends and they may decide to send two copies simultaneously to two different people, who really owns the picture now, receiver A or receiver B? Remember, everything is done over the internet and you don't want to phone up all of your friends each time to see if someone also sent them an image. It would become even more arduous if you did not know the people you were sending to.
 
 In other words, how do we reach consensus, a general agreement, on the state of everybodies lists?
 
-You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _
+You may answer, what if someone is elected to add to the list based on some sort of rules. That is a good idea. These rules however must be baked into Bitcoin and cannot be changed. If they are changed, then we no longer have Bitcoin, more on hard forks in a later chapter. These rules that will allow someone the right to append to everyones database, will be called the _consensus rules. _
 
 The consensus rules should work so that this person changes periodically. We should also not wholly believe what they tell us. We will also verify ourselves that what they are writing is valid, if not we reject their data.If we verify and the majority of the network says they did a good job, then the network should reward them.If we verify and the majority say they did a bad job, or tried to cheat, then the network should punish them.Therefore, the interest of the elected, align perfectly with the interest of the network.
 
