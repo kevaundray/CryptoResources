@@ -33,3 +33,20 @@ _What if two miners validate a block at the same time?_
 
 This will be covered in 'Forks' and other chapters
 
+_What happens if a miner is not a full node?  
+_If a miner is not a full node, this means that he does not have the UTXO set, discussed in 'Deep Dive : Full Nodes' and so he is not able to verify the transactions he is given. If he receives an invalid transaction, one that someone is trying to spend twice, then when he solves the block, the network will reject his block and he will have wasted electricity on the proof of work.
+
+_Can anyone become a miner?_
+
+Yes, anyone can become a miner. The current target is however so low, that miners need special hardware in order to 'become elected' or find the solve the block first. Even though anyone can become a miner, only a select few will solve the block fast enough, due to better hashing hardware.
+
+_Why do some refer to mining as a lottery?_
+
+There is a probability of you buying a ticket and winning the lottery.
+
+There is a probability of you finding the correct hash below the target number.
+
+The more tickets you buy, the higher your chances
+
+The more faster you can hash and iterate through the nonce, the higher your chance of finding the correct output.
+
