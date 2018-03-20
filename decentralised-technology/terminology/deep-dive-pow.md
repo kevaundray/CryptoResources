@@ -95,8 +95,8 @@ This will be covered in '_Deep Dive: Extra Nonce_'
 
 _How does this make sure the person who wants to be elected solves the problem within 10 minutes?_
 
-The bitcoin protocol checks every 2016 blocks, what the average time for solving the previous 2016 blocks were. If it was less than 10 minutes, then the target is decreased, making it more difficult to find a suitable hash output number. If the time was more than 10 minutes, then the target is increased, making it easier to find a suitable hash output number.  
-  
+The bitcoin protocol checks every 2016 blocks, what the average time for solving the previous 2016 blocks were. If it was less than 10 minutes, then the target is decreased, making it more difficult to find a suitable hash output number. If the time was more than 10 minutes, then the target is increased, making it easier to find a suitable hash output number.
+
 _Why 2016 blocks?_
 
 If every block should take 10 minutes. Then 2016 blocks will take 2016 minutes.This is equivalent to two weeks .
@@ -108,4 +108,6 @@ If we set it to every block, then every time someone **solves a block, ** the di
 If we set it to be one month, then the difficulty would take too long to change.
 
 Two weeks seems like a happy medium.
+
+_Note: There is a bug in the bitcoin protocol which calculates the difficulty of every block up to, but not including the 2016 block. The behaviour mentioned above was the intended. _
 
