@@ -78,7 +78,7 @@ The number that is appended onto the end of hello is known as the \*\*nonce.
 
 The nonce is used so that we can generate hash outputs, without changing the data. Note, that hello1, hello2 and hello3 all have the original data untouched. The hello part.
 
-If we set a target of $$$$4 x 10 ^29. That is 4 with 29 zeroes after it. Then hello1 and hello2 would not be accepted.
+If we set a target of 4 x 10 ^29. That is 4 with 29 zeroes after it. Then hello1 and hello2 would not be accepted.
 
 hello3 which gives an output of 3 x 10^29. Would be accepted.
 
@@ -88,4 +88,6 @@ Bringing it to full circle:
 
 Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
 In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target.
+
+
 
