@@ -31,7 +31,6 @@
   * [Deep Dive : POW](decentralised-technology/terminology/deep-dive-pow.md)
   * [Deep Dive : Mining](decentralised-technology/terminology/dp.md)
   * [Deep Dive: Identity](decentralised-technology/terminology/deep-dive-identity.md)
-  * [Deep Dive : Coinbase Transaction](decentralised-technology/terminology/deep-dive-coinbase-transaction.md)
 
 ## Answers To Test Questions
 
