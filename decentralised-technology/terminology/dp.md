@@ -52,5 +52,14 @@ The more faster you can hash and iterate through the nonce, the higher your chan
 
 _Some people say that Proof of Work wastes electricity, why don't we increase the target and make it easier to find blocks. This way less electricity will have been expended?_
 
+If we increased the target number to such a number, where the blocks were no longer difficult.
+
+1. People would start solving blocks in less than 10 minutes.
+2. The punishment for getting it wrong would be reduced. When the target number is low enough, the cost of electricity to be in with a chance to solve the block first is in the tens of thousands. This is a hefty punishment to pay, if you do not stick to the rules. If we lowered the target enough, that the cost of electricity was $500, then the miner would have less of an incentive to get it right, as now it would be more lucrative to try and hack the system.
+
+Using the lottery analogy:
+
+If the price of a lottery ticket were to reduce to $0.00002 then everyone would buy one. The financial burden of losing  
+
 
 
