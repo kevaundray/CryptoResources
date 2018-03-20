@@ -1,4 +1,4 @@
-# Deep Dive : Proof Of Work
+# Deep Dive : Mining
 
 The elected person we have continually eluded to, is known in the Bitcoin protocol as a **miner**.
 
