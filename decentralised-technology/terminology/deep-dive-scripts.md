@@ -52,7 +52,7 @@ In the previous chapter, we alluded to the fact that the script signature was us
 
 The scriptsig is used to unlock the scriptPubKey or make the funds locked by the scriptPubKey available, by providing two components. A **public key **and a **digital signature.**
 
-The digital signature is a signed hash of the transaction that the sender is trying to unlock.
+The digital signature is a signed hash of the transaction that the sender is trying to unlock, with it's position in that transaction, how much he would like to send and a pubkey script to lock it to the receiver, who will then need a scriptsig to unlock it.
 
 If this still alludes you, then a simple analogy would be as follows.
 
