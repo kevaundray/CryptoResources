@@ -2,30 +2,27 @@
 
 #### Overview of Cryptographic Hashing
 
-**High Level Explanation**
+**High-Level Explanation**
 
-Imagine there was an alien machine, and the machine had a keyboard plus a screen. You type "hello" on the keyboard and immediately the screen displays "_2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824_". You have no idea what that means. You delete the word and type "hello" again, and again the screen displays "2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824". You realise that this machine is not talking to you, it's converting what you say into something else. This is why when you typed "hello", it displayed the same message again.
+Imagine finding an alien machine with a keyboard and a screen. You type `hello` on the keyboard, and immediately the screen displays `2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824`. You have no idea what this means. You delete the word and type `hello` again, and again the screen displays `2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824`. You realise that this machine is not talking to you but is converting what you type into something else. This is why every time you type `hello`, the machine displays the same message.
 
-You then wonder, maybe there is a pattern in the way the words are generated. What if Instead of typing "hello", instead "Hello" was typed. The only thing that you changed was the lowercase h, to a capital 'H' and so the message that the machine outputs, should not be that different. The machine outputs "185F8DB32271FE25F561A6FC938B2E264306EC304EDA518007D1764826381969". There is no pattern at all. How is this machine converting the plain english into the gibberish?  
-\_
+You wonder if there might be a pattern in the way the machine's responses are generated. You try typing `Hello`, with an uppercase `H`, instead of  `hello`, with a lowercase `h`. You predict that the response will be the same, but the machine outputs something different: `185F8DB32271FE25F561A6FC938B2E264306EC304EDA518007D1764826381969`. You're starting to think there is no pattern at all. How is this machine converting plain English into gibberish?
 
-After a year of typing in different messages, you notice three things:
+After spending a long time typing in different messages, you notice three things:
 
-* The message length was always 32 characters, no matter what was typed in.
-* The message displayed gives no clue as to what was inputted. The only way to know what input generated that message, is to input the message itself and check. There are no shortcuts.
-* No message ever repeated. Whatever you typed in, a new message was displayed. Could there be a repeat of, but you never saw it? How long would it take to find this repeat? Is there a systematic way to find each repeat?
+* The response length is always 32 characters, no matter what you enter.
+* The response provides no clues about the input. The only way to know what input generates what response is to enter the input and check the result. There are no shortcuts.
+* No response is ever repeated. Every time you enter a new input, a new response is displayed. Could there be duplicate responses you didn't notice? How long would it take to find a duplicate? Is there a systematic way to find duplicates?
 
-**Low Level Explanation**
+**Low-Level Explanation**
 
-You may have heard of SHA256 and MD5. These are what we call hashing algorithms. They define instructions on how to take an input which can be any size, and output a pseudo-random output of fixed length. The reason it is pseudo-random, is because with the same random input, we get the same random output.
+You may have heard of SHA256 or MD5. These are called __cryptographic hash functions__. Cryptographic hash functions define instructions for taking an input of any size and generating a pseudorandom output of fixed length (this means the output is always the same length, regardless of the size of the input).
 
-_A random algorithm would give a different output each time, even if you kept giving it the same input._
+Note: Cryptographic hash functions are described as __pseudorandom__ because the same input generates the same output (as in the `hello` example above); a __random__ algorithm would give a different output each time, even if you kept using the same input.
 
-The output is always the same length, whether the input is larger or smaller than the output length.
+For example, inputting the letter `a` into the SHA256 cryptographic hash function generates `CA978112CA1BBDCAFAC231B39A23DC4DA786EFF8147C4E72B9807785AFEE48BB`.
 
-The letter 'a' with SHA256 would hash to _'CA978112CA1BBDCAFAC231B39A23DC4DA786EFF8147C4E72B9807785AFEE48BB'_
-
-The poem below would hash to "_5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2FB3505BF337A42D_"
+The poem below hashes to `5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2FB3505BF337A42D`.
 
 > _It was easy enough  
 > to bend them to my wish,  
@@ -93,13 +90,10 @@ The poem below would hash to "_5B595520A3E395D905C049CAC05B04517BC8D6BE76F5DBBA2
 > of my power and magic  
 > for your glance._
 
-Since the input is unbounded and the output is bounded by some fixed length. There will be inevitably be different two inputs with the same output. This is called a collision. A hashing function can never be collision-free, due to the fixed output requirement. However, it can be collision resistant, meaning it is hard to find two inputs which give the same output.
+Because the input is unbounded (meaning it can be any length) and the output is bounded by a fixed length, there will always be cases where two different inputs generate the same output. This is called a __collision__. It is impossible for a cryptographic hash function to be collision-free due to the fixed output requirement. However, cryptographic hash functions _can_ be __collision-resistant__, meaning it is very difficult to find two inputs that generate the same output.
 
-The question now arises, as to why must the output be a fixed length. Think back to not being able to gather any information from the output, as to what the input would be. If the output varied along with the input, then this function would be leaking information as to what the input would be and would not be secure.   
-  
-For example, imagine you inputted the word 'hi' and the function outputted '1A3D451W'. Then you inputted 'g' and the function outputted '2D4G1'. The input has halved and so did the output, a hacker could then use this information to guess what the input is by lowering the possible solutions. This would make the function less secure.
+You may be wondering why the output of a cryptographic hash function has to have a fixed length. Think back to the alien machine and the impossibility of gathering any information about the input from the output. If the output varied along with the input, the function would be leaking information about the input and would therefore not be secure.
 
+For example, imagine a function where inputting `hi` outputs `1A3D451W`, and inputting `g` outputs `2D4G`. In this case, halving the length of the input also halves the length of the output. A hacker can use this information to make it easier to guess the corresponding input of an output by limiting the number of possible solutions to check, making the function less secure.
 
-
-
-
+To try out a cryptographic hash function yourself (in this case, SHA256), click [here](https://www.movable-type.co.uk/scripts/sha256.html). You'll notice that if you try the same inputs as in our alien machine example above, you'll also receive the same outputs.
