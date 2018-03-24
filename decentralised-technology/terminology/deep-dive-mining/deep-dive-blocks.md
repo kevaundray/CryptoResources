@@ -19,8 +19,8 @@ _This is a number which states the amount of transactions in this block_
 
 _This contains the summary of the block, or the metadata. _
 
-_                  
-_**Block Version**
+                
+*Block Version*
 
 As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
 
