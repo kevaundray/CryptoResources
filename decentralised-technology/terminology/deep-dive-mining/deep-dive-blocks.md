@@ -24,13 +24,13 @@ _This contains the summary of the block, or the metadata. _
 
 As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
 
-**Previous Block Hash**
+*Previous Block Hash*
 
 The Block hash is synonymous with Block Id. The previous block hash is the hash of the contents of the block that came before this block. If the previous block changes, then the previous block hash changes. Since the previous block hash is a part of the contents of the current block, then the hash for the current block also changes. This principle **chains **the **blocks** together.
 
 Again, If one block is changed, then all blocks after that block is also changed. This is because each block is linked to the previous block via the previous block hash, and the previous block hash is calculated by hashing the content of the block.
 
-**Merkle Root**
+*Merkle Root*
 
 _This chapter assumes that you have read the Merkle root chapter._
 
@@ -44,7 +44,7 @@ This is the time that the person elected included was finished completing this b
 
 As mentioned in the\_ 'Deep Dive : mempool'  \_chapter, the work that the person is completing in the block. Will be dynamically adjusted, so that on average it takes 10 minutes to complete. This target field is an indicator of how hard the work is. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
 
-**Nonce - Max 32 bytes**
+*Nonce - Max 32 bytes*
 
 The nonce is a number. It is related to the target and is used by the person who wants to be elected, in order to complete the work. For all intents and purposes, since we are only concerned with the _Blocks_. This is a sufficient enough definition.
 
