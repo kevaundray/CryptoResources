@@ -1,5 +1,7 @@
 # Deep Dive: ScriptSig and ScriptPubKey
 
+This chapter is being reviewed. Not suitable for consumption.
+
 Following the '\_Deep dive: Transactions' \_chapter, we will go into more detail on two fields; scriptSig and scriptPubKey.
 
 This chapter assumes that you have read the Blockchain Foundation module, and or you have a solid understanding of hashing and encryption.
