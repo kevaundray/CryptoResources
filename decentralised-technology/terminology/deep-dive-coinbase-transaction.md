@@ -1,14 +1,14 @@
 # Deep Dive : Coinbase Transaction
 
-In the _'overview of bitcoin' chapte_r, we discussed the person who would like to be elected, getting a reward for doing a good job.
+In the _'overview of bitcoin'_ _chapter_, we discussed the person who would like to be elected, getting a reward for doing a good job.
 
-From this point onwards, the book will refer to this person as a **miner. **
+From this point onwards, the author will refer to this person as a **miner. **
 
-Upon batching together a collection of transactions, the person who would like to be elected can then create one transaction that gifts him some amount of bitcoins. This transaction is known as the **coinbase transaction.**
+Upon batching together a collection of transactions, the miner can then create one transaction that gifts him some amount of bitcoins. This transaction is known as the **coinbase transaction. **The amount that the miner gifts to himself, is decided upon by the Bitcoin consensus rules.
 
 The Bitcoins that are transferred within this transaction come out of thin air, and have no previous inputs.
 
-The person who would like to be elected can also be rewarded in **transaction fees.**
+The miner can also be rewarded in **transaction fees.**
 
 When sending a transaction, the sender can opt to give some amount in transaction fees.
 
