@@ -2,7 +2,7 @@
 
 **Asymmetric Encryption**
 
-**High level overview**
+**High-Level Explanation**
 
 Imagine yourself in a room with a machine. You press a button on the machine and two keys with a box drop out of the back. After practicing with the keys and the box, you notice two things:
 
@@ -27,6 +27,4 @@ No one has your private key and so when you lock a box with a message inside of 
 Asymmetric key algorithms require two keys in order to work. The public key and the private key. The public key can be given to anyone, while the private key must be kept secret.
 
 The public and private key are connected mathematically with a one to one relationship; each public key has only one private key.
-
-
 
