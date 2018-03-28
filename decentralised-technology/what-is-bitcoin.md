@@ -2,9 +2,7 @@
 
 _This section serves as a primer, to understand the Bitcoin protocol, and will not include all information for each component of Bitcoin. These will be included in the Deep Dive sections._
 
-
-
-This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin.
+This chapter will assume that you have some understanding of bitcoin already. The purpose of this chapter is to solely outline the bitcoin protocol, so that we can dive into the more technical aspects of Bitcoin, step by step.
 
 Let's assume that we want to send an image over the internet, and the image is only allowed to be sent once.
 
