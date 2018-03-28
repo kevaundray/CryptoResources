@@ -2,7 +2,7 @@
 
 Envision a world in which there were no pennies or coins and paper notes were exact chnage.
 
-For example, you go to the supermarket and you want to buy a drink for $1. You have a $20 note. You give the cashier a $20 note and for your _change _she gives you back a $19 note. You now have an unspent $19 note.
+For example, you go to the supermarket and you want to buy a drink for $1. You have a $20 note. You give the cashier a $20 note and for your \_change \_she gives you back a $19 note. You now have an unspent $19 note.
 
 Another example, you go to the electronic store and you buy groceries. The groceries cost $24.90. You have a $35.85 note, which you give to the cashier. She gives you back as _change a_ $10.95 note. You now have an unspent $10.95 note.
 
@@ -24,7 +24,7 @@ Formalising, A transaction has inputs and outputs. Alice uses some amount of Bit
 
 Let's do another example with this terminology.
 
-Alice received 6 Bitcoins from James. She wants to send_ 5 Bitcoins_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have **two** **outputs. **One will send 5BTC to Bob. The other will send 1BTC back to Alice.
+Alice received 6 Bitcoins from James. She wants to send_ 5 Bitcoins_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have **two** **outputs. **One will send 5 Bitcoin to Bob. The other will send 1BTC back to Alice.
 
 Formalising this further, the two outputs from the transaction above are unspent. They are called **Unspent Transaction Outputs \(UTXOs\).**
 
