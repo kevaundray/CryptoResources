@@ -14,7 +14,7 @@ A distributed application is an application without any central geographical reg
 
 _What is a database?_
 
-A database is a collection of records. If the records just happen to contain financial information, we will call it a _ledger_.
+A database is a collection of records. If the records just happen to contain transactional information, we will call it a _ledger_.
 
 _What is a blockchain?_
 
@@ -28,8 +28,6 @@ _Why do we have consensus algorithms?_
 
 Consensus algorithms are used to ensure that there is only one source of truth, or eventual truth.
 
-
-
-_  
+_    
 _
 
