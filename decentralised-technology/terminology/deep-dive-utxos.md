@@ -24,7 +24,7 @@ Formalising, A transaction has inputs and outputs. Alice uses some amount of Bit
 
 Let's do another example with this terminology.
 
-Alice received 6 Bitcoins from James. She wants to send_ 5 Bitcoins_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have **two** **outputs. **One will send 5 Bitcoin to Bob. The other will send 1BTC back to Alice.
+Alice received 6 Bitcoins from James. She wants to send_ 5 Bitcoins_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have **two** **outputs. **One will send 5 Bitcoin to Bob. The other will send 1 Bitcoin back to Alice, as change.
 
 Formalising this further, the two outputs from the transaction above are unspent. They are called **Unspent Transaction Outputs \(UTXOs\).**
 
