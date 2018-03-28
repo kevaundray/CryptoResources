@@ -8,7 +8,7 @@ Let's assume that we want to send an image over the internet, and the image is o
 
 _How can we assure this?_
 
-A centralised solution would be to have a database that is guarded by a company and in order to send an image, you must tell the company who you are sending it to\(recipient\) and what image it is\(Image Identifier\). Before you send it, the company checks to see if you have sent that image to someone else before and that you also own the image.
+A centralised solution would be to have a database that is guarded by a company and in order to send an image, you must tell the company who you are sending it to\(recipient\) and what image it is\(Image Identifier\). Before you send it, the company checks to see if you have sent that image to someone else before and that you also own that image.
 
 If the company becomes corrupt, then you have no way of proving, that images are in fact yours. The same principle applies if they get hacked. The hacker could transfer all ownership of the images to themselves.
 
