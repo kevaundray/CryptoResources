@@ -22,7 +22,7 @@ When someone sends a Bitcoin to another person. They alert the whole network as 
 
 _What if someone tries to change their list to benefit them, to make themselves rich?_
 
-The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, the receiver will then check their database and see that this person does not have 100 Bitcoin's, according to _their own _database.
+The information would only be changed on their list and they would need to change it on everyone else's database also. If they do give themselves 100 Bitcoins, then when they attempt to send it to someone else for a service or product, the receiver will then check their database and see that this person does not have 100 Bitcoin's, according to \_their own \_database.
 
 Now that everyone has a copy of the list. _How do we all agree on the general state of the list?_ There could be friends who are not really friends and they may decide to send the same Bitcoin simultaneously to two different people, who really owns the Bitcoin's now, receiver A or receiver B? Remember, everything is done over the internet and you don't want to phone up all of your friends each time to see if someone also sent them 2 Bitcoins too. It would become even more arduous if you did not know the people you were sending to. This is the case with Bitcoin.
 
@@ -46,9 +46,13 @@ _Note: Hashing was covered in a previous chapter._
 
 _Why is this hashing part important?_
 
-Without the hashing, then the person elected will have nothing to lose. There will be no punishment in not following the rules, no electricity cost, and so no incentive to _not_ include the bad transactions. The hashing also provides a way to make the block immutable. If information inside of the block is changed, then the block becomes invalid. This is because as soon the information changes, the pattern we described earlier would change.
+Without the hashing, then the person elected would have nothing to lose. There will be no punishment in not following the rules, no electricity cost, and so no incentive to _not_ include the bad transactions, malicious intent towards the network would be negligible in terms of financial loss. The hashing also provides a way to make the batches of transactions\(**Block**\) immutable. If information inside of the block is changed, then the block hash also changes and the block becomes invalid, as the  numerical pattern that the network desired would not be present in the hash. 
 
 This was a medium level overview of bitcoin. In the deep dive sections, we will answer possible unanswered questions such as:
+
+
+
+#### Questions that will be answered in later chapters:
 
 _How does the person elected get his reward?  
 Who originally decides on the consensus rules?_
