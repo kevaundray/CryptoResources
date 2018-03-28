@@ -22,7 +22,7 @@ You start to think, if you are the only person to have your private key, then yo
 
 No one has your private key and so when you lock a box with a message inside of it, everyone can verify that it was you who wrote the message by using the public key to open the box.
 
-**Low Level Overview**
+**Low-Level Explanation**
 
 Asymmetric key algorithms require two keys in order to work. The public key and the private key. The public key can be given to anyone, while the private key must be kept secret.
 
