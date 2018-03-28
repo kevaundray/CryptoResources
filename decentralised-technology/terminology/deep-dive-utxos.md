@@ -36,11 +36,13 @@ We will now call **inputs** to a transaction, **Unspent Transaction Outputs**. T
 
 In order to finalise this chapter, we will need to dive one level deeper.
 
-Bitcoin has no concept of what an account is. All it sees, is previous unspent transaction outputs becoming spent transaction outputs. Essentially, the Bitcoins are changing ownership. When Alice sends 5 Bitcoins to Bob, she is telling Bitcoin that Bob is the only person who can unlock or use these 5 Bitcoins. 
+Bitcoin has no concept of what an account is. All it sees, is previous unspent transaction outputs becoming spent transaction outputs. Essentially, the Bitcoins are changing ownership. When Alice sends 5 Bitcoins to Bob, she is telling Bitcoin that Bob is the only person who can unlock or use these 5 Bitcoins. _This will be discussed in later chapters and may or may not be understood upon first read._
 
 _Possible questions you may have:_
 
-_Why does Bitcoin not work like a normal account, where you can send any amount_
+_Why does Bitcoin not work like a normal account, where you can send any amount?_
+
+At this current chapter, we have not learned enough in order to understand the reason. One answer is so that we can form a UTXO list to verify that an output has not been double-spent. _The author does not expect the reader to understand the previous statement, until the book has completed._
 
 _I thought that Bitcoin was anonymous, how can Alice know Bob?_
 
