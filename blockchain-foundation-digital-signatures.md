@@ -2,7 +2,7 @@
 
 **Digital Signatures**
 
-_The author has not included a high level overview of what a digital signature is because it was covered in the 'Blockchain Foundation - Asymmetric encryption' _Chapter.
+The author has not included a high level overview of what a digital signature is because it was covered in the _'Blockchain Foundation - Asymmetric encryption'_ Chapter.
 
 **Low Level Overview**
 
