@@ -1,5 +1,7 @@
 # **The Beginning**
 
+_The aim of this short chapter, is to define a handful of terms that may or may not have ambiguous meanings._
+
 **Terminology**
 
 _What is a decentralised application?_
@@ -24,6 +26,10 @@ A blockchain that is centralised, is merely a distributed database.
 
 _Why do we have consensus algorithms?_
 
-Consensus algorithms are used by the blockchain to elect the next person who will add to the blockchain._    
+Consensus algorithms are used to ensure that there is only one source of truth, or eventual truth.
+
+
+
+_  
 _
 
