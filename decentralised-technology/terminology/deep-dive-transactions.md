@@ -55,7 +55,7 @@ Remembering what we discussed in the UTXO chapter, VIN can be seen to be the ind
 
 **VIN: TXID**
 
-In the UTXO chapter, we also discussed the concept of an input coming from another output, which is why it is named unspent transaction output. This transaction id, tells you the id for the transaction where this input was an output. In other words, If Alice is paying Bob and Charlie a combined amount of 5BTC. This transaction id, tells us which previous transaction Alice got the 5 BTC from.
+In the UTXO chapter, we also discussed the concept of an input coming from another output, which is why it is named unspent transaction output. This transaction id, tells you the id for the transaction where this input was an output. In other words, If Alice is paying Bob and Charlie a combined amount of 5 Bitcoins. This transaction id, tells us which previous transaction Alice got the 5 Bitcoins from.
 
 **VIN : VOUT**
 
