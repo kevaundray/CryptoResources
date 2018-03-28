@@ -2,7 +2,7 @@
 
 **Digital Signatures**
 
-_Note: A high level overview was not given for digital signatures as this was included in the Asymmetric key - High level overview_
+_The author has not included a high level overview of what a digital signature is because it was covered in the 'Blockchain Foundation - Asymmetric encryption' _Chapter.
 
 **Low Level Overview**
 
@@ -33,10 +33,5 @@ Upon receiving the file. The user will:
 
 If H Prime = H, this means that the original document was not tampered with upon transmission and the receiver can be sure that the sender is who they say they are.
 
-
-
-_Question: If a malicious party was to intercept the pdf along the way and edit it, how would the receiver know that the file was edited? _  
-
-
-
+_Question: If a malicious party was to intercept the pdf along the way and edit it, how would the receiver know that the file was edited? _
 
