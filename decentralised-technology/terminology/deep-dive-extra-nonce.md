@@ -1,6 +1,6 @@
 # Deep Dive : Extra Nonce
 
-
+This chapter is being reviewed. Not suitable for consumption.
 
 _What happens if the miner gets to four billion and he does not get the amount of leading zeroes?_
 
