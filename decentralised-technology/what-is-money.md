@@ -2,13 +2,13 @@
 
 _This is an optional topic._
 
-Money has been in our lives since the day we were born and much like the air we breathe, when asked to define what it is, we are lost for words.
+Money has been in our lives since the day we were born and much like the air we breathe, when asked to define what it is, most of us are lost for words.
 
-Let's go back a couple hundreds of years, when we were trading cows and goats for services. Cows and Goats for all intensive purposes was seen as money. We were trading animals for services and products.
+Let's go back a couple hundreds of years, when we were trading cows and goats for services. Cows and Goats were seen as money. We were trading animals for services and products.
 
-I go to a tracktor dealership and I ask to trade 10 of my chickens for a new tracktor. The owner does not want chickens, he says he wants 2 horses. If I want the tracktor, I must now find a way of trading my 10 chickens for 2 horses, I must also have space on my farm to look after the horses. This process of bartering is not convenient and not scalable.
+I go to a tracktor dealership and I ask to trade 10 of my chickens for a new tracktor. The owner does not want chickens, he says he wants 2 horses. If I want the tracktor, I must now find a way of trading my 10 chickens for 2 horses, what if that person wants 3 pigs? This process known as bartering is neither convenient nor scalable.
 
-Fast forward a bit, and we have Gold. Everyone is trading Gold for services and products. The problem with Gold is that it is not very portable, imagine carrying around 100kg of Gold to buy a new car. Your chances of not getting robbed while transporting the money would be slim.
+Fast forward and we have Gold. Gold is being traded for services and products. The problem with Gold is that it is not very portable in large amounts, imagine carrying around 100kg of Gold to buy a new car. Your chances of not getting robbed while transporting the money would be slim.
 
 Fast forward a bit, and instead of Gold. What if we traded 1kg of gold for 1 us dollar. This one US dollar would signify that I do in fact have one kilogram of Gold somewhere locked up and you can get that one kilogram of Gold with this one US dollar. This US dollar represents the Gold. Money that is backed by some commodity is called representative.
 
