@@ -12,7 +12,7 @@ The miner can also be rewarded in **transaction fees.**
 
 When sending a transaction, the sender can opt to give some amount in transaction fees.
 
-For example:
+_For example:_
 
 If Alice wants to send 3 BTC to Bob and pay 0.2BTC in transaction fees. She would setup an inout with 3.2 BTC and send 3 to Bob. The remaining amount, if not sent back to her or some address, is assumed to be transaction fee for the miner.
 
