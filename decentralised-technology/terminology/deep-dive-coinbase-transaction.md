@@ -1,6 +1,8 @@
 # Deep Dive : Coinbase Transaction
 
-In the 'overview of bitcoin' chapter, we discussed the person who would like to be elected, getting a reward for doing a good job.
+In the _'overview of bitcoin' chapte_r, we discussed the person who would like to be elected, getting a reward for doing a good job.
+
+From this point onwards, the book will refer to this person as a **miner. **
 
 Upon batching together a collection of transactions, the person who would like to be elected can then create one transaction that gifts him some amount of bitcoins. This transaction is known as the **coinbase transaction.**
 
