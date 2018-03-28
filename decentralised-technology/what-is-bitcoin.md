@@ -10,7 +10,7 @@ _How can we assure this?_
 
 A centralised solution would be to have a database that is guarded by a company and in order to send an image, you must tell the company who you are sending it to\(recipient\) and what image it is\(Image Identifier\). Before you send it, the company checks to see if you have sent that image to someone else before and that you also own that image.
 
-If the company becomes corrupt, then you have no way of proving, that images are in fact yours. The same principle applies if they get hacked. The hacker could transfer all ownership of the images to themselves.
+If the company becomes corrupt, then you have no way of disputing which images are yours, since all information was kept on their database. The same principle applies if they get hacked. The hacker could transfer all ownership of the images to themselves or delete the database entirely. 
 
 The database is clearly needed to track ownership, the problem is that if only one person or company has it, then that one person is suddenly God and he can do whatever he wants and if something happens to that one person, then your information can be modified. So what if everyone had the list? What if instead of one company checking and verifying each images ownership, we all did?
 
