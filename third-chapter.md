@@ -26,13 +26,13 @@ After asking **M**artin for his parents, he knows he only needs to check **I**ng
 
 **Low Level Explanation**
 
-On your computer, you have a 100GB file. You decide to split it into four 25GB files and send them to four friends so that you can free up space on your laptop. When you ask for the files back, how can you be certain that your friends did not edit one of the files? What if you only needed one out of the four files back, is there a way to validate that one file without getting the other three files? Remember you no longer have a the 100GB file with you, it's takes up too much space.
+On your computer, you have a 100GB file. You decide to split it into four 25GB files and send them to four friends so that you can free up space on your laptop. When you ask for the files back, how can you be certain that your friends did not edit one of the files? What if you only needed one out of the four files back, is there a way to validate that that one file has not been tampered with? Remember you no longer have the 100GB file with you, it's takes up too much space.
 
-In order to do it, we will form a merkle tree. To do this we must first hash all four files. Like so:
+In order to do it, we will form a M**erkle tree**. To do this we must first hash all four files before sending them. Like so:
 
 ![](/assets/filetohash.png)
 
-We will now send all four files to our friends, so that we no longer have F1... F4, just their hashes which are significantly lower in storage space, due to their fixed length output.
+We will now send all four files to our friends, so that we no longer have F1... F4. We keep the hashes of the files which are significantly lower in storage space, due to their fixed length output.
 
 We now pair up each hash, concatenate them  and hash the result. I.e Hash\(H1+H2\)
 
@@ -44,29 +44,41 @@ The final step would be to hash the two hashes H1H2 and H3H4.
 
 ![](/assets/Group2.png)
 
-The top hash is called the **merkle root**. The bottom hashes are called the **merkle leaves** and everything in between is called a **merkle nodes or merkle branches**.
+The top hash is called the **Merkle root**. The bottom hashes are called the **Merkle leaves** and the hashes in between are called the **Merkle Nodes or Merkle Branches**.
 
-Notice that if any of the merkle leaves or nodes change, then the merkle root changes.
+Notice that if any of the leaves or Nodes change, indicating that the file has been changed, then the merkle root changes. This is similar to **O**liver above, If any of his ancestors change, then it forms a ripple effect and **O**liver ceases to exist.
 
-Saving this tree diagram onto your computer, we can now use this to check if a friend sends you an altered file, without the other three files.
+Saving this tree diagram onto your computer, we can now use this to check if a friend sends you an altered file, without the other three files being present.
 
-Scenario one:
+_Scenario one_:
 
-Your friend James, sends you file number two, F2. You now want to check using your merkle tree, whether the file has been altered.
+Your friend James, sends you file number two, F2. You now want to check using your merkle tree diagram, whether the file has been altered.
 
-You take the file number two and then hash it, to get H'\(2\). You then take the known H\(1\) from Storage, and do H1H'2.
+You take F2 from James and hash it, to get H'\(2\). You then take the known H\(2\) from Storage, and check it against the H'\(2\) that you calculated from Jame's file. If they are equal, then the file has not been tampered with. 
 
-If H1H'2  equals H1H2 then the file has not been altered.
+_"We could have done that with just the original hashes, what was the point of forming a Merkle tree?"_
 
-Now what If I only wanted to store the merkle root and still be able to verify the transactions?
+_Scenario 2:_
 
-Again we would take the file F2, and hash it to get H'2. We would then ask friend one for the H1, not the file itself, the Hash of the file.
+I only wanted to store the Merkle root and still be able to verify that the files sent to me have not been tampered with.
 
-Then ask friend 3 and 4 to hash the files themselves and send me H3H4.
+* We would take the file F2, and hash it to get H'\(2\). 
 
-Now, we now have H1,H'2, and H3H4. The only thing we know to be true, is the merkle root.
+* We would then ask friend one for H'\(1\), not the file itself, the Hash of the file. Remember we only have the root.
 
-In order to verify that H'2 is valid, we must first derive H1H'2. Using this we can then derive H1H'2H3H4.
+* Then ask friend 3 and 4 to collude and send me H'\(3\)H'\(4\).
 
-If H1H'2H3H4 equals our merkle root H1H2H3H4, then F2 was indeed not altered.
+* We now have H'\(1\),H'\(2\), and H'\(3\)H'\(4\). _The only thing we know to be true, is the merkle root._
+
+* In order to verify that H'\(2\) is valid, we must first derive H'\(1\)H'\(2\). Using this we can then derive H'\(1\)H'\(2\)H'\(3\)H'\(4\).
+
+* If H'\(1\)H'\(2\)H'\(3\)H'\(4\) equals our merkle root H1H2H3H4, then F2 was indeed not altered.
+
+Summarising, If we keep the merkle root, the thing we know to be true. Then we can ask the other party to **prove** that they have not altered any files by giving you the hashes that will derive to the merkle root that you hold to be true. This is called a **Merkle Proof.**
+
+In this situation, we have assumed that friends 3,4 and 1 are trustworthy and will send the correct hashes. 
+
+_The author of this book acknowledges that the low level overview example is convoluted and in a later version it will be modified._
+
+
 
