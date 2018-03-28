@@ -59,7 +59,7 @@ In the UTXO chapter, we also discussed the concept of an input coming from anoth
 
 **VIN : VOUT**
 
-Now that we know what transaction Alice got this 5 Bitcoins from. Vout tells you what position it is in the list of outputs in the _previous transaction_. 
+Now that we know what transaction Alice got this 5 Bitcoins from. Vout tells you what position it is in the list of outputs in the _previous transaction_.
 
 If Alice wants to send 5 Bitcoins to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bob's and the second being Charlie's. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one. If Bob wanted to spend from this transaction, he would supply this transactions Id and a vout of zero.
 
@@ -93,7 +93,7 @@ _The 'VIN:Sequence' field has been omitted and will be covered in a later editio
 
 **VOUT**
 
-Vout can be seen as the array of outputs for this transaction.
+Vout is the array of outputs for this transaction. 
 
 **VOUT : VALUE**
 
@@ -101,9 +101,9 @@ This is the amount you wish to send.
 
 **VOUT : N**
 
-This is the position of this particular output in the list of outputs. Remember that you can send to multiple people in one transaction
+This is the position of this particular output in the list of outputs. As you can send to multiple _people_ in one transaction.
 
 **VOUT : SCRIPTPUBKEY**
 
-We have not gone into detail on scripts. What you need to know right now, is that ScriptPubKey specifies who the amount is being sent to.
+ScriptPubKey specifies who the amount is being sent to. _More detail, will be provided in the Deep Dive : Scripts chapter_.
 
