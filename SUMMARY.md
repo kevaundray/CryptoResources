@@ -32,6 +32,7 @@
   * [Deep Dive : POW](decentralised-technology/terminology/deep-dive-pow.md)
   * [Deep Dive : Mining](decentralised-technology/terminology/deep-dive-mining.md)
   * [Deep Dive : Extra Nonce](decentralised-technology/terminology/deep-dive-extra-nonce.md)
+  * [Deep Dive : Sequence Number?](decentralised-technology/terminology/deep-dive-sequence-number.md)
 
 ## Answers To Test Questions
 
