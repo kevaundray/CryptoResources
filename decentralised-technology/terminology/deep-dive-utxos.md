@@ -26,9 +26,9 @@ Let's do another example with this terminology.
 
 Alice received 6 Bitcoins from James. She wants to send_ 5 Bitcoins_ to Bob. She forms a transaction by supplying her **6 BTC as one input to this transaction. **She then states that this transaction will have **two** **outputs. **One will send 5 Bitcoin to Bob. The other will send 1 Bitcoin back to Alice, as change.
 
-Formalising this further, the two outputs from the transaction above are unspent. They are called **Unspent Transaction Outputs \(UTXOs\).**
+Formalising further, the two outputs from Alice's transaction above are unspent, as they have not been used. They are called **Unspent Transaction Outputs \(UTXOs\).**
 
-If Alice decides to use her 1BTC or Bob decides to use his 5BTC, then the transaction output will no longer be unspent. It will then be called a **Spent Transaction Output.**
+If Alice decides to use her 1 Bitcoin or Bob decides to use his 5 Bitcoins, then the transaction output will no longer be unspent. It will then be called a **Spent Transaction Output. A Spent Transaction Output, is a UTXO that has been used as an input for a transaction.**
 
 > True or False: Only UTXOs can be used as inputs to transactions
 
