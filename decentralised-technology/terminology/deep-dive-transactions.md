@@ -59,13 +59,15 @@ In the UTXO chapter, we also discussed the concept of an input coming from anoth
 
 **VIN : VOUT**
 
-Now that we know what transaction Alice got this 5 BTC from. Vout tells you what position it is in the list of outputs. Remember, that if Alice wants to send 5BTC to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bobs and the second being Charlies. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one. The reason we have the TxId and the vout is so that it is easier for someone to verify the transactions.
+Now that we know what transaction Alice got this 5 Bitcoins from. Vout tells you what position it is in the list of outputs in the _previous transaction_. 
+
+If Alice wants to send 5 Bitcoins to Bob and to Charlie. This transaction will have multiple outputs. The first one being Bob's and the second being Charlie's. Since Bob's transaction is first in the list, we say that his position is zero. Charlie's vout would be one. If Bob wanted to spend from this transaction, he would supply this transactions Id and a vout of zero.
 
 **VIN : ScriptSig**
 
-We have not gone into detail on scripts. What you need to know right now, is that **script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are. Akin to the From address.
+**Script signature** \(**scriptSig**\) is the field that a person uses to prove that they are who they say they are. _This will be discussed in the Deep Dive : Scripts chapter._
 
-_The 'VIN:Sequence' field has been omitted and will be covered in a separate module._
+_The 'VIN:Sequence' field has been omitted and will be covered in a later edition as it's own Deep Dive chapter._
 
 > "vout": \[
 >
