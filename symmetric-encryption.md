@@ -12,11 +12,11 @@ Encrypting is the process of converting a plain message into a secret message. T
 
 Decrypting is the process of converting a secret message back into the plain message.
 
-Using a symmetric key algorithm, you must supply a **key, ** along with the plain-text that you wish to encrypt. The algorithm, then outputs the corresponding _cypher or encrypted _text.
+Using a symmetric key algorithm, you must supply a **key, ** along with the plain-text that you wish to encrypt. The algorithm, then outputs the corresponding _cypher_ or _encrypted text_.
 
 In order to decrypt the _cypher text_, the receiver will use the **same key.**
 
-One example of a symmetric key algorithm, is that of a letter shift. 
+One example of a symmetric key algorithm, is that of a letter shift.
 
 The algorithm states that:
 
