@@ -2,9 +2,9 @@
 
 This chapter is being reviewed. Not suitable for consumption.
 
-Following from the overview of Bitcoin. We mentioned that the person who would like to be elected, will
+Following from the _overview of Bitcoin chapter_. We mentioned that the miner will
 
-> take as many transactions as the rules says you can take, from this list of unconfirmed transactions
+> take as many transactions as the rules says he can take, from this list of unconfirmed transactions
 
 This list of unconfirmed transactions is known as the **memory pool**. Each full node has it's own copy of a memory pool and the size of it varies.
 
