@@ -82,7 +82,7 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
 
 # Projects
 
-#### Blockchain Foundations Book
+#### Blockchain Foundations Book:
 
 The purpose of this is to explain cryptography and security in both a way that a non technical person can understand and in a way that a technical person can understand.
 
