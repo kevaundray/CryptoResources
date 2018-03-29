@@ -43,13 +43,13 @@ There are four numbers below five. They are 1,2,3 and 4. The probability of gett
 
 The answer can then be calculated by summing 1/10 + 1/10 + 1/10 + 1/10 = 4/10 or 40%.
 
-The target in this situation was the number 5.
+The target in this situation was the number **5**.
 
 What happens if we increase this target?
 
 _Given 10 numbers one to ten, what is the probability of getting a number below **8**?_
 
-The target in this situation is 8.
+The target in this situation is **8**.
 
 There are seven numbers below 8. The probability of getting a number below 8, is therefore 7/10 or 70%.
 
