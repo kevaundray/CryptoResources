@@ -41,11 +41,11 @@ This is the time that the miner completed the block. The degree of variance that
 
 * **Target**
 
-As mentioned in the 'Deep Dive : mempool' chapter, the work that the person is completing in the block. Will be dynamically adjusted, so that on average it takes 10 minutes to complete. This target field is an indicator of how hard the work is. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
+Target is an indicator of how hard the work that the miner has to complete is. In short, this is what Bitcoin uses to ensure that on average, the work takes 10 minutes. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
 
 * **Nonce - Max 32 bytes**
 
-The nonce is a number. It is related to the target and is used by the person who wants to be elected, in order to complete the work. For all intents and purposes, since we are only concerned with the _Blocks_. This is a sufficient enough definition.
+The nonce is a number. It is related to the target and is used by the miner, in order to complete the _work_. For all intents and purposes, since we are only concerned with the _Blocks_. This definition is sufficient. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
 
 #### The List Of Transactions
 
