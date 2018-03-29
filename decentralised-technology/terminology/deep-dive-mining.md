@@ -7,9 +7,7 @@ The reason we introduced miners was to stop 'double spend' attacks. This is wher
 Formalising, what we have learnt so far:
 
 * Miners choose transactions from the **mempool **, they are batched into **blocks**
-* The miner then iterates through the **nonce**
-  value in the \*\*block header, \*\*hashing the block each time until the output is below the desired \*\*target. \*\*This process is known as
-  **Proof of work**
+* The miner then iterates through the **nonce **value in the _block header_, hashing the _block_ each time until the output is below the desired _target_. This process is known as **Proof of work**
   .
 * Once this target has been reached, the miner tells the rest of the network and the \*\*full nodes \*\*verify that the work he has done is correct.
 * If the majority of full nodes verify the block using the consensus rules and deem it a valid block. Then the miner get's a reward, known as the \*\*coinbase transaction. \*\*
