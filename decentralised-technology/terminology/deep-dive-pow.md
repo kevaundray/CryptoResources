@@ -4,8 +4,6 @@ This chapter is being reviewed. Not suitable for consumption.
 
 We will now formalise the concept to which we alluded to, when we stated that the miner needs to do some sort of '_work_' that will last on average 10 minutes.
 
-
-
 The SHA256 hash of "_hello_" is:
 
 > 2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824
@@ -27,7 +25,7 @@ We will focus on the decimal representation.
 
 In order to understand the probabilistic nature of proof of work. We will divulge into an example.
 
-_Given Two numbers, what is the probability of getting one of them?_
+_Given two numbers, what is the probability of getting one of them?_
 
 Answer: 50%
 
