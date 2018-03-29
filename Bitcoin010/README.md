@@ -20,35 +20,35 @@
 
 ---
 
-* [Deep Dive : Coinbase Transaction](Bitcoin010/deep-dive-coinbase-transaction.md)
+* [Deep Dive : Coinbase Transaction](/Bitcoin010/deep-dive-coinbase-transaction.md)
 
 ---
 
-* [Deep Dive : Identity](Bitcoin010/deep-dive-identity.md)
+* [Deep Dive : Identity](/Bitcoin010/deep-dive-identity.md)
 
 ---
 
-* [Deep Dive : Scripts](Bitcoin010/deep-dive-scripts.md)
+* [Deep Dive : Scripts](/Bitcoin010/deep-dive-scripts.md)
 
 ---
 
-* [Deep Dive: Full Nodes](Bitcoin010/deep-dive-full-nodes.md)
+* [Deep Dive: Full Nodes](/Bitcoin010/deep-dive-full-nodes.md)
 
 ---
 
-* [Deep Dive : Mempool](Bitcoin010/deep-dive-mempool.md)
+* [Deep Dive : Mempool](/Bitcoin010/deep-dive-mempool.md)
 
 ---
 
-* [Deep Dive : Blocks](Bitcoin010/deep-dive-blocks.md)
+* [Deep Dive : Blocks](/Bitcoin010/deep-dive-blocks.md)
 
 ---
 
-* [Deep Dive : Proof Of Work](Bitcoin010/deep-dive-pow.md)
+* [Deep Dive : Proof Of Work](/Bitcoin010/deep-dive-pow.md)
 
 ---
 
-* [Deep Dive : Mining](Bitcoin010/deep-dive-mining.md)
+* [Deep Dive : Mining](/Bitcoin010/deep-dive-mining.md)
 
 ## Answers To Bitcoin Test Questions
 
