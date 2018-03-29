@@ -1,6 +1,6 @@
 # Book Index
 
-## 
+For convenience the chapters of all books, will be displayed here.
 
 ## Blockchain Foundations
 
