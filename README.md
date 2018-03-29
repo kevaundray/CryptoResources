@@ -31,11 +31,5 @@ _\*Please read the course outline for the rest of the chapters\*_
 
 
 
-Book does not currently cover:
-
-* Sequence number
-* Extra Nonce
-* Script to Hash. ScriptPubKey is covered.
-
 
 
