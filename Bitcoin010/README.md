@@ -1,6 +1,6 @@
 # Contents Page
 
-* [What Is Money?](/what-is-money.md)
+* [What Is Money?](/Bitcoin010/what-is-money.md)
 
 ---
 
