@@ -106,9 +106,13 @@ This is for the most part a subreddit, and is used as a safe haven for those who
 
 #### **Smart Contract Coding Challenges:**
 
+
+
 This was created as a tool to give new developers, a space to learn how to code smart contracts in a challenging way. Free to make mistakes and practice programming.
 
 #### Youtube Channel - TheLondonBlockChain:
+
+[https://www.youtube.com/channel/UCHBWzcGSrtoLYcasLwGvsow](https://www.youtube.com/channel/UCHBWzcGSrtoLYcasLwGvsow "TheLondonBlockChain - Channel")
 
 TheLondonBlockChain was created to give critical analysis to projects in the community via their white paper and their tech. We also teach programmers how to code smart contracts and the blockchain.
 
@@ -123,6 +127,8 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 **Kev - Stuff**
 
 # Donate
+
+**Patreon - **https://www.patreon.com/decentralisedkev
 
 **Bitcoin** - 1Jn1TZddQynmvpYkv77oGGrWUWMjv4T5Py
 
