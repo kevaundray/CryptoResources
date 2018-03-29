@@ -39,8 +39,8 @@ _What if two miners validate a block at the same time?_
 
 This will be covered in 'Forks' and other chapters
 
-What happens if a miner is not a full node?  
-If a miner is not a full node, this means that he does not have the UTXO set, discussed in 'Deep Dive : Full Nodes' and so he is not able to verify the transactions he is given. If he receives an invalid transaction, one that someone is trying to spend twice, then when he solves the block, the network will reject his block and he will have wasted electricity on the proof of work.
+_What happens if a miner is not a full node?  
+_If a miner is not a full node, this means that he does not have the UTXO set, discussed in 'Deep Dive : Full Nodes' and so he is not able to verify the transactions he is given. If he receives an invalid transaction, one that someone is trying to spend twice, then when he solves the block, the network will reject his block and he will have wasted electricity on the proof of work.
 
 _Can anyone become a miner?_
 
