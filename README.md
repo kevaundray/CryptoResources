@@ -102,11 +102,13 @@ Most of the above were briefly mentioned in version one, and without going into 
 
 #### CoinJudge:
 
+[https://www.reddit.com/r/coinjudge/](https://www.reddit.com/r/coinjudge/ "Coinjudge Subrddit")
+
 This is for the most part a subreddit, and is used as a safe haven for those who want to discuss crypto material using logic and do not want to be censored. It was initially created to alert the community of any ICOs / exchanges that seemed fraudulent in behaviour and or nature. Judgements were based on their white paper and the anonymity of their team amongst other things, hence the name Coinjudge.
 
 #### **Smart Contract Coding Challenges:**
 
-
+[https://github.com/decentralisedkev/SmartContractChallenges](https://github.com/decentralisedkev/SmartContractChallenges "Smart Contract Challenges")
 
 This was created as a tool to give new developers, a space to learn how to code smart contracts in a challenging way. Free to make mistakes and practice programming.
 
@@ -128,7 +130,7 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 
 # Donate
 
-**Patreon - **https://www.patreon.com/decentralisedkev
+**Patreon - **[https://www.patreon.com/decentralisedkev](https://www.patreon.com/decentralisedkev)
 
 **Bitcoin** - 1Jn1TZddQynmvpYkv77oGGrWUWMjv4T5Py
 
