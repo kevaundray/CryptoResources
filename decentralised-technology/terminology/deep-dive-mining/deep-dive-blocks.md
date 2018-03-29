@@ -4,14 +4,14 @@ This chapter is being reviewed. Not suitable for consumption.
 
 _What are blocks in Bitcoin?_
 
-Recall in the overview of bitcoin section, we mentioned that the elected person, collects transactions into batches. We referred to them as batches, in the bitcoin protocol we will call them **Blocks. **Blocks do not only contain information about transactions. A block consists of three components, the **block header, the list of transactions and a transaction counter.**
+Recall in the '_overview of bitcoin' chapter_, we mentioned that the miner, collects transactions into batches. We referred to them as batches. In the bitcoin protocol, they are called **Blocks. **Blocks do not only contain information about transactions. A block consists of three components, the **block header, the list of transactions and a transaction counter.**
 
-Consensus rules concerning block size state that:
+_Consensus rules concerning block size state that:_
 
-* A block must not be larger than 1MB.
-* The block header must not be greater than 80 bytes
-* The transaction counter must not be greater than 9 bytes.
-* The list of transactions may vary, and so it will fill the bulk of the block.
+* _A block must not be larger than 1MB._
+* _The block header must not be greater than 80 bytes_
+* _The transaction counter must not be greater than 9 bytes._
+* _The list of transactions may vary, and so it will fill the bulk of the block._
 
 #### Transaction counter
 
@@ -21,7 +21,7 @@ _This is a number which states the amount of transactions in this block_
 
 _This contains the summary of the block, or the metadata. _
 
-_                      
+_                        
 _**Block Version**
 
 As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
