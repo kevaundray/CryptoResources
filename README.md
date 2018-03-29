@@ -82,11 +82,11 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
 
 # Projects
 
-#### Blockchain Foundations Book:
+#### Blockchain Foundations:
 
 Time taken: 13 hours
 
-[Foundations/README.md](/Foundations/README.md)
+[Click here to read Bitcoin Foundations](/Foundations/README.md)
 
 The purpose of this is to explain cryptography and security in both a way that a non technical person can understand and in a way that a technical person can understand.
 
@@ -94,7 +94,7 @@ The purpose of this is to explain cryptography and security in both a way that a
 
 Time taken: ~ 240 hours
 
-[Bitcoin010/README.md](/Bitcoin010/README.md)
+[Click here to read Bitcoin010](/Bitcoin010/README.md)
 
 Bitcoin010 is a bridging book into the Bitcoin world. It is made for those who have no idea about Bitcoin and want to understand it step by step. The book starts off with an analogy and each chapter builds upon the analogy, breaking down each concept in a digestible manner.
 
@@ -110,19 +110,19 @@ Most of the above were briefly mentioned in version one, and without going into 
 
 #### CoinJudge:
 
-[https://www.reddit.com/r/coinjudge/](https://www.reddit.com/r/coinjudge/ "Coinjudge Subrddit")
+[Click here to visit our reddit community](https://www.reddit.com/r/coinjudge/)
 
 This is for the most part a subreddit, and is used as a safe haven for those who want to discuss crypto material using logic and do not want to be censored. It was initially created to alert the community of any ICOs / exchanges that seemed fraudulent in behaviour and or nature. Judgements were based on their white paper and the anonymity of their team amongst other things, hence the name Coinjudge.
 
 #### **Smart Contract Coding Challenges:**
 
-[https://github.com/decentralisedkev/SmartContractChallenges](https://github.com/decentralisedkev/SmartContractChallenges "Smart Contract Challenges")
+[Click here to visit our smart contract repo](https://github.com/decentralisedkev/SmartContractChallenges)
 
 This was created as a tool to give new developers, a space to learn how to code smart contracts in a challenging way. Free to make mistakes and practice programming.
 
 #### Youtube Channel - TheLondonBlockChain:
 
-[https://www.youtube.com/channel/UCHBWzcGSrtoLYcasLwGvsow](https://www.youtube.com/channel/UCHBWzcGSrtoLYcasLwGvsow "TheLondonBlockChain - Channel")
+[Click here to visit our channel](https://www.youtube.com/channel/UCHBWzcGSrtoLYcasLwGvsow)
 
 TheLondonBlockChain was created to give critical analysis to projects in the community via their white paper and their tech. We also teach programmers how to code smart contracts and the blockchain.
 
@@ -138,7 +138,7 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 
 # Donate
 
-**Patreon - **[https://www.patreon.com/decentralisedkev](https://www.patreon.com/decentralisedkev)
+**Patreon - **[**https://www.patreon.com/thelondonblockchain**](https://www.patreon.com/thelondonblockchain)
 
 **Bitcoin** - 1Jn1TZddQynmvpYkv77oGGrWUWMjv4T5Py
 
