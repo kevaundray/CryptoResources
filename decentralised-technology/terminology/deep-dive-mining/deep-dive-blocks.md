@@ -23,13 +23,11 @@ _This contains the summary of the block, or the metadata. _
 
 * **Block Version**
 
-As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case someone goes back and wants to check the blocks.
+As with transactions, blocks are data structures which can change over time. The block version number is used for backwards compatibility, in case a node is validating an older block and it has changed in structure or semantics from newer blocks. Using the block version number, he will be able to appropriately parse each one.
 
 * **Previous Block Hash**
 
-The Block hash is synonymous with Block Id. The previous block hash is the hash of the contents of the block that came before this block. If the previous block changes, then the previous block hash changes. Since the previous block hash is a part of the contents of the current block, then the hash for the current block also changes. This principle **chains **the **blocks** together.
-
-Again, If one block is changed, then all blocks after that block is also changed. This is because each block is linked to the previous block via the previous block hash, and the previous block hash is calculated by hashing the content of the block.
+The Block hash is synonymous with the Block Id. The previous block hash is the hash of the contents of the block that came before this block. If the previous block's content changes, then the previous block hash changes. Since the previous block hash is a part of the contents of the current block, then the hash for the current block also changes. This principle **chains **the **blocks** together; if one block was changed then it would become evident and the change would ripple to all future blocks. This makes it extremely easy to verify whether your blockchain is different to another nodes.
 
 * **Merkle Root**
 
