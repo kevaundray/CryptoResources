@@ -1,12 +1,10 @@
 # 3905d7917f2b3429490b01cfb60d8f5b!
 
-
-
 # Problem
 
-#### The problem that I hope to addresses, is community. For crypto to be great, we all must believe in the technology. Why does it need to be great? Because it will be here for the rest of your lives, and what we do now will shape the future of crypto and consequently our future, and our children's future. I get excited even trying to comprehend what is happening.
+#### The problem that I hope to addresses, is community. For crypto to be great, we all must believe in the technology and not the hyper. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future. It's hard to comprehend what it happening, when you are living through it.
 
-#### To believe in the technology, we must first understand the technology as best as we can. Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future.
+#### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future.
 
 # I am Non Techy I Want To Contribute
 
@@ -115,6 +113,14 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 **Kev - Stuff**
 
 # Donate
+
+**Bitcoin** - 1Jn1TZddQynmvpYkv77oGGrWUWMjv4T5Py
+
+**Ether** - 0x91E9b0d6DF85cf993ee8Affe4C17424C9cBc8D45
+
+**Bitcoin Cash** - qrp060fge6zdhsax9007lv9r6vrgl6wzlck7uq3ss8
+
+**Monero**: 41nCKcyATLNgTFRpsjmZCHQ3wG4qed2tgciUAY8jwsvPKhYNavG2XiQXxcgqJ87y8yW7UJGPreRfRAySNYyYDUon6x85oze
 
 
 
