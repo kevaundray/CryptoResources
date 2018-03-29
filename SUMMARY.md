@@ -19,9 +19,9 @@
 
 * [What Is Money And Bitcoin Motivation](decentralised-technology/what-is-money.md)
 * [Building Bitcoin From Scratch](decentralised-technology/terminology.md)
-  * [Terminology](decentralised-technology/terminology/title1.md)
-  * [Overview of Bitcoin](decentralised-technology/what-is-bitcoin.md)
-  * [Deep Dive : UTXOs](decentralised-technology/terminology/deep-dive-utxos.md)
+  * [Terminology](decentralised-technology/Bitcoin010/terminology.md)
+  * [Overview of Bitcoin](decentralised-technology/Bitcoin010/what-is-bitcoin.md)
+  * [Deep Dive : UTXOs](decentralised-technology/Bitcoin010/deep-dive-utxos.md)
   * [Deep Dive : Transactions](decentralised-technology/terminology/deep-dive-transactions.md)
   * [Deep Dive : Coinbase Transaction](decentralised-technology/terminology/deep-dive-coinbase-transaction.md)
   * [Deep Dive: Identity](decentralised-technology/terminology/deep-dive-identity.md)
