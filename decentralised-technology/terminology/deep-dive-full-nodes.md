@@ -1,7 +1,5 @@
 # Deep Dive: Full, Pruned and Lightweight Nodes
 
-This chapter is being reviewed. Not suitable for consumption.
-
 Recalling the _'overview of bitcoin' chapter_, we mentioned that once the miner has finished his _work_, and broadcasts his batches of transactions. The others then check that it is correct, and if the majority say it is good, then he will be rewarded with the _coinbase transaction_.
 
 The 'others' which we were referring to, are known as **Fully Validating Nodes. **The job of a fully validating node is similar to that of a judge. They receive transactions and verify them based on their own copy of the confirmed list. _Their own confirmed list_. Their own **Blockchain**. If the full node receives a block from a miner, and it is invalid, then the node rejects that block and it puts the miner who gave it the invalid block on a blacklist for a certain period of time, depending upon the severity of the invalid block. Full nodes that store a complete copy of the blockchain are known as **archival nodes.**
@@ -30,11 +28,9 @@ The Bitcoin software used to download the database, does not trust anybody. When
 
 _What If you want to use the capabilities of Bitcoin on a mobile device?_
 
-Because mobile devices do not have hundreds of GBs of storage. They cannot run a Fully Validating Node. They also most of time cannot run a pruned node either, due to the size of the UTXO list. Furthermore, currently the Bitcoin software only allows archival nodes to convert to being a pruned node. So the mobile would have to become a full node and then convert. 
+Because mobile devices do not have hundreds of GBs of storage. They cannot run a Fully Validating Node. They also most of time cannot run a pruned node either, due to the size of the UTXO list. Furthermore, currently the Bitcoin software only allows archival nodes to convert to being a pruned node. So the mobile would have to become a full node and then convert.
 
 The other option which is **not completely** **trustless **is a **lightweight node** or a **SPV node** or a **thin client**. Lightweight nodes connect to full nodes _that publicly advertise that they are lightweight node compliant, and instead of downloading the whole database, they only download the summary of each batch of transactions, also known as the metadata. In later chapters, we will call this the Block header._
 
 Lightweight nodes send the full node that they have connected to, a filter. This filter tells the full node, what transactions they should send to the lightweight node. The full node will send you the transactions that you are interested in, and enough information for you to **verify** that **your transaction was validated. Since lightweight nodes do not hold a copy of the UTXO list, they cannot verify that they are not being given false information from the node they have connected to. In this case, lightweight nodes usually connect to multiple full nodes incase they are being deceived by one.**
-
-
 
