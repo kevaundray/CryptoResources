@@ -4,23 +4,27 @@
 
 #### The problem that I hope to addresses, is community. For crypto to be great, we all must believe in the technology and not the hyper. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future. It's hard to comprehend what it happening, when you are living through it.
 
-#### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future.
+#### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future. Our future.
 
 # I am Non Techy I Want To Contribute
 
 * #### We do videos that will cater towards paying your taxes and explaining concepts to the non technical. Your feedback on these would help out a lot.
 * #### Every little helps. If you see something that you do not understand. I want to hear.
 * #### If you are confused about a topic concerning crypto. I want to hear.
-* #### Every question or problem you have about crypto, whether small or big, is important. Shoot me and email and I will
+* #### Every question or problem you have about crypto, whether small or big, is important. Shoot me an email and I will do my best to answer you.
 * #### Spread the news about our project.
-* #### Donate towards the contributor, every satoshi helps!
-* #### Subscribe to our channels.
+* #### Donate towards the contributors, every satoshi helps!
+* #### Subscribe to our projects.
 
 # I am Techy I Want To Contribute
 
-#### Thank you for choosing to contribute.
+#### Thank you for choosing to contribute. 
 
-#### Goals
+####  If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
+
+#### You can never have enough proof reads, so if you find a word is mis-spelled then feel free to tell me. We all make mistakes.
+
+#### Here are the current milestones and Targets:
 
 * [x] **Bitcoin010**
   * [x] Overview of Bitcoin
@@ -121,6 +125,4 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 **Bitcoin Cash** - qrp060fge6zdhsax9007lv9r6vrgl6wzlck7uq3ss8
 
 **Monero**: 41nCKcyATLNgTFRpsjmZCHQ3wG4qed2tgciUAY8jwsvPKhYNavG2XiQXxcgqJ87y8yW7UJGPreRfRAySNYyYDUon6x85oze
-
-
 
