@@ -8,12 +8,12 @@
 
 ## BlockChain Foundation
 
-* [Blockchain Foundation - Overview of Hashing](chapter1.md)
-* [Blockchain Foundation - Checksum](second-chapter.md)
-* [Blockchain Foundation - Merkle Roots and Trees](third-chapter.md)
-* [Blockchain Foundation - Symmetric Encryption](symmetric-encryption.md)
-* [Blockchain Foundation - Asymmetric Encryption](blockchain-foundation-asymmetric-encryption.md)
-* [Blockchain Foundation - Digital Signatures](blockchain-foundation-digital-signatures.md)
+* [Blockchain Foundation - Overview of Hashing](decentralised-technology/Foundations/hashing.md)
+* [Blockchain Foundation - Checksum](decentralised-technology/Foundations/checksum.md)
+* [Blockchain Foundation - Merkle Roots and Trees](decentralised-technology/Foundations/merkle.md)
+* [Blockchain Foundation - Symmetric Encryption](decentralised-technology/Foundations/symmetric-encryption.md)
+* [Blockchain Foundation - Asymmetric Encryption](decentralised-technology/Foundations/blockchain-foundation-asymmetric-encryption.md)
+* [Blockchain Foundation - Digital Signatures](decentralised-technology/Foundations/blockchain-foundation-digital-signatures.md)
 
 ## Decentralised Technology
 
