@@ -49,7 +49,5 @@ The nonce is a number. It is related to the target and is used by the miner, in 
 
 #### The List Of Transactions
 
-_This chapter assumes that you have read the 'Deep Dive : Transactions' chapter._
-
-_This field lists all of the transactions in this Block. In other words, all of the transactions that the person who would like to be elected has picked out the mempool._
+_This field lists all of the transactions in this Block, all of the transactions that the miner has picked out the mempool._
 
