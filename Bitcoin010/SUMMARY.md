@@ -1,7 +1,5 @@
 # Contents Page
 
-
-
 * [What Is Money?](Bitcoin010/what-is-money.md)
 
 ---
@@ -51,10 +49,6 @@
 ---
 
 * [Deep Dive : Mining](Bitcoin010/deep-dive-mining.md)
-
----
-
-## 
 
 ## Answers To Bitcoin Test Questions
 
