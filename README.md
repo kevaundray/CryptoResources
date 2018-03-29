@@ -1,6 +1,6 @@
 # 3905d7917f2b3429490b01cfb60d8f5b!
 
-# You look through the commits too eh?
+# Problem
 
 #### Let's talk about community and responsibility. For crypto to be great, we all must believe in the technology, take responsibility for what we have started. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future, and their children's future.
 
