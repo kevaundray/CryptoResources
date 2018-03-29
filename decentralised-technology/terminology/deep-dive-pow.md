@@ -78,22 +78,24 @@ _Why do we use the nonce?_
 
 The nonce is used so that we can generate hash outputs, without changing the underlying data. Note, that hello1, hello2 and hello3 all convey the message _'hello'_.
 
-If we set a target of 4 x 10 ^29. That is 4 with 29 zeroes after it. Then the SHA256 hash output of '_hello1'_ and _hello2_ would not be accepted.
+If we set a target of 4 x 10^29. That is 4 with 29 zeroes after it. Then the SHA256 hash output of '_hello1'_ and '_hello2'_ would not be accepted.
 
-hello3 which gives an output of 3 x 10^29. Would be accepted.
+The SHA256 hash of _'hello3'_ which gives an output of 3 x 10^29. Would be accepted, because it is below the target of 4 x 10^29.
 
-If we increase the target, the probability of finding an output that is less than the target increases. Therefore, the work will be done faster.
+If we increase the target, the probability of finding an output that is less than the target increases. Therefore, a hash will be found faster that is accepted. This is what we refer to as work. 
 
 Bringing it to full circle:
 
-Once the person who would like to be elected, collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
-In the block header, we see a nonce field, this number is incremented until when the whole block is hashed it gives a number less than the target. This is known as **Finding a block. **For clarity, we may refer to this as **Solving a block.**
+Once the miner collects all of the transactions into a block, and all of the other relevant block variables. See '_Deep Dive: Blocks_' for further information.  
+In the block header, there is a _nonce_ field, this number is incremented until when the whole block is hashed it gives a number less than the given target. This is sometimes referred to as **finding a block. **For clarity, we may refer to this as **Solving a block.**
 
 _You mentioned that the nonce has a limit of 32 bytes, what happens when the nonce is exhausted and a number below the target is not found?_
 
-This will be covered in '_Deep Dive: Extra Nonce_'
+One method is to increment the timestamp field, which will reset the nonce variable. The timestamp field is allowed to be incremented by up to two hours into the future.
 
-_How does this make sure the person who wants to be elected solves the problem within 10 minutes?_
+Further details on how to circumvent the nonce will be covered in '_Deep Dive: Extra Nonce_'.
+
+_How does this make sure that the miner solves the problem within 10 minutes?_
 
 The bitcoin protocol checks every 2016 blocks, what the average time for solving the previous 2016 blocks were. If it was less than 10 minutes, then the target is decreased, making it more difficult to find a suitable hash output number. If the time was more than 10 minutes, then the target is increased, making it easier to find a suitable hash output number.
 
