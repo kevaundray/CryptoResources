@@ -4,19 +4,19 @@
 
 ---
 
-* [Overview Of Bitcoin](Bitcoin010/what-is-bitcoin.md)
+* [Overview Of Bitcoin](/Bitcoin010/what-is-bitcoin.md)
 
 ---
 
-* [Terminology](Bitcoin010/terminology.md)
+* [Terminology](/Bitcoin010/terminology.md)
 
 ---
 
-* [Deep Dive : UTXO](Bitcoin010/deep-dive-utxos.md)
+* [Deep Dive : UTXO](/Bitcoin010/deep-dive-utxos.md)
 
 ---
 
-* [Deep Dive : Transactions](Bitcoin010/deep-dive-transactions.md)
+* [Deep Dive : Transactions](/Bitcoin010/deep-dive-transactions.md)
 
 ---
 
