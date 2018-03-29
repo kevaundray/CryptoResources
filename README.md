@@ -26,9 +26,9 @@
 
 #### Thank you for choosing to contribute.
 
-#### If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
+If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
 
-#### You can never have enough proof reads, so if you find a word is mis-spelled then feel free to tell me. We all make mistakes.
+You can never have enough proof reads, so if you find a word is mis-spelled then feel free to tell me. We all make mistakes.
 
 #### Here are the current milestones and Targets:
 
