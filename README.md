@@ -2,7 +2,7 @@
 
 # Problem
 
-#### The problem that I hope to addresses, is community. For crypto to be great, we all must believe in the technology and not the hyper. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future. It's hard to comprehend what it happening, when you are living through it.
+#### Let's talk about community and responsibility. For crypto to be great, we all must believe in the technology, take responsibility for what we have started. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future, and their children's future. 
 
 #### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future. Our future.
 
