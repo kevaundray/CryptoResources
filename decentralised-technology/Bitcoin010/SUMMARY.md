@@ -1,4 +1,4 @@
-# Book Summary
+# Book Summaries
 
 ## BlockChain Foundation
 
@@ -16,6 +16,7 @@
 * [Terminology](decentralised-technology/Bitcoin010/terminology.md)
 
 * [Overview of Bitcoin](decentralised-technology/Bitcoin010/what-is-bitcoin.md)
+
 * [Deep Dive : UTXOs](decentralised-technology/Bitcoin010/deep-dive-utxos.md)
 * [Deep Dive : Transactions](decentralised-technology/Bitcoin010/deep-dive-transactions.md)
 * [Deep Dive : Coinbase Transaction](decentralised-technology/Bitcoin010/deep-dive-coinbase-transaction.md)
