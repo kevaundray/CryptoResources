@@ -33,7 +33,7 @@ The Block hash is synonymous with the Block Id. The previous block hash is the h
 
 _This chapter assumes that you have read the Merkle root chapter._
 
-The leaves of the merkle root, will be the transaction IDs. The merkle root will therefore represent a hash such that if any of the transactions change, then the merkle root changes. Mentioned in the _Deep Dive : Full Node, _the merkle root is used so that lightweight nodes, can request merkle proofs from full nodes to verify that there specific transaction was included in a block. They cannot verify whether the block itself is valid, and so lightweight nodes must have a degree of trust with the full node, that they are requesting the information from.
+The leaves of the merkle root, will be the transaction IDs. The merkle root will therefore represent a hash such that if any of the transactions change, then the merkle root changes. Mentioned in the _Deep Dive : Full Node_, the merkle root is used so that lightweight nodes, can request merkle proofs from full nodes to verify that there specific transaction was included in a block. They cannot verify whether the block itself is valid, and so lightweight nodes must have a degree of trust with the full node, that they are requesting the information from.
 
 * **Timestamp**
 
@@ -41,7 +41,7 @@ This is the time that the miner completed the block. The degree of variance that
 
 * **Target**
 
-As mentioned in the\_ 'Deep Dive : mempool'  \_chapter, the work that the person is completing in the block. Will be dynamically adjusted, so that on average it takes 10 minutes to complete. This target field is an indicator of how hard the work is. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
+As mentioned in the 'Deep Dive : mempool' chapter, the work that the person is completing in the block. Will be dynamically adjusted, so that on average it takes 10 minutes to complete. This target field is an indicator of how hard the work is. We will go into further detail on this in '_Deep Dive : Proof Of Work'_
 
 * **Nonce - Max 32 bytes**
 
