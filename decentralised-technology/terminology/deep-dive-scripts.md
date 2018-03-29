@@ -44,9 +44,9 @@ The digital signature is a signed hash of the **current transaction** that he is
 
 The current transaction will inherently contain the locking script for those he would like to send funds to, and the locked script that this digital signature can unlock.
 
-From the _Deep Dive : Transactions chapter, _note that each input contained a scriptSig section as each input needed to be unlocked separately.
+From the \_Deep Dive : Transactions chapter, \_note that each input contained a scriptSig section as each input needed to be unlocked separately.
 
-For more information on scriptSig and ScriptPubKey, the author highly recommends watching tutorials 5 to 6.7, as the videos go into further detail on this subject.
+_For more information on scriptSig and ScriptPubKey, the author highly recommends watching tutorials 5 to 6.7, as the videos go into further detail on this subject._
 
-https://www.youtube.com/playlist?list=PLt4veyhkEsrjzjP\_Seeu-UbjSnF6xIzgF
+[https://www.youtube.com/playlist?list=PLt4veyhkEsrjzjP\_Seeu-UbjSnF6xIzgF](https://www.youtube.com/playlist?list=PLt4veyhkEsrjzjP_Seeu-UbjSnF6xIzgF)
 
