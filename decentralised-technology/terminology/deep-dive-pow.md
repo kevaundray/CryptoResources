@@ -82,7 +82,7 @@ If we set a target of 4 x 10^29. That is 4 with 29 zeroes after it. Then the SHA
 
 The SHA256 hash of _'hello3'_ which gives an output of 3 x 10^29. Would be accepted, because it is below the target of 4 x 10^29.
 
-If we increase the target, the probability of finding an output that is less than the target increases. Therefore, a hash will be found faster that is accepted. This is what we refer to as work. 
+If we increase the target, the probability of finding an output that is less than the target increases. Therefore, a hash will be found faster that is accepted. This is what we refer to as work.
 
 Bringing it to full circle:
 
@@ -101,7 +101,7 @@ The bitcoin protocol checks every 2016 blocks, what the average time for solving
 
 _Why 2016 blocks?_
 
-If every block should take 10 minutes. Then 2016 blocks will take 2016 minutes.This is equivalent to two weeks .
+If every block should take on average, 10 minutes. Then 2016 blocks should take 20160 minutes.This is equivalent to two weeks .
 
 _Why was two weeks chosen and not every block or every day?_
 
@@ -109,7 +109,7 @@ If we set it to every block, then every time someone **solves a block, ** the di
 
 If we set it to be one month, then the difficulty would take too long to change.
 
-Two weeks seems like a happy medium.
+Both options either change too quickly and will not account for outliers, or does not change often enough to account for an increase or decrease in hashing power. Two weeks seems like a happy medium.
 
 _Note: There is a bug in the bitcoin protocol which calculates the difficulty of every block up to, but not including the 2016 block. The behaviour mentioned above was the intended. _
 
