@@ -2,11 +2,9 @@
 
 This chapter is being reviewed. Not suitable for consumption.
 
-
-
 Recalling the _'overview of bitcoin' chapter_, we mentioned that once the miner has finished his _work_, and broadcasts his batches of transactions. The others then check that it is correct, and if the majority say it is good, then he will be rewarded with the _coinbase transaction_.
 
-The 'others' which we were referring to, are known as **Fully Validating Nodes. **The job of a fully validating node is similar to that of a judge. They receive transactions and verify them based on their own copy of the confirmed list. _Their own confirmed list_. Their own **Blockchain**. If the full node receives a block from a miner, and it is invalid, then the node rejects that block and it puts the miner who gave it the invalid block on a blacklist for a certain period of time, depending upon the severity of the invalid block.
+The 'others' which we were referring to, are known as **Fully Validating Nodes. **The job of a fully validating node is similar to that of a judge. They receive transactions and verify them based on their own copy of the confirmed list. _Their own confirmed list_. Their own **Blockchain**. If the full node receives a block from a miner, and it is invalid, then the node rejects that block and it puts the miner who gave it the invalid block on a blacklist for a certain period of time, depending upon the severity of the invalid block. Full nodes that store a complete copy of the blockchain are known as **archival nodes.**
 
 _How do Full nodes verify whether a transaction is valid?_
 
@@ -18,11 +16,11 @@ If you can imagine, storing a database with millions of transactions will cost a
 
 _Can a pruned node, still validate transactions?_
 
-Yes, although a pruned node has deleted some percentage of their previous transactions. They have not deleted the UTXO list, which is what is used to verify whether a transaction is valid or not. A pruned node, can therefore still be classified as a full node. The UTXO list is usually no more than 5-10GB in storage.
+Yes, although a pruned node has deleted some percentage of their previous transactions. They have not deleted the UTXO list, which is what is used to verify whether a transaction is valid or not. A pruned node, can therefore still be classified as a full node. The UTXO list is _usually_ no more than 5-10GB in storage.
 
-_Why does the full node store the database full of transactions, when all that is needed is the UTXO list?_
+_Why does the archival node store the whole blockchain, when all that is needed is the UTXO list?_
 
-Imagine a situation where another person, wanted to join Bitcoin. How would they know the current state of the database? They would need to download it, and it can be downloaded from a full node.
+Imagine a situation where another person, wanted to join Bitcoin. How would they know the current state of the database? They would need to download it, and it can be downloaded from a archival node.
 
 _What if the full node sends the newcomer a tampered database?_
 
