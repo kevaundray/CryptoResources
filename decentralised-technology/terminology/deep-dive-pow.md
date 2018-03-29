@@ -76,9 +76,9 @@ The number that is appended onto the end of hello is known as the **nonce**.
 
 _Why do we use the nonce?_
 
-The nonce is used so that we can generate hash outputs, without changing the data. Note, that hello1, hello2 and hello3 all have the original data untouched. The hello part.
+The nonce is used so that we can generate hash outputs, without changing the underlying data. Note, that hello1, hello2 and hello3 all convey the message _'hello'_.
 
-If we set a target of 4 x 10 ^29. That is 4 with 29 zeroes after it. Then hello1 and hello2 would not be accepted.
+If we set a target of 4 x 10 ^29. That is 4 with 29 zeroes after it. Then the SHA256 hash output of '_hello1'_ and _hello2_ would not be accepted.
 
 hello3 which gives an output of 3 x 10^29. Would be accepted.
 
