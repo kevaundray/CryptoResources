@@ -2,11 +2,11 @@
 
 This chapter is being reviewed. Not suitable for consumption.
 
-We will now formalise the concept to which we alluded to, when we stated that the person who would like to be elected needs to do some sort of 'work' that will last 10 minutes.
+We will now formalise the concept to which we alluded to, when we stated that the miner needs to do some sort of '_work_' that will last on average 10 minutes.
 
-When we hash an input.
 
-For example the SHA256 hash of "hello" is:
+
+The SHA256 hash of "_hello_" is:
 
 > 2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824
 
@@ -23,9 +23,9 @@ This can also be represented in words and characters, or ascii. The equivalent w
 
 These are all different representations of the same output.
 
-We will focus on the binary format and the decimal format.
+We will focus on the decimal representation.
 
-In order to understand the probabilistic nature of proof of work. We will divulge into a simpler example.
+In order to understand the probabilistic nature of proof of work. We will divulge into an example.
 
 _Given Two numbers, what is the probability of getting one of them?_
 
