@@ -7,10 +7,10 @@ The reason we introduced miners was to stop 'double spend' attacks. This is wher
 Formalising, what we have learnt so far:
 
 * Miners choose transactions from the **mempool **, they are batched into **blocks**
-* The miner then iterates through the **nonce **value in the _block header_, hashing the _block_ each time until the output is below the desired _target_. This process is known as **Proof of work**
-  .
-* Once this target has been reached, the miner tells the rest of the network and the \*\*full nodes \*\*verify that the work he has done is correct.
-* If the majority of full nodes verify the block using the consensus rules and deem it a valid block. Then the miner get's a reward, known as the \*\*coinbase transaction. \*\*
+* The miner then verifies each transaction is valid. For a miner to do this, he must also be a full node, as he needs to have the UTXO list to verify whether an input has been spent already.
+* The miner then iterates through the **nonce **value in the _block header_, hashing the _block_ each time until the output is below the desired _target_. This process is known as **Proof of work.**
+* Once the desired hash output is acquired , the miner broadcasts to the rest of the network and the _full nodes_ verify that the work he has done is _correct_.
+* If the majority of full nodes validate the block using the consensus rules and deem it a valid block, then the miner is rewarded with the coinbase transaction.
   _The coinbase transaction is included in the block that the miner has mined and if the block is valid, so is his transaction._
 * If the majority of full nodes verify, the block and it is deemed as invalid, i.e. it does not comply with the consensus rules. Then the block will be rejected, and the miner will be kicked from the network for supplying an invalid block for a certain period of time, depending on what the violation of the rules were.
 
