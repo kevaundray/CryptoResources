@@ -2,9 +2,7 @@
 
 This chapter is being reviewed. Not suitable for consumption.
 
-The elected person we have continually eluded to, is known in the Bitcoin protocol as a**miner**.
-
-As mentioned before, the reason we have miners is to stop 'double spend' attacks, whereby a bad actor tries to spend the same funds twice.
+The reason we introduced miners was to stop 'double spend' attacks. This is where a bad actor tries to spend the same funds twice.
 
 Formalising, what we have learnt so far:
 
