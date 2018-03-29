@@ -22,9 +22,9 @@ _Why does the archival node store the whole blockchain, when all that is needed 
 
 Imagine a situation where another person, wanted to join Bitcoin. How would they know the current state of the database? They would need to download it, and it can be downloaded from a archival node.
 
-_What if the full node sends the newcomer a tampered database?_
+_What if the archival node sends the newcomer a tampered database?_
 
-The software used to download the database, does not trust anybody. When a user downloads the database from another full node, the software checks every transaction to make sure that they are all valid. Any node that operates with a tampered database, will be excluded by the others. Remember, in the network no-one trusts anybody, if a node receives any sort of data, it is always validated against their own database and UTXO list.
+The Bitcoin software used to download the database, does not trust anybody. When a new node downloads the database from an archival node, the software checks every transaction to make sure that they are all valid starting from the first transaction ever transacted on Bitcoin. Furthermore, any node that operates with a tampered database, will be excluded by the others. Remember, in the network no-one is trusted, if a full node receives data from another node, it is always validated against their own database and UTXO list.
 
 **Lightweight Nodes**
 
