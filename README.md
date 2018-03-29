@@ -6,7 +6,7 @@
 
 #### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future. Our future.
 
-# I am Non Techy I Want To Contribute
+# I am Non Techy, I Still Want To Contribute
 
 * We do videos that will cater towards paying your taxes and explaining concepts to the non technical. Your feedback on these would help out a lot.
 
@@ -22,7 +22,7 @@
 
 * Subscribe to our projects.
 
-# I am Techy I Want To Contribute
+# I am Techy And I Want To Contribute
 
 #### Thank you for choosing to contribute.
 
