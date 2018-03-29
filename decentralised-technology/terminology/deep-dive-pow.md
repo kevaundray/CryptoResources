@@ -54,27 +54,27 @@ The target in this situation is **8**.
 There are seven numbers below 8. The probability of getting a number below 8, is therefore 7/10 or 70%.
 
 **When the target increases the chances of finding a number below the target increases. The difficulty therefore decreases.  
-If the target were to decrease, the probability of finding a number below the target decreases. The difficulty increases.**
+When the target decreases, the probability of finding a number below the target decreases. The difficulty increases.**
 
 _Why is this important in Bitcoin?_
 
-Going back to our hashes above. We noted that the hash of a particular input could be written as a number.
+Going back to our hashes above. We noted that the hash of a particular input could be written as a decimal representation.
 
-The hash of "hello**1**" as a decimal would be:
+The SHA256 hash of "hello**1**" is:
 
 > 65997287284813763330462178930919765760826011093554635193003018840861226627243
 
-The hash of "hello**2**" as a decimal would be:
+The SHA256 hash of "hello**2**" is:
 
 > 61135646788719019442779017887047393799578795125433597219691452054841458984676
 
-The hash of "hello**3**" as a decimal would be:
+The SHA256 hash of "hello**3**" is:
 
 > 32528433039767960737972867567026659462191290014937929233691821910499380271760
 
-The number that is appended onto the end of hello is known as the \*\*nonce.
+The number that is appended onto the end of hello is known as the **nonce**.
 
-\*\*_Why do we use the nonce?_
+_Why do we use the nonce?_
 
 The nonce is used so that we can generate hash outputs, without changing the data. Note, that hello1, hello2 and hello3 all have the original data untouched. The hello part.
 
