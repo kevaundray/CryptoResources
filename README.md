@@ -138,7 +138,7 @@ TheLondonBlockChain was created to give critical analysis to projects in the com
 
 # Donate
 
-**Patreon - **[**https://www.patreon.com/thelondonblockchain**](https://www.patreon.com/thelondonblockchain)
+**Patreon** **- **[**https://www.patreon.com/thelondonblockchain**](https://www.patreon.com/thelondonblockchain)
 
 **Bitcoin** - 1Jn1TZddQynmvpYkv77oGGrWUWMjv4T5Py
 
