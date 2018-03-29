@@ -2,13 +2,15 @@
 
 This chapter is being reviewed. Not suitable for consumption.
 
-Recalling the '\_overview of bitcoin' \_chapter, we mentioned that once the person would like to be elected has finished his work, and broadcasts his batches of solutions. The others then check that it is correct, and if the majority say it is good, then he will be rewarded.
 
-The 'others' which we were referring to, are known as **Fully Validating Nodes. **The job of a fully validating node is similar to that of a judge. They receive transactions and verify them based on their own copy of the database. Their own list. Their own blockchain. If the node receives a block from a person who would like to be elected, and it is invalid, then the node rejects that block and it puts the person who gave it the invalid block on a blacklist for a certain period of time.
+
+Recalling the _'overview of bitcoin' chapter_, we mentioned that once the miner has finished his _work_, and broadcasts his batches of transactions. The others then check that it is correct, and if the majority say it is good, then he will be rewarded with the _coinbase transaction_.
+
+The 'others' which we were referring to, are known as **Fully Validating Nodes. **The job of a fully validating node is similar to that of a judge. They receive transactions and verify them based on their own copy of the confirmed list. _Their own confirmed list_. Their own **Blockchain**. If the full node receives a block from a miner, and it is invalid, then the node rejects that block and it puts the miner who gave it the invalid block on a blacklist for a certain period of time, depending upon the severity of the invalid block.
 
 _How do Full nodes verify whether a transaction is valid?_
 
-A full node will check whether all of the inputs in that transaction are unspent. This is made easier with a feature in Bitcoin called a **UTXO list. **The UTXO list is an indexed list of all unspent UTXOs. The UTXO list is different to the database of transactions, the blockchain.
+A full node will check whether all of the inputs in that transaction are unspent. This is made easier with a feature in Bitcoin called a **UTXO list. **The UTXO list is an indexed list of all unspent TXOs. The UTXO list is different to the confirmed database of transactions, the blockchain.
 
 **Pruned Nodes**
 
