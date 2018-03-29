@@ -1,7 +1,5 @@
 # **Deep Dive : Blocks**
 
-This chapter is being reviewed. Not suitable for consumption.
-
 _What are blocks in Bitcoin?_
 
 Recall in the '_overview of bitcoin' chapter_, we mentioned that the miner, collects transactions into batches. We referred to them as batches. In the bitcoin protocol, they are called **Blocks. **Blocks do not only contain information about transactions. A block consists of three components, the **block header, the list of transactions and a transaction counter.**
