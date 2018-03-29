@@ -86,11 +86,15 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
 
 Time taken: 13 hours
 
+[SUMMARY.md](/SUMMARY.md)
+
 The purpose of this is to explain cryptography and security in both a way that a non technical person can understand and in a way that a technical person can understand.
 
 #### Bitcoin010:
 
 Time taken: ~ 240 hours
+
+[Bitcoin010/SUMMARY.md](/Bitcoin010/SUMMARY.md)
 
 Bitcoin010 is a bridging book into the Bitcoin world. It is made for those who have no idea about Bitcoin and want to understand it step by step. The book starts off with an analogy and each chapter builds upon the analogy, breaking down each concept in a digestible manner.
 
