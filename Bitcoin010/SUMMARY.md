@@ -52,7 +52,7 @@
 
 ## Answers To Bitcoin Test Questions
 
-* [Answers - Deep Dive : UTXOs](answers-to-test-questions/answers-deep-dive-utxos.md)
+* [Answers - Deep Dive : UTXOs](/Bitcoin010/answers-deep-dive-utxos.md)
 
 
 
