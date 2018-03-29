@@ -1,7 +1,5 @@
 # Deep Dive: Mempool
 
-This chapter is being reviewed. Not suitable for consumption.
-
 Following from the _overview of Bitcoin chapter_. We mentioned that the miner will
 
 > take as many transactions as the rules says he can take, from this list of unconfirmed transactions
@@ -10,11 +8,7 @@ This list of unconfirmed transactions is known as the **memory pool**. Each full
 
 In the Bitcoin network, the miner is only allowed to take 1MB of transactions. These are a part of the bitcoin consensus rules.
 
-There has been debate on allowing the miner to take more than 1MB, so more transactions can be processed in a single batch. This debate ties into the question of '_how do we make Bitcoin scale to that of VISA or Mastercard?' _This is however beyond the scope of this book and will not be discussed further.
-
-
-
-
+There has been debate on allowing the miner to take more than 1MB, so more transactions can be processed in a single batch. This debate ties into the question of '\_how do we make Bitcoin scale to that of VISA or Mastercard?' \_This is however beyond the scope of this book and will not be discussed further.
 
 ~~NOTE TO SELF:~~
 
