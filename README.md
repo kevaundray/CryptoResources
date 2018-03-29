@@ -8,19 +8,25 @@
 
 # I am Non Techy I Want To Contribute
 
-* #### We do videos that will cater towards paying your taxes and explaining concepts to the non technical. Your feedback on these would help out a lot.
-* #### Every little helps. If you see something that you do not understand. I want to hear.
-* #### If you are confused about a topic concerning crypto. I want to hear.
-* #### Every question or problem you have about crypto, whether small or big, is important. Shoot me an email and I will do my best to answer you.
-* #### Spread the news about our project.
-* #### Donate towards the contributors, every satoshi helps!
-* #### Subscribe to our projects.
+* We do videos that will cater towards paying your taxes and explaining concepts to the non technical. Your feedback on these would help out a lot.
+
+* Every little helps. If you see something that you do not understand. I want to hear.
+
+* If you are confused about a topic concerning crypto. I want to hear.
+
+* Every question or problem you have about crypto, whether small or big, is important. Shoot me an email and I will do my best to answer you.
+
+* Spread the news about our project.
+
+* Donate towards the contributors, every satoshi helps!
+
+* Subscribe to our projects.
 
 # I am Techy I Want To Contribute
 
-#### Thank you for choosing to contribute. 
+#### Thank you for choosing to contribute.
 
-####  If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
+#### If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
 
 #### You can never have enough proof reads, so if you find a word is mis-spelled then feel free to tell me. We all make mistakes.
 
