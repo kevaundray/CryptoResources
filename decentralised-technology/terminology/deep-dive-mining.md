@@ -12,25 +12,28 @@ Formalising, what we have learnt so far:
 * Once the desired hash output is acquired , the miner broadcasts to the rest of the network and the _full nodes_ verify that the work he has done is _correct_.
 * If the majority of full nodes validate the block using the consensus rules and deem it a valid block, then the miner is rewarded with the coinbase transaction.
   _The coinbase transaction is included in the block that the miner has mined and if the block is valid, so is his transaction._
-* If the majority of full nodes verify, the block and it is deemed as invalid, i.e. it does not comply with the consensus rules. Then the block will be rejected, and the miner will be kicked from the network for supplying an invalid block for a certain period of time, depending on what the violation of the rules were.
+* If the majority of full nodes verify, the block and it is deemed as invalid, i.e. it does not comply with the consensus rules. Then the block will be rejected, and the miner will be kicked from the network for supplying an invalid block for a certain period of time, depending on what the violation of the rules were. The miner would be at an economic loss due to doing the proof of work.
 
-The miners must follow the Bitcoin consensus rules, which have a section that tells them how to verify transactions and how to submit a valid block.
+**The miners must follow the Bitcoin consensus rules which are enforced by the full nodes. **
 
-\_Where can you find the list of consensus rules? \_
+_Where can you find the list of consensus rules?_
 
-In the code. To my knowledge there is no website that has gathered the explicit rules in terms of mining blocks and so in order to find them , you will need to inspect the code and or ask another miner who has experience.
+In the code. To my knowledge there is no website that has gathered the explicit rules in terms of mining blocks and so in order to find them , you will need to inspect the code and or ask another miner who has enough experience.
 
 We will now outline the process in which mining is done in regards to the whole Bitcoin network:
 
-1. Alice creates a transaction. The transaction states that only the person with a specific public address, may spend these funds. This person is Bob.
-2. She then broadcasts this transaction to the rest of the network.
-3. Each person on the network, who is a full node, collects these transactions into their
-   **mempool.**
-4. If a miner is also a full node, then the miner verifies the transaction and starts to build a block with Alices transaction and many other transactions.
-5. The miner then starts to \*\*mine the block \*\* looking for a hash of the block header which equates to less than the target number, by incrementing the nonce value.
-6. Once this hash hash been found. The miner then broadcasts this block to the rest of the network. If no other miner has broadcasted a block with those transactions and the block is valid. Then he will rewarded with the coinbase transaction.
+1. Alice creates a transaction. The transaction states that only the person with a specific **public key hash **, may spend these funds. The person in ownership of the public key and can also provide a signature with the corresponding private key, is Bob. 
+2. She then broadcasts this transaction to the full nodes in the network.
+3. Each person on the network, who is a full node, collects these transactions into their **mempool.**
+4. If a miner is also a full node, then the miner verifies the transaction and starts to build a block with Alice's transaction and many other transactions.
+5. The miner then starts to mine the block looking for a nonce value in the block header which when hashed, equates to less than the target number; Proof Of Work. 
+6. Once this nonce and hash been found. The miner then broadcasts this block to the rest of the network. If no other miner has broadcasted a block with those transactions and the block is valid. Then he will rewarded with the coinbase transaction.
 
 _Possible questions:_
+
+_Why do full nodes have mempools if they are not going to mine?_
+
+One reason a full node who is not a miner, may keep a mempool is so that they re-broadcast the transactions in their mempool. In hopes that it will reach a miner faster.
 
 _What if two miners validate a block at the same time?_
 
