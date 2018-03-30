@@ -8,8 +8,9 @@
 
 ## Consensus Algorithms
 
-* ### Proof Of Work
 * ### Proof Of Stake
+
+  * ### Proof Of Work
 * ### Casper
 
 ## Glossary
