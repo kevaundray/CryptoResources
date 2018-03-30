@@ -29,4 +29,6 @@
 ## Consensus010
 
 * [Plan](consensus010/plan.md)
+* [Index](consensus010/index.md)
+* Glossary
 
