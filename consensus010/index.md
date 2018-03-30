@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* What is a consensus algorithm?
+* What is a consensus algorithm? in this section, I will include what these algorithms are trying to solve.
 
 * What is byzantine fault tolerance?
 
