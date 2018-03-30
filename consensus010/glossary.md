@@ -1,10 +1,8 @@
 # Glossary
 
-
-
 #### Proof Of Work
 
-##### Bitcoin, 
+Bitcoin, Litecoin
 
 
 
