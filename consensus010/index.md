@@ -36,17 +36,17 @@
 
 * Proof Of Importance
 
+* Proof Of Identity
+
 * Byzantine Fault Tolerance
 
 * Practical Byzantine Fault Tolerance
 
-* Federated Byzantine Agreement 
+* Federated Byzantine Agreement
 
 * Hashgraph
 
 * Tangle
-
-
 
 ## Glossary
 

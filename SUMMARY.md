@@ -32,4 +32,5 @@
 * [Index](consensus010/index.md)
 * [Proof Of Work](consensus010/proof-of-work.md)
 * [Glossary](consensus010/glossary.md)
+* [Proof Of Identity](consensus010/proof-of-identity.md)
 
