@@ -16,6 +16,8 @@
 
 * Casper
 
+* Proof Of Burn
+
 ## Glossary
 
 
