@@ -30,5 +30,6 @@
 
 * [Plan](consensus010/plan.md)
 * [Index](consensus010/index.md)
-* Glossary
+* [Proof Of Work](consensus010/proof-of-work.md)
+* [Glossary](consensus010/glossary.md)
 

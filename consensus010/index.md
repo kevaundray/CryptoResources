@@ -10,13 +10,9 @@
 
 * ### Proof Of Work
 * ### Proof Of Stake
-* ### 
-
-
+* ### Casper
 
 ## Glossary
-
-
 
 
 
