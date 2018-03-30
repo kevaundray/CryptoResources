@@ -1,9 +1,8 @@
-# Book Index
-
-For convenience the chapters of all books, will be displayed here.
+# Summary
 
 ## Blockchain Foundations
 
+* [Introduction](README.md)
 * [Overview Of Hashing](Foundations/hashing.md)
 * [Checksum](Foundations/checksum.md)
 * [Merkle Trees](Foundations/merkle.md)
@@ -27,7 +26,7 @@ For convenience the chapters of all books, will be displayed here.
 * [Deep Dive : Proof Of Work](Bitcoin010/deep-dive-pow.md)
 * [Deep Dive : Mining](Bitcoin010/deep-dive-mining.md)
 
-## 
+## Consensus010
 
-
+* [Plan](consensus010/plan.md)
 
