@@ -29,8 +29,8 @@
 ## Consensus010
 
 * [Plan](consensus010/plan.md)
-* [Template](consensus010/template.md)
 * [Index](consensus010/index.md)
+* [Template](consensus010/template.md)
 * [Proof Of Work](consensus010/proof-of-work.md)
 * [Glossary](consensus010/glossary.md)
 * [Proof Of Identity](consensus010/proof-of-identity.md)
