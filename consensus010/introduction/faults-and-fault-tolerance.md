@@ -15,23 +15,27 @@ Examples of such faults:
 * Packets never arrive
 * System has lost internet connection
 
-When building decentralised system it is important to account for the possible failures that a single node or the whole network may experience. When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning. These may not be discussed in this book, unless a consensus algorithm deals with it._
+When building decentralised system it is important to account for the possible failures that a node or the whole network may experience. 
 
-#### **Node Failures**
+### Network Failures
 
-There are seven types of node failures. The less severe is known as fail-stop and the most severe is known as byzantine.
+When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning. These may not be discussed in this book, unless a consensus algorithm deals with it._
+
+### **Node Failures**
+
+There are seven main types of node failures. The less severe is known as fail-stop and the most severe is known as byzantine. The most severe failure covers the less severe types of failures and so we will only cover the least severe and the most severe.
 
 #### Fail-Stop
 
-If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network can immediately know which node has stopped working. Therefore, one **assumption** that can be made with fail-stop failures, is that we know which node has stopped working
+If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network immediately knows which node has stopped working. One **assumption** that can be made with fail-stop failures, is that we know which node has stopped working.
 
 **Checkpoint/Restart**
 
-One solution for fail-stop failures, is to take regular checkpoints of the system and when the system fails. You reboot the system to the last good checkpoint.
+One solution for fail-stop failures, is to take regular checkpoints of the system and when the system fails. You reboot the system to the last good checkpoint. This is assuming that it is not a hardware problem.
 
 #### **Byzantine Failures**
 
-Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system.
+Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system because although they do not halt the machine, they can propagate false information.
 
 One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, but will result in incorrect calculations and depending upon the system, this could be catastrophic.
 
