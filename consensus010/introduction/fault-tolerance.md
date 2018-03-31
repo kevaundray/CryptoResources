@@ -8,3 +8,11 @@ The above scenario is impossible and in order to build a system, we must make st
 
 The remaing chapters of this book will inform the reader, on the consensus algorithms used in cryptocurrency that allow the system to have byzantine fault tolerance.
 
+
+
+**The author would like to include the two generals problem, the byzantine generals problem and the runtime for BGP.**
+
+Practical BFT was introduced as a solution for BGP, which is derived from Two generals.
+
+PBFT 
+
