@@ -15,7 +15,7 @@ Examples of such faults:
 * Packets never arrive
 * System has lost internet connection
 
-When building decentralised system it is important to account for the possible failures that a single node or the whole network may experience. When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL.
+When building decentralised system it is important to account for the possible failures that a single node or the whole network may experience. When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning. These may not be discussed in this book, unless a consensus algorithm deals with it._
 
 #### **Node Failures**
 
@@ -32,6 +32,4 @@ One solution for fail-stop failures, is to take regular checkpoints of the syste
 #### **Byzantine**
 
 Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system. One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, and may result in some unexpected side-effects. Another example of a byzantine failure, is mismatched software versions; if one node is running on version one and the other node is running on version two, then when they initiate communication, the node running version one will be sending invalid messages.
-
-
 
