@@ -4,7 +4,9 @@
 
 This section wil be split into two parts. A quick summary section, that will sum up the algorithm in a paragraph or so. And a detailed summary part that will go into detail on how the algorithm is implemented. This will be similar to the high-level overview and low-level overview in bitcoin010.
 
-##### Simple Summary
+ In miner needed, A quick section that states whether a miner is needed. For example, Minable : Yes
+
+##### Short Summary
 
 ##### Detailed Summary
 
@@ -28,9 +30,7 @@ Short sentence talking about why it is an disadvantage or how it is an disadvant
 
 This section will talk about possible attack vectors and how or why they can be done via this algorithm.
 
-##### An Example attack vector 
+##### An Example attack vector
 
 Short or long sentence talking about what the attack vector is and how it will be initiated.
-
-
 
