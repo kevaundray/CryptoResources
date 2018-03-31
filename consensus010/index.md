@@ -2,6 +2,12 @@
 
 ## Introduction
 
+* What is a distributed system?
+
+* Faults and Byzantine Fault Tolerance
+
+* Byzantine Generals Problem
+
 * What is a consensus algorithm? in this section, I will include what these algorithms are trying to solve.
 
 * What is byzantine fault tolerance?
@@ -44,9 +50,11 @@
 
 * Federated Byzantine Agreement
 
+* Instanbul Fault Tolerance
+
 * Hashgraph
 
-* Tangle
+* Tangle \(Not fault tolerant\)
 
 ## Glossary
 
