@@ -1,8 +1,4 @@
 # Consensus algorithm
 
-
-
-Liveness, safety,fault tolerant
-
-
+Liveness, safety,fault tolerant.
 
