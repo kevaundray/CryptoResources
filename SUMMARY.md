@@ -32,7 +32,7 @@
 * [Index](consensus010/index.md)
 * [Template](consensus010/template.md)
 * [Introduction](consensus010/introduction.md)
-  * What Is A Distributed System?
+  * [What Is A Distributed System?](consensus010/introduction/what-is-a-distributed-system.md)
 * [Proof Of Work](consensus010/proof-of-work.md)
 * [Proof Of Identity](consensus010/proof-of-identity.md)
 * [Glossary](consensus010/glossary.md)
