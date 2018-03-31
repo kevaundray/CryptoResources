@@ -12,6 +12,8 @@ Examples of such faults:
 * Hacked
 * Hardware problem
 * Accidental delete
+* Packets never arrive
+* System has lost internet connection
 
 When building decentralised system it is important to account for the possible failures that a single node may experience. Most of these failures can be automated away with scripts. For example, if your system crashes, then a script can be written to reboot it.
 
