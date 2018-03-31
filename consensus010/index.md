@@ -50,7 +50,9 @@
 
 * Federated Byzantine Agreement
 
-* Instanbul Fault Tolerance
+* Instanbul Byzantine Fault Tolerance
+
+* Delegated Byzantine Fault Tolerance
 
 * Hashgraph
 
