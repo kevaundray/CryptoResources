@@ -15,7 +15,7 @@ Examples of such faults:
 * Packets never arrive
 * System has lost internet connection
 
-When building decentralised system it is important to account for the possible failures that a node or the whole network may experience. 
+When building decentralised system it is important to account for the possible failures that a node or the whole network may experience.
 
 ### Network Failures
 
@@ -43,5 +43,5 @@ Another example of a byzantine failure, is mismatched software versions; if one 
 
 Nodes that exhibit byzantine failure behavior are known as **traitor nodes, ** and cannot be trusted by the rest of the network.
 
-Unlike fail-stop, with byzantine failures, we cannot make any assumptions up on the network, as nodes that exhibit byzantine failures can also function as normal to other nodes.
+Unlike fail-stop, with byzantine failures, we cannot make any assumptions up on the network, as nodes that exhibit byzantine failures can also function as normal to other nodes. One example of this is if a node is hacked and the hacker programs the node to send good information to some nodes and incorrect information to others.
 
