@@ -8,9 +8,11 @@ To do this, the network must come to a **consensus** on which node is faulty and
 
 In practice, the above scenario is impossible and in order to build a system, we must make some assumptions. These assumptions have to be strong and impractical to realise. If any of the assumptions are broken, then the algorithm used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
 
+
+
 ##### Consensus Algorithms
 
-Decentralised networks use consensus algorithms to arrive at a shared state. Consensus algorithms must be byzantine fault tolerant. So the consensus algorithm must allow the system to operate even if nodes exhibit byzantine failures or fail-stop failures. 
+Decentralised networks use consensus algorithms to arrive at a shared state. Consensus algorithms must be byzantine fault tolerant. So the consensus algorithm must allow the system to operate even if nodes exhibit byzantine failures or fail-stop failures.
 
 The remaing chapters of this book will inform the reader, on the consensus algorithms used in cryptocurrency that allow the system to have byzantine fault tolerance.
 

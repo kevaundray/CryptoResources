@@ -32,3 +32,5 @@ _The definitions for a decentralised system are referenced from Vitalik Buterin:
 
 **The author will clarify the fact that some people say distributed when they mean decentralisation and vice versa**
 
+The goal of a distributed decentralised system is for every participating node to arrive at the same state.
+
