@@ -6,3 +6,5 @@ For a decentralised network to have byzantine fault tolerance, it must be able t
 
 The above scenario is impossible and in order to build a system, we must make strong assumptions. If any of the assumptions are incorrect, then the algorithm used to combat the byzantine failures, will not be byzantine fault tolerant.
 
+The remaing chapters of this book will inform the reader, on the consensus algorithms used in cryptocurrency that allow the system to have byzantine fault tolerance.
+
