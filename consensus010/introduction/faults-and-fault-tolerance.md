@@ -1,4 +1,4 @@
-# Faults
+# Faults and Failures
 
 Nodes on a decentralised system may experience faults at any moment.
 
