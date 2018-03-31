@@ -1,5 +1,7 @@
 # Distributed And Decentralised Systems
 
+_Not suitable for consumption_
+
 #### Distributed Systems
 
 The definition for what a distributed system is will change depending on the person you are asking.
