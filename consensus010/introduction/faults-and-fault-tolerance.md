@@ -37,5 +37,7 @@ One example of a byzantine failure is corruption of data upon transmission. This
 
 Another example of a byzantine failure, is mismatched software versions; if one node is running on version one and the other node is running on version two, then when they communicate, the node running version one will be sending invalid messages to the other node.
 
-Nodes that exhibit byzantine failure behavior are known as **traitor nodes, ** and cannot be trusted by the rest of the network. 
+Nodes that exhibit byzantine failure behavior are known as **traitor nodes, ** and cannot be trusted by the rest of the network.
+
+Unlike fail-stop, with byzantine failures, we cannot make any assumptions up on the network, as nodes that exhibit byzantine failures can also function as normal to other nodes.
 
