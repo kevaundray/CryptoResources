@@ -1,7 +1,5 @@
 # Faults and Fault Tolerance
 
-
-
 Nodes on a decentralised system may experience faults at any moment.
 
 Examples of such faults:
@@ -15,7 +13,7 @@ Examples of such faults:
 * Hardware problem
 * Accidental delete
 
-
+When building decentralised system
 
 
 

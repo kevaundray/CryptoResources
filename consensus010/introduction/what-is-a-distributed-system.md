@@ -26,9 +26,7 @@ This definition will be sufficient enough in order to understand consensus algor
 
 _The definitions for a decentralised system are referenced from Vitalik Buterin: _[https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
 
+**The author is considering adding "centralisation" for finality.**
 
-
-
-
-**The author is considering adding "centralisation" for finality**
+**The author will clarify the fact that some people say distributed when they mean decentralisation and vice versa**
 
