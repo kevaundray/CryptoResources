@@ -29,7 +29,11 @@ If a node fails and stops communicating with the rest of the network. Then it ha
 
 One solution for fail-stop failures, is to take regular checkpoints of the system and when the system fails. You reboot the system to the last good checkpoint.
 
-#### **Byzantine**
+#### **Byzantine Failures**
 
-Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system. One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, and may result in some unexpected side-effects. Another example of a byzantine failure, is mismatched software versions; if one node is running on version one and the other node is running on version two, then when they initiate communication, the node running version one will be sending invalid messages.
+Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system. 
+
+One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, but will result in incorrect calculations and depending upon the system, this could be catastrophic. 
+
+Another example of a byzantine failure, is mismatched software versions; if one node is running on version one and the other node is running on version two, then when they communicate, the node running version one will be sending invalid messages to the other node.
 
