@@ -18,13 +18,17 @@ This definition will be sufficient enough in order to understand consensus algor
 
 ##### Architecturally Decentralised Systems
 
-> An architecturally decentralised system is similar to a distributed system, in that it is a system with no central geographical location and therefore can tolerate the failure of some amount of physical computers on the network.
+> An architecturally decentralised system is similar to a distributed system, in that it is a system with no central geographical location and can therefore tolerate the failure of some amount of physical computers on the network.
 
 ##### Logically Decentralised Systems
 
 > A logically decentralised system is one that has no central location for the logic of the system. A logically decentralised system will behave like a single machine and have one shared state.
 
+_The definitions for a decentralised system are referenced from Vitalik Buterin: _[https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
 
 
-_The definitions for a decentralised system are referenced from Vitalik Buterin: https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274_
+
+
+
+**The author is considering adding "centralisation" for finality**
 
