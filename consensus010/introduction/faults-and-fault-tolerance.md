@@ -13,7 +13,5 @@ Examples of such faults:
 * Hardware problem
 * Accidental delete
 
-When building decentralised system
-
-
+When building decentralised system it is important to account for the possible failures that a single node may experience. Most of these failures can be automated away with scripts. For example, if your system crashes, then a script can be written to reboot it.
 
