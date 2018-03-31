@@ -1,4 +1,4 @@
-# Faults and Fault Tolerance
+# Faults
 
 Nodes on a decentralised system may experience faults at any moment.
 
@@ -31,5 +31,7 @@ One solution for fail-stop failures, is to take regular checkpoints of the syste
 
 #### **Byzantine**
 
-Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system.
+Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system. One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, and may result in some unexpected side-effects. Another example of a byzantine failure, is mismatched software versions; if one node is running on version one and the other node is running on version two, then when they initiate communication, the node running version one will be sending invalid messages.
+
+
 
