@@ -9,3 +9,5 @@ This book will list all of the algorithms used in cryptocurrency and their advan
 
 
 
+Currently in the introduction doing consensus algorithm. Thinking of doing a section on async and sync models.
+
