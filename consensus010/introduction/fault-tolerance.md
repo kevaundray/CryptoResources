@@ -2,7 +2,7 @@
 
 _Not suitable for consumption_
 
-For a decentralised network to have fault tolerance, it must be able to deal with byzantine failures and fail-stops.
+For a consensus protocol to have fault tolerance, it must be able to deal with byzantine failures and fail-stops.
 
 To do this, the network must come to a **consensus** on which node has failed and exclude it from the network. If the failure is a fail-stop, then the network knows which node has failed and can put in place the proper measures to continue operating without that node, until it comes back online or if it comes back online.
 
