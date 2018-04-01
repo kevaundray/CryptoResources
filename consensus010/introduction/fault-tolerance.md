@@ -30,3 +30,7 @@ If a consensus protocol can guarantee safety, then all non-faulty nodes that are
 
 When a blockchain is not _safe_, the network will frequently experience block forks, where some nodes in the network think that their version of the blockchain is correct, while another set think they are looking at the one true blockchain.
 
+# Impossibility Result
+
+
+
