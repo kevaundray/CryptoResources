@@ -10,15 +10,13 @@ The Byzantine Generals goes as folllows:
 >
 > For example, If there are five generals. and two generals vote to attack, then two generals vote to retreat. The traitor general will tell the ones that voted to attack, that he would also like to attack, and the ones that voted to retreat that he would also like to retreat. With this, the two generals that voted to attack will attack the city with the assumption that the decision was Attack,Attack,Attack,Retreat,Retreat.
 
-
-
 **How is this analogous to Byzantine failures?**
 
 It is impossible to assume which general is a traitor. Similarly, it is impossible to assume which node is a trator node.
 
 The goal of the Byzantine generals, is to reach consensus on whether to attack or retreat in face of the fact that there are traitors in the ranks. Similarly, a system that is Byzantine fault tolerant achieves consensus even when there are nodes that are actively trying to destroy the system.
 
-We are implicitly assuming that the messenger will arrive to the other generals. If this assumption was not made, then we would have the _Two Generals Problem, _ which is unsolvable.
+We are implicitly assuming that the messenger will arrive to the other generals with the message. If this assumption was not made, then we would have the _Two Generals Problem, _ which is unsolvable.
 
 **A solution to the Byzantine generals problem is also byzantine fault tolerant.**
 
