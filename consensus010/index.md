@@ -34,6 +34,8 @@
 
 * Proof Of Weight
 
+* Proof Of Checkpoint
+
 * Proof Of Burn
 
 * Proof Of Elapsed Time
