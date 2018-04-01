@@ -32,7 +32,5 @@ When a blockchain is not _safe_, the network will frequently experience block fo
 
 # Impossibility Result
 
-In computer science, there is a result known as FLP impossibility result, that states that an asynchroneous 
-
-
+In computer science, there is a result known as FLP impossibility result, that states that a deterministic consensus algorithm cannot have liveliness, safety and fault tolerance in an asynchronous system. It can have two at maximum.
 

@@ -10,6 +10,8 @@ Along with ensuring that the network arrives at a globally consistent shared sta
 
 # Deterministic algorithms
 
+Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm.
+
 # Timing Models: async, syn, partial
 
 
