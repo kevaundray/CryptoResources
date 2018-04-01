@@ -4,5 +4,5 @@ One important aspect and challenge of a decentralised distributed network, is to
 
 In systems such as Bitcoin and Ethereum, the state is the **blockchain. **The set of rules that allow the state to change is called the **consensus protocol.**
 
-
+**The author would like to add an example using graphs, however he would not like to generalise as some graph implementations vary.**
 
