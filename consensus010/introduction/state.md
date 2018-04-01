@@ -8,7 +8,9 @@ Along with ensuring that the network arrives at a globally consistent shared sta
 
 **The author would like to add an example using graphs, however he would not like to generalise as some graph implementations vary.**
 
-# Timing Models
+# Deterministic algorithms
+
+# Timing Models: async, syn, partial
 
 
 

@@ -32,5 +32,7 @@ When a blockchain is not _safe_, the network will frequently experience block fo
 
 # Impossibility Result
 
+In computer science, there is a result known as FLP impossibility result, that states that an asynchroneous 
+
 
 
