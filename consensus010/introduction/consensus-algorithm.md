@@ -16,7 +16,7 @@ The Byzantine Generals goes as folllows:
 
 It is impossible to assume which general is a traitor. Similarly, it is impossible to assume which node is a trator node.
 
-We cannot trust the messenger as the city may intercept him. Similarly, we cannot assume that there will be no network failiures and that all messages will be delivered successfully without bits flipping or data becoming semi-corrupted.
+We cannot trust the messenger as the city may intercept him. Similarly, we cannot assume that there will be no network failiures and that all messages will be delivered successfully without bits flipping or data becoming semi-corrupted. &lt;- This is the Two Generals problem.
 
 The goal of the Byzantine generals, is to reach consensus on whether to attack or retreat in face of the fact that there are traitors in the ranks. Similarly, a system that is Byzantine fault tolerant achieves consensus even when there are nodes that are actively trying to destroy the system.
 
