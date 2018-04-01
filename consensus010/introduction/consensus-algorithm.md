@@ -20,6 +20,8 @@ We are implicitly assuming that the messenger will arrive to the other generals 
 
 **A solution to the Byzantine generals problem is also byzantine fault tolerant.**
 
+
+
 **The author would like to include the two generals problem, the byzantine generals problem and the runtime for BGP.**
 
 **The two generals problem may not be needed, however it does bring to light the assumption that we have to assume that message delivery is somewhat reliable.**
