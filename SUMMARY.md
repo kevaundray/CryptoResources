@@ -36,7 +36,7 @@
   * [Faults](consensus010/introduction/faults-and-fault-tolerance.md)
   * [State](consensus010/introduction/state.md)
   * [Fault Tolerance, Liveliness, Safety](consensus010/introduction/fault-tolerance.md)
-  * [Consensus Algorithm](consensus010/introduction/consensus-algorithm.md)
+  * [Byzantine Generals Problems](consensus010/introduction/consensus-algorithm.md)
 * [Proof Of Work](consensus010/proof-of-work.md)
 * [Proof Of Identity](consensus010/proof-of-identity.md)
 * [Glossary](consensus010/glossary.md)
