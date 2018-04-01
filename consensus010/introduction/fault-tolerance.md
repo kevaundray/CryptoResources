@@ -8,7 +8,7 @@ If the failure is a fail-stop, then the network knows which node has failed and 
 
 With byzantine failures, we cannot make any assumptions however. We cannot assume that only **one** node is faulty. It could be the case that more than one node is faulty. So How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus?
 
-In practice, we must make some assumptions. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
+In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
 
 ##### What happens when a network does not have fault tolerance?
 
