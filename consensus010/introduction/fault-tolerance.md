@@ -16,7 +16,5 @@ Another desirable feature of a decentralised network, is liveliness. A decentral
 
 # Safety
 
-Safety is another property of a consensus protocol. If a consensus protocol can guarantee safety, then all participating 
-
-
+Safety is another property of a consensus protocol. If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same output. For example, given 10 nodes, if you were to give them all the same set of inputs and told them to follow the same set of instructions on how to process the input, then they should all arrive at the same output \(state\).
 
