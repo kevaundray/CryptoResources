@@ -14,7 +14,15 @@ In practice, we must make some assumptions. These assumptions have to be _strong
 
 Another desirable feature of a decentralised network, is liveliness. A decentralised network can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case.
 
+##### What happens when a network does not have liveliness or is not 'live'?
+
+
+
 # Safety
 
-Safety is another property of a consensus protocol. If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid output. For example, given 10 nodes, if you were to give them all the same set of inputs and told them to follow the same set of instructions on how to process the input, then they should all arrive at the same output \(state\). The outputs must be valid according to the rules. If you are familiar to put this into blockchain terminology, a network is safe, if the chain does not fork.
+Safety is another property of a consensus protocol. If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid output. For example, given 10 nodes, if you were to give them all the same set of inputs and told them to follow the same set of instructions on how to process the input, then they should all arrive at the same output \(state\). The outputs must be valid according to the rules.
+
+##### What happens when a network does not have safety or is not 'safe'?
+
+When a blockchain is not safe, the network will frequently experience block forks.
 
