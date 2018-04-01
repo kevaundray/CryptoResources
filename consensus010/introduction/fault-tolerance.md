@@ -8,11 +8,11 @@ If the failure is a fail-stop, then the network knows which node has failed and 
 
 With byzantine failures, we cannot make any assumptions however. We cannot assume that only **one** node is faulty. It could be the case that more than one node is faulty. So How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus?
 
-In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
+In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors depending on the assumption that was broken. 
 
-##### What happens when a network does not have fault tolerance?
+##### What happens when a network uses a consensus protocol that does not have fault tolerance?
 
-If a network is not fault tolerant, then this opens up the possibility of nodes getting hacked and still participating in the network. In a blockchain, this could lead to possibilities such as double spend.
+For example, In Bitcoin the assumption is made that it is impractical for 51% of the network's hashing power to be controlled by a malicious node or multiple malicious nodes colluding. This assumption is impractical in practice because to own 51% or more of the networks hashing power is expensive and the network would become aware of the large orders for specific hardware parts.  If the malicious node is able to take control of 51%+ of the network then the assumption would be broken and the party would then be able to initiate a double spend attack.
 
 # Liveliness
 
