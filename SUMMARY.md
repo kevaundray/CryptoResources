@@ -33,6 +33,7 @@
 * [Template](consensus010/template.md)
 * [Introduction](consensus010/introduction.md)
   * [What Is A Distributed System?](consensus010/introduction/what-is-a-distributed-system.md)
+  * [State](consensus010/introduction/state.md)
   * [Faults](consensus010/introduction/faults-and-fault-tolerance.md)
   * [Fault Tolerance, Liveliness, Safety](consensus010/introduction/fault-tolerance.md)
   * [Consensus Algorithm](consensus010/introduction/consensus-algorithm.md)
