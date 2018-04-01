@@ -1,7 +1,5 @@
 # Consensus Protocol
 
-Decentralised networks use consensus protocols to arrive at a shared state.
-
 A consensus protocol has three properties:
 
 * Liveliness
