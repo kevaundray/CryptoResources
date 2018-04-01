@@ -1,4 +1,4 @@
-# Byzantine Fault Tolerance
+# Fault Tolerance
 
 _Not suitable for consumption_
 
@@ -9,10 +9,6 @@ To do this, the network comes to a **consensus** on which node is faulty and exc
 In practice, the above scenario is impossible and in order to build a system, we must make some assumptions. These assumptions have to be strong and impractical to realise. If any of the assumptions are broken, then the consensus algorithm used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
 
 # Liveliness
-
-
-
-
 
 # Safety
 
