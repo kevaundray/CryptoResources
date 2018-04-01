@@ -18,9 +18,9 @@ For example, In Bitcoin the assumption is made that it is impractical for 51% of
 
 A consensus protocol can also have a property known as liveliness. A consensus protocol can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case and so we must use time models to determine appropriate response times.
 
-##### What happens when a network does not have liveliness or is not 'live'?
+##### What happens when a network uses a consensus protocol that does not have liveliness or is not 'live'?
 
-
+Without liveliness, a node can run the protocol algorithm in hopes to transition to a new state and get stuck. In Bitcoin, the node could be at some block, then upon receiving a new block it gets stuck trying to validate the block due to the block version changing. In this case, there is no more information that this node could receive that would allow it to get _unstuck._
 
 # Safety
 
