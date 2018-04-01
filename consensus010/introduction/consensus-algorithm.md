@@ -28,5 +28,5 @@ Practical BFT was introduced as a solution for BGP, which is derived from Two ge
 
 PBFT
 
-Liveness, safety,fault tolerant.
+
 
