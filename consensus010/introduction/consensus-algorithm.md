@@ -2,15 +2,13 @@
 
 Decentralised networks use consensus protocols to arrive at a shared state.
 
-
-
 A consensus protocol has three properties:
 
 * Liveliness
 * Safety
 * Fault Tolerance
 
-Consensus algorithms must be byzantine fault tolerant. So the consensus algorithm must allow the system to operate even if nodes exhibit byzantine failures or fail-stop failures.
+Consensus algorithms must be byzantine fault tolerant. So the consensus algorithm must allow the system to operate even if nodes exhibit byzantine failures or fail-stop failures. _This is not true by FLP._
 
 The remaing chapters of this book will inform the reader, on the consensus algorithms used in cryptocurrency that allow the system to have byzantine fault tolerance.
 
