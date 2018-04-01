@@ -4,7 +4,7 @@ _Not suitable for consumption_
 
 For a consensus protocol to have fault tolerance, it must be able to deal with byzantine failures and fail-stops.
 
-To do this, the network must come to a **consensus** on which node has failed and exclude it from the network. If the failure is a fail-stop, then the network knows which node has failed and can put in place the proper measures to continue operating without that node, until it comes back online or if it comes back online.
+To do this, the network must come to a **consensus** on which node has failed and exclude it from the network. If the failure is a fail-stop, then the network knows which node has failed and can put in place the proper measures to continue operating without that node, until it comes back online or if it comes back online. With the exclusion of that node, the system can come to a consensus on the state.
 
 With byzantine failures, we cannot make any assumptions however. We cannot assume that only **one** node is faulty. It could be the case that more than one node is faulty. So How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus?
 
