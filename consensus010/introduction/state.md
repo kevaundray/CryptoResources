@@ -14,5 +14,7 @@ Here I explain what a deterministic algorithm is and why we need it in a consens
 
 # Timing Models: async, syn, partial
 
+syncrony assumptions
+
 
 
