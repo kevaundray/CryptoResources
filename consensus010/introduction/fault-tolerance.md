@@ -24,7 +24,7 @@ Without liveliness, a node can run the protocol algorithm in hopes to transition
 
 # Safety
 
-Safety is another property of a consensus protocol. If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid output. For example, given 10 nodes, if you were to give them all the same set of inputs and told them to follow the same set of instructions on how to process the input, then they should all arrive at the same output \(state\). The outputs must be valid according to the rules.
+If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid state For example, given 10 nodes, if you were to give them all the genesis block, the first block in any blockchain based system, then they should be able to validate and build the blockchain themselves and come to the same state as the rest of the network. The state must also be valid according to the consensus protocol.
 
 ##### What happens when a network does not have safety or is not 'safe'?
 
