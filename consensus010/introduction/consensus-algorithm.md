@@ -12,15 +12,13 @@ The Byzantine Generals goes as folllows:
 
 **How is this analogous to Byzantine failures?**
 
-It is impossible to assume which general is a traitor. Similarly, it is impossible to assume which node is a trator node.
+It is impossible to assume which general is a traitor. Similarly, it is impossible to assume which node is a traitor node.
 
 The goal of the Byzantine generals, is to reach consensus on whether to attack or retreat in face of the fact that there are traitors in the ranks. Similarly, a system that is Byzantine fault tolerant achieves consensus even when there are nodes that are actively trying to destroy the system.
 
 We are implicitly assuming that the messenger will arrive to the other generals with the message. If this assumption was not made, then we would have the _Two Generals Problem, _ which is unsolvable.
 
 **A solution to the Byzantine generals problem is also byzantine fault tolerant.**
-
-
 
 **The author would like to include the two generals problem, the byzantine generals problem and the runtime for BGP.**
 
