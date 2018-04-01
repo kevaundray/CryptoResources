@@ -8,7 +8,7 @@ If the failure is a fail-stop, then the network knows which node has failed and 
 
 With byzantine failures, we cannot make any assumptions however. We cannot assume that only **one** node is faulty. It could be the case that more than one node is faulty. So How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus?
 
-In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors depending on the assumption that was broken. 
+In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors depending on the assumption that was broken.
 
 ##### What happens when a network uses a consensus protocol that does not have fault tolerance?
 
@@ -16,9 +16,11 @@ For example, In Bitcoin the assumption is made that it is impractical for 51% of
 
 # Liveliness
 
-Another desirable feature of a decentralised network, is liveliness. A decentralised network can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case.
+A consensus protocol can also have a property known as liveliness. A consensus protocol can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case and so we must use time models to determine appropriate response times.
 
 ##### What happens when a network does not have liveliness or is not 'live'?
+
+
 
 # Safety
 
