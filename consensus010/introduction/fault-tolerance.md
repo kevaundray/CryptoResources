@@ -10,13 +10,15 @@ With byzantine failures, we cannot make any assumptions however. We cannot assum
 
 In practice, we must make some assumptions. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors.
 
+##### What happens when a network does not have fault tolerance?
+
+If a network is not fault tolerant, then this opens up the possibility of nodes getting hacked and still participating in the network. In a blockchain, this could lead to possibilities such as double spend.
+
 # Liveliness
 
 Another desirable feature of a decentralised network, is liveliness. A decentralised network can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case.
 
 ##### What happens when a network does not have liveliness or is not 'live'?
-
-
 
 # Safety
 
