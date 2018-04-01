@@ -24,9 +24,9 @@ The goal of the Byzantine generals, is to reach consensus on whether to attack o
 
 **The author would like to include the two generals problem, the byzantine generals problem and the runtime for BGP.**
 
+**The two generals problem may not be needed, however it does bring to light the assumption that we have to assume that message delivery is somewhat reliable.**
+
 Practical BFT was introduced as a solution for BGP, which is derived from Two generals.
 
 PBFT
-
-
 
