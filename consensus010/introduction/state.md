@@ -10,11 +10,9 @@ Along with ensuring that the network arrives at a globally consistent shared sta
 
 # Deterministic Protocols
 
-Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm.
+Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm. Technically speaking.
 
-# Timing Models: async, syn, partial
+# Timing Models: async, syn, partial - THis could be put under assumptions 
 
 syncrony assumptions
-
-
 
