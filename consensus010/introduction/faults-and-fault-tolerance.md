@@ -2,7 +2,7 @@
 
 _Not suitable for consumption_
 
-Nodes on a decentralised system may experience faults at any moment.
+Nodes on a distributed system may experience faults at any moment.
 
 Examples of such faults:
 
