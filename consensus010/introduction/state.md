@@ -38,6 +38,8 @@ In a system that uses a sync timing model, if there are k nodes, we can reach co
 
 ### Partial asyncronous models
 
+* starts off as async, but eventually behaves like sync
+
 ### FLP Impossibility Result
 
 In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
