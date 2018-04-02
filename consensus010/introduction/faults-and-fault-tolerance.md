@@ -27,7 +27,7 @@ When dealing with networks on a decentralised system, your goal when communicati
 
 ### **Node Failures**
 
-There are seven main types of node failures. The less severe is known as fail-stop and the most severe is known as byzantine. The most severe failure covers the less severe types of failures and so we will only cover the least severe and the most severe.
+There are seven main types of node failures. The less severe is known as fail-stop and the most severe is known as byzantine. The most severe failure covers the less severe types of failures except the least severe and so we will only cover the least severe and the most severe.
 
 #### Fail-Stop
 
