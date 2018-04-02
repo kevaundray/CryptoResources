@@ -36,8 +36,6 @@ The goal of a distributed decentralised system is for every participating node t
 
 
 
-A 
-
 With a distributed system it is more about the **where **is the calculation being done
 
 With a centralised and decentralised network, the question is a **who **, as in who is authorising the calculations.
@@ -47,4 +45,6 @@ Centralised distributed: One node is authorising the calculations and the result
 decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
 
 
+
+If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised.
 
