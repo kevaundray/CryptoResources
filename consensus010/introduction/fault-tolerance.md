@@ -4,7 +4,7 @@ One important aspect and challenge of a distributed network, is to ensure that e
 
 In systems such as Bitcoin and Ethereum, the state is the **blockchain. **The set of rules that allow the blockchain to change are called the **consensus protocol.**
 
-Along with ensuring that the network arrives at a globally consistent shared state, a consensus protocol must also deal with byzantine failures and fail-stop failures. In the following chapters, we will formalise some of the terms discussed in this section and discuss properties of a consensus protocol.
+Along with ensuring that the network arrives at a globally consistent shared state, a consensus protocol must also deal with byzantine failures and fail-stop failures. These characteristics are known as fault tolerance and correctness.
 
 **The author would like to add an example using graphs, however he would not like to generalise as some graph implementations vary.**
 
