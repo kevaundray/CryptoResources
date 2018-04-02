@@ -26,10 +26,6 @@ Without liveliness, a node can run the protocol algorithm in hopes to transition
 
 If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid state For example, given 10 nodes, if you were to give them all the genesis block, the first block in any blockchain based system, then they should be able to validate and build the blockchain themselves and come to the same state as the rest of the network. The state must also be valid according to the consensus protocol.
 
-
-
-
-
 **Talk about safety meaning agreement and validity**
 
 ##### What happens when a network does not have safety or is not 'safe'?
@@ -38,5 +34,5 @@ When a blockchain is not _safe_, the network will frequently experience block fo
 
 # Impossibility Result
 
-In computer science, there is a result known as FLP impossibility result, that states that a deterministic consensus algorithm cannot have liveliness, safety and fault tolerance in an asynchronous system. It can have two at maximum.
+In computer science, there is a result known as FLP impossibility result, that states that a deterministic consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a fully asynchronous system using a deterministic consensus protocol. There are two main ways that 
 
