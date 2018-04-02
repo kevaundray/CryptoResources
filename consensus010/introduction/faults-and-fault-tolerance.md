@@ -17,7 +17,7 @@ Examples of such faults:
 * Packets never arrive
 * System has lost internet connection
 
-When building decentralised system it is important to account for the possible failures that a node or the whole network may experience.
+When building distributed systems it is important to account for the possible failures that a node or the whole network may experience.
 
 ### Network Failures
 
