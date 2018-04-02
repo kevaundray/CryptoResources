@@ -13,7 +13,7 @@ Examples of such faults:
 * Bug in Code
 * Hacked
 * Hardware problem
-* Accidental delete
+* Accidental deletion of software
 * Packets never arrive
 * System has lost internet connection
 
