@@ -22,7 +22,7 @@ Network assumptions are assumptions you make on how long it will take for a mess
 
 Process assumptions are assumptions you make on how long it will take to make a computation
 
-Clock assumptions are assumptions on how fast the clock times between computers will drift. If a clock in a computer is not synced up to some central time, then over time it will drift. 
+Clock assumptions are assumptions on how fast the clock times between computers will drift. If a clock in a computer is not synced up to some central time, then over time it will drift.
 
 # Asyncronous Models
 
