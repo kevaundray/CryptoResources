@@ -30,11 +30,11 @@ A consensus protocol can also have a property known as liveliness. A consensus p
 
 ##### What happens when a network uses a consensus protocol that does not have liveliness or is not 'live'?
 
-Without liveliness, a node can run the protocol algorithm in hopes to transition to a new state and get stuck. In Bitcoin, the node could be at some block, then upon receiving a new block it gets stuck trying to validate the block due to the block version changing. In this case, there is no more information that this node could receive that would allow it to get _unstuck. _Another example, is if the consensus protocol does not account for 50/50 votes, then the network could become stuck.
+Without liveliness, a node can run the protocol algorithm in hopes to transition to a new state and get stuck. In Bitcoin, the node could be at some block, then upon receiving a new block it gets stuck trying to validate the block due to the block version changing. In this case, there is no more information that this node could receive that would allow it to get \_unstuck. \_Another example, is if the consensus protocol does not account for 50/50 votes, then the network could become stuck.
 
 # Safety
 
-If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce the same valid state For example, given 10 nodes, if you were to give them all the genesis block, the first block in any blockchain based system, then they should be able to validate and build the blockchain themselves and come to the same state as the rest of the network. The state must also be valid according to the consensus protocol.
+If a consensus protocol can guarantee safety, then all non-faulty nodes that are following the rules of the network, should produce or arrive at the same valid state For example, given 10 nodes, if you were to give them all the genesis block, the first block in any blockchain based system, then they should be able to validate and build the blockchain themselves and come to the same state as the rest of the network. The state must also be valid according to the consensus protocol.
 
 _**Talk about safety meaning agreement and validity**_
 
