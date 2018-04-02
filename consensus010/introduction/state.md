@@ -2,9 +2,9 @@
 
 _Not suitable for consumption_
 
-# Deterministic Protocols
+# Deterministic Consensus Protocols
 
-# Randomised Protocols
+# Randomised Consensus Protocols
 
 Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm. Technically speaking.
 
