@@ -18,8 +18,10 @@ Clock assumptions are assumptions on how fast the clock times between computers 
 
 ### Asyncronous Models
 
-* ### No assumptions are made on how long a message will take 
+* No assumptions are made on how long a message will take
+
 * No assumptions on computation
+
 * No assumptions on clock drift
 
 There are no bounds. No syncronisation.
@@ -29,7 +31,10 @@ There are no bounds. No syncronisation.
 * There is a bound on the latency
 
 * Bound on the computational time
+
 * Bound on the clock drift rate
+
+In a system that uses a sync timing model, if there are k nodes, we can reach consensus with k-2 nodes. This is because if a node does not reply within the bounded time, then we can assume it crashed and exclude it from the consensus.
 
 ### Partial asyncronous models
 
