@@ -26,6 +26,8 @@ Clock assumptions are assumptions on how fast the clock times between computers 
 
 There are no bounds. No syncronisation.
 
+Consensus cannot be reached if 1 node crashes; impossibility result.
+
 ### Syncronous models
 
 * There is a bound on the latency
