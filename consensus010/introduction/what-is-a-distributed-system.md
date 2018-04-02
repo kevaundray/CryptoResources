@@ -42,7 +42,11 @@ Centralised distributed: One node is authorising the calculations and the result
 
 Decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
 
-If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised. It is also not as simple as this, should there not be some sort of gradient. the degree to which
+If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised. 
 
-If you can point to a set of logical rules in the source code that are needed in order for nodes to interact, then the system is not logically decentralised. 
+If you can point to a set of logical rules in the source code that are needed in order for nodes to interact, then the system is not logically decentralised.
+
+
+
+With all things it is not always a simple black and white picture, all blockchains can be seen as politically decentralised because at the end of the day, one person or minority organisation could potentially decide to change the source code without your authority. You of course do have the choice to move to a new blockchain fork with those who agree with you, taking your money to this new blockchain, it is more decentralised than your bank where if they change something or decide to take your money, you have no choice. So I would like to argue that complete decentralisation is not entirely possible, there will be some components of a system that is centralised and as a whole one system can be more decentralised than another. It is a scale.
 
