@@ -1,6 +1,6 @@
 # Distributed And Decentralised Systems
 
-_Not suitable for consumption_
+_Not suitable for consumption - needs to be cleaned up_
 
 #### Distributed Systems
 
