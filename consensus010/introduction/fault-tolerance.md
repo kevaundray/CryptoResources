@@ -34,11 +34,11 @@ When a blockchain is not _safe_, the network will frequently experience block fo
 
 # Impossibility Result
 
-In computer science, there is a result known as FLP impossibility result, that states that a deterministic consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a fully asynchronous system using a deterministic consensus protocol if even one node is faulty. There are two main ways that protocols circumvent this, randomised consensus protocol and 
+In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
 
-
+* Instead of using a deterministic consensus protocol, we can use a randomised consensus protocol
 
 **Randomised protocol**
 
-Common coin, terminates with probability approaching one, similar to bitcoin, block consensus approaches one 
+Common coin, terminates with probability approaching one, similar to bitcoin, block consensus approaches one
 
