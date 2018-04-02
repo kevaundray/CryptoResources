@@ -8,7 +8,7 @@ The definition for what a distributed system is will change depending on the per
 
 The author will use the following definition for the remaining of the book:
 
-> A distributed system is a system that has no central geographical region.
+> A distributed system is a system that has some set of nodes, that are connected by a network.
 
 This definition will be sufficient enough in order to understand consensus algorithms.
 
