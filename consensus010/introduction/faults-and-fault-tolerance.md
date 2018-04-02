@@ -23,6 +23,8 @@ When building decentralised system it is important to account for the possible f
 
 When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning. These may not be discussed in this book, unless a consensus algorithm deals with it._
 
+TCP/IP guarantees one to one or point to point guarantees. In a distributed network, we need to communicate with a group of nodes, how do we guarantee successfull message. delivered to everyone in the group? Atomic broadcast is a solution, so an algorithm that says deliver to all or deliver to none. Relaying
+
 ### **Node Failures**
 
 There are seven main types of node failures. The less severe is known as fail-stop and the most severe is known as byzantine. The most severe failure covers the less severe types of failures and so we will only cover the least severe and the most severe.
