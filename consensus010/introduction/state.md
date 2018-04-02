@@ -16,11 +16,27 @@ Here I explain what a deterministic algorithm is and why we need it in a consens
 
 # Timing Models
 
+When discussing distributed models, we must make reasonable assumptions about time. These assumptions can be categorised into three headers, network, process and clock assumptions.
 
+Network assumptions are assumptions you make on how long it will take for a message to reach the receiver.
 
-#  asyncronous 
+Process assumptions are assumptions you make on how long it will take to make a computation
 
-# Syncronous models 
+Clock assumptions are assumptions on how fast the clock times between computers will drift. If a clock in a computer is not synced up to some central time, then over time it will drift. 
+
+# Asyncronous Models
+
+* No assumptions are made on how long a message will take 
+* No assumptions on computation
+* No assumptions on clock drift
+
+There are no bounds. No syncronisation.
+
+# Syncronous models
+
+* There is a bound on the latency
+* Bound on the computational time
+* Bound on the clock drift rate
 
 # Partial asyncronous models
 
