@@ -1,5 +1,7 @@
 # Assumptions
 
+_Not suitable for consumption_
+
 # Deterministic Protocols
 
 # Randomised Protocols
