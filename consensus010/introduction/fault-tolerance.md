@@ -42,6 +42,8 @@ Agreement: All non-faulty nodes must choose the same value
 
 Validity: The output value is valid by the consensus protocol.
 
+If a system has safety and liveness, then it is said to be **correct.**
+
 ##### What happens when a network does not have safety or is not 'safe'?
 
 When a blockchain is not _safe_, the network will frequently experience block forks, where some nodes in the network think that their version of the blockchain is correct, while another set think they are looking at the one true blockchain.
