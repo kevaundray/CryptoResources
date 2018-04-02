@@ -24,7 +24,5 @@ We are implicitly assuming that the messenger will arrive to the other generals 
 
 **The two generals problem may not be needed, however it does bring to light the assumption that we have to assume that message delivery is somewhat reliable. ie some sort of syncrony**
 
-Practical BFT was introduced as a solution for BGP, which is derived from Two generals.
 
-PBFT
 
