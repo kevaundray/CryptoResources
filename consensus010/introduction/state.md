@@ -2,12 +2,6 @@
 
 _Not suitable for consumption_
 
-# Deterministic Consensus Protocols
-
-# Randomised Consensus Protocols
-
-Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm. Technically speaking.
-
 # Timing Models
 
 When discussing distributed models, we must make reasonable assumptions about time. These assumptions can be categorised into three headers, network, process and clock assumptions.

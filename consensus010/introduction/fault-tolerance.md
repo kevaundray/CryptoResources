@@ -8,6 +8,12 @@ Along with ensuring that the network arrives at a globally consistent shared sta
 
 **The author would like to add an example using graphs, however he would not like to generalise as some graph implementations vary.**
 
+# Deterministic Consensus Protocols
+
+# Randomised Consensus Protocols
+
+Here I explain what a deterministic algorithm is and why we need it in a consensus algorithm. Technically speaking.
+
 # Fault Tolerance
 
 _Not suitable for consumption_
