@@ -39,7 +39,7 @@ One solution for fail-stop failures, is to take regular checkpoints of the syste
 
 #### **Byzantine Failures**
 
-Byzantine failures are failures that do not cause the system to stop. Byzantine failures are the most severe types of failures in a decentralised system because although they do not halt the machine, they can propagate false information.
+Byzantine failures are failures that do not cause the node to crash. Byzantine failures are the most severe types of failures in a distributed system because although they do not halt the machine, they can propagate false information and collude with other nodes experiencing byzantine failures.
 
 One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, but will result in incorrect calculations and depending upon the system, this could be catastrophic.
 
@@ -47,5 +47,5 @@ Another example of a byzantine failure, is mismatched software versions; if one 
 
 Nodes that exhibit byzantine failure behavior are known as **traitor nodes, ** and cannot be trusted by the rest of the network.
 
-Unlike fail-stop, with byzantine failures, we cannot make any assumptions up on the network, as nodes that exhibit byzantine failures can also function as normal to other nodes. One example of this is if a node is hacked and the hacker programs the node to send good information to some nodes and incorrect information to others.
+Unlike fail-stop, with byzantine failures, we cannot make any assumptions because nodes that exhibit byzantine failures can also function as normal to other nodes. One example of this is if a node is hacked and the hacker programs the node to send good information to some nodes and incorrect information to others.
 
