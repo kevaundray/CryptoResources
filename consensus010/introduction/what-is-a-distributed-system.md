@@ -8,7 +8,7 @@ The definition for what a distributed system is will change depending on the per
 
 The author will use the following definition for the remaining of the book:
 
-> A distributed system is a system that has some set of nodes, that are connected by a network. The goal of a distributed system is to make the network work as if it were a single node.
+> A distributed system is a system that has some set of nodes, that are connected by a network. The goal of a distributed system is to make the network work as if it were a single node. In Bitcoin, to the outside world it would seem as if the network is working as a single node to compute blocks.
 
 This definition will be sufficient enough in order to understand consensus algorithms.
 
