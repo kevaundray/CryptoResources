@@ -34,17 +34,15 @@ _The definitions for a decentralised system are referenced from Vitalik Buterin:
 
 The goal of a distributed decentralised system is for every participating node to arrive at the same state.
 
+With a distributed system it is more about the **where **is the process being done
 
-
-With a distributed system it is more about the **where **is the calculation being done
-
-With a centralised and decentralised network, the question is a **who **, as in who is authorising the calculations.
+With a centralised and decentralised network, the question is a **who **, as in who is authorising the processes.
 
 Centralised distributed: One node is authorising the calculations and the result is delivered to him. Sort of like a master slave definition.
 
-decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
+Decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
 
+If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised. It is also not as simple as this, should there not be some sort of gradient. the degree to which
 
-
-If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised.
+If you can point to a set of logical rules in the source code that are needed in order for nodes to interact, then the system is not logically decentralised. 
 
