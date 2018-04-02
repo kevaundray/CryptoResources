@@ -14,11 +14,11 @@ _Not suitable for consumption_
 
 For a consensus protocol to have fault tolerance, it must be able to deal with byzantine failures and fail-stops.
 
-If the failure is a fail-stop, then the network knows which node has failed and can put in place the proper measures to continue operating without that node, until it comes back online or if it comes back online. With the exclusion of that node, the system can come to a consensus on the state.
+If the failure is a fail-stop, then the protocol knows which node has failed and can put in place the proper measures to continue operating without that node, until it comes back online, if it comes back online. With the exclusion of that node, the system can come to a consensus on the state.
 
-With byzantine failures, we cannot make any assumptions however. We cannot assume that only **one** node is faulty. It could be the case that more than one node is faulty. So How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus?
+With byzantine failures, we cannot make any assumptions however. We cannot even assume that only **one** node is faulty. It could be the case that more than one node is faulty. How do we reach consensus when one node is faulty? How do we reach consensus when more than one node is faulty? How many nodes can be seen as faulty or traitorous before we cannot reach consensus? These questions will be answered by each consensus protocol that we come across.
 
-In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors depending on the assumption that was broken.
+In practice, we must make some assumptions about the faults. These assumptions have to be _strong_ and _impractical_ to realise. If any of the assumptions are broken, then the consensus protocol used to combat the byzantine failures, will not be byzantine fault tolerant anymore and will open the network up to attack vectors depending on the assumption that was broken. Attackers will be actively working to invalidate the assumptions of your system and so it is crucial that they are strong.
 
 ##### What happens when a network uses a consensus protocol that does not have fault tolerance?
 
