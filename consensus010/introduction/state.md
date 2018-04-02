@@ -34,11 +34,13 @@ There are no bounds. No syncronisation.
 
 * Bound on the clock drift rate
 
-In a system that uses a sync timing model, if there are k nodes, we can reach consensus with k-2 nodes crasing. This is because if a node does not reply within the bounded time, then we can assume it crashed and exclude it from the consensus. Consensus is trivial with 1 node as there is no-one to agree with.
+In a system that uses a sync timing model, if there are k nodes, we can reach consensus with k-2 nodes crashing. This is because if a node does not reply within the bounded time, then we can assume it crashed and exclude it from the consensus. Consensus is trivial with 1 node as there is no-one to agree with.
 
 ### Partial asyncronous models
 
 * starts off as async, but eventually behaves like sync
+
+In a system with partial async, if we have k nodes, we can reach consensus if less than k/2 nodes crash.
 
 ### FLP Impossibility Result
 
