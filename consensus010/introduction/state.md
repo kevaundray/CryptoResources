@@ -16,23 +16,24 @@ Process assumptions are assumptions you make on how long it will take to make a 
 
 Clock assumptions are assumptions on how fast the clock times between computers will drift. If a clock in a computer is not synced up to some central time, then over time it will drift.
 
-# Asyncronous Models
+### Asyncronous Models
 
-* No assumptions are made on how long a message will take 
+* ### No assumptions are made on how long a message will take 
 * No assumptions on computation
 * No assumptions on clock drift
 
 There are no bounds. No syncronisation.
 
-# Syncronous models
+### Syncronous models
 
 * There is a bound on the latency
+
 * Bound on the computational time
 * Bound on the clock drift rate
 
-# Partial asyncronous models
+### Partial asyncronous models
 
-# FLP Impossibility Result
+### FLP Impossibility Result
 
 In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
 
