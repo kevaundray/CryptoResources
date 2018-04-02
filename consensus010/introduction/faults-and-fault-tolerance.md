@@ -31,7 +31,7 @@ There are seven main types of node failures. The less severe is known as fail-st
 
 #### Fail-Stop
 
-If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network immediately knows which node has stopped working. One **assumption** that can be made with fail-stop failures, is that we know which node has stopped working.
+If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network immediately knows which node has stopped working. Therefore, one **assumption** that can be made with fail-stop failures, is that we know which node has stopped working.
 
 **Checkpoint/Restart**
 
