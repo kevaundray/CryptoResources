@@ -42,6 +42,14 @@ In a system that uses a sync timing model, if there are k nodes, we can reach co
 
 In a system with partial async, if we have k nodes, we can reach consensus if less than k/2 nodes crash.
 
+### Timed asyncronous models
+
+* No assumptions are made on how long a message will take
+
+* No assumptions on computation
+
+* Clock drift rate is known
+
 ### FLP Impossibility Result
 
 In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
