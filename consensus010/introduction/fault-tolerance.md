@@ -24,7 +24,7 @@ In practice, we must make some assumptions about the faults. These assumptions h
 
 For example, In Bitcoin the assumption is made that it is impractical for 51% of the network's hashing power to be controlled by a malicious node or multiple malicious nodes colluding. This assumption is impractical in practice because to own 51% or more of the networks hashing power is expensive and the network would become aware of the large orders for specific hardware parts.  If the malicious node is able to take control of 51%+ of the network then the assumption would be broken and the party would then be able to initiate a double spend attack.
 
-# Liveliness
+# Liveliness / Termination
 
 A consensus protocol can also have a property known as liveliness. A consensus protocol can guarantee liveliness, if all non-faulty nodes can eventually produce a value in the network and not get _stuck_. There is no time limit in this case and so we must use time models to determine appropriate response times.
 
