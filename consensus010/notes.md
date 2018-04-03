@@ -7,11 +7,3 @@ Clock sync methods:
 
 
 
-3f+1 &lt; n
-
-
-
-1 faulty node, needs 4 nodes in total
-
-
-
