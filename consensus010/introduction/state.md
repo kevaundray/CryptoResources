@@ -6,7 +6,7 @@ In order to compose proofs or be certain of things, we must make assumptions abo
 
 A quick example:
 
-We are trying to reach consensus on how many people are over the age of 30?
+We are trying to reach a general agreement on how many people are over the age of 30?
 
 If I have a distributed system that just counts up the amount of people that are over 30 years old. So what happens is a client connects to the system and it asks "Are you over 30?" The client types enters "Yes" and the result is summed up.
 
