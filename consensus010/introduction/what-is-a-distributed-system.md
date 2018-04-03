@@ -11,7 +11,7 @@ The author will use the following definition for the remaining of the book:
 > A distributed system is a system that has some set of computers, that are connected to each other via a network. The goal of a distributed system is to make the network work as if it were a single node to the external users.
 
 * If one computer fails within a distributed system, then it should not affect the other computers. Failure is not propagated.
-* Time is not shared
+* No shared time clock
 * concurrent processing
 
 #### Decentralised Systems
@@ -30,11 +30,11 @@ The author will use the following definition for the remaining of the book:
 
 _The definitions for a decentralised system are referenced from Vitalik Buterin: _[https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
 
-With a distributed system it is more about the **where **is the process being done.
+~~With a distributed system it is more about the **where **is the process being done.~~
 
-With a centralised and decentralised network, the question is a **who **, as in who is authorising the processes.
+~~With a centralised and decentralised network, the question is a **who **, as in who is authorising the processes.~~
 
-Centralised distributed: One node is authorising the calculations and the result is delivered to him. Sort of like a master slave definition.
+Centralised distributed: Not possible, because if one node fails then 
 
 Decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
 
