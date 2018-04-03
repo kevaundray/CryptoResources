@@ -7,3 +7,9 @@ Clock sync methods:
 
 
 
+Crash failures, the process stops and does not come back
+
+With fail-stop the node crashes and comes back later on
+
+
+
