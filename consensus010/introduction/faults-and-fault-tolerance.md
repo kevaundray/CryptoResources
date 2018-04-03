@@ -23,7 +23,7 @@ When building distributed systems it is important to account for the possible fa
 
 When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning._
 
-~~_Note that TCP only covers point to point, not broadcast. There are good algorithms out there that allow for sufficient broadcast coverage._~~
+~~_Note that TCP only covers point to point, not broadcast. There are good algorithms out there that allow for sufficient broadcast coverage. Datalink protocols can convert unreliable links to reliable links. _~~
 
 ~~_May include reliable broadcast and atomic broadcast_~~
 
