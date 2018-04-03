@@ -7,7 +7,7 @@ Nodes on a distributed system may experience faults at any moment, so there must
 Examples of such faults:
 
 * Crashing
-* Crashing and Looping
+* Crashing and Looping \(_Happened to Bitcoin when they changed the database provider_\)
 * Ddos
 * Corruption of data
 * Bug in Code
