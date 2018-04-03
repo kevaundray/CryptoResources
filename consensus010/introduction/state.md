@@ -20,6 +20,8 @@ How do we strengthen our assumption so that this assumption will start to hold u
 * Language converter
 * If we do not see a yes or no, the system should crash and we see that we can actually convert a byzantine fault into a fail-stop. The customer may not like it, and some systems do believe that if something is wrong, the system should just crash and not propagate any false information. Some others think we should fail-silently, which comes with it's own errors that we will not be discussing.
 
+This example illustrates the need to make strong assumptions or make assumptions that are hard to invalidate.
+
 # Timing Models
 
 When discussing distributed models, we must make reasonable assumptions about time. These assumptions can be categorised into three headers, network, process and clock assumptions.
