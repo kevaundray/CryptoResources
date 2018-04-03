@@ -2,7 +2,7 @@
 
 _Not suitable for consumption_
 
-Nodes on a distributed system may experience faults at any moment.
+Nodes on a distributed system may experience faults at any moment, so there must be some way to continue without these faulty nodes.
 
 Examples of such faults:
 
