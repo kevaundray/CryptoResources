@@ -24,7 +24,7 @@ This example illustrates the need to make strong assumptions or make assumptions
 
 # Timing Models
 
-When discussing distributed models, we must make reasonable assumptions about time. These assumptions can be categorised into three headers, network, process and clock assumptions.
+When discussing distributed models, we must make reasonable assumptions about time in order to reason or prove something about the system. These assumptions can be categorised into three categories, network, process and clock assumptions.
 
 Network assumptions are assumptions you make on how long it will take for a message to reach the receiver.
 
