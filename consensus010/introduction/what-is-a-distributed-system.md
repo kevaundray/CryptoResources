@@ -22,7 +22,7 @@ The author will use the following definition for the remaining of the book:
 
 ##### Architecturally Decentralised Systems
 
-> An architecturally decentralised system is similar to a distributed system, in that it is a system with no central geographical location and can therefore tolerate the failure of some amount of physical computers on the network.
+> An architecturally decentralised system is similar to a distributed system, in that it is a system with no central geographical location and can therefore tolerate the failure of some amount of physical computers on the network. How is the network connected?
 
 ##### Logically Decentralised Systems
 
