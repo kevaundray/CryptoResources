@@ -34,9 +34,9 @@ _The definitions for a decentralised system are referenced from Vitalik Buterin:
 
 ~~With a centralised and decentralised network, the question is a **who **, as in who is authorising the processes.~~
 
-Centralised distributed: Not possible, because if one node, the main node, then the system is done.
+Centralised distributed system: Not possible, because if one node, the main node, then the system is done.
 
-Decentralised distributed: No single authority authorises the processes, the results are shared upon each node.
+Decentralised distributed system: No single authority can change the state, the state is shared between each node.
 
 If you can point to a single person in the network or minority organisation who has the authority to initiate a process, then it is not politically decentralised.
 
