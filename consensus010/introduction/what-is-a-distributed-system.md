@@ -10,7 +10,9 @@ The author will use the following definition for the remaining of the book:
 
 > A distributed system is a system that has some set of computers, that are connected to each other via a network. The goal of a distributed system is to make the network work as if it were a single node to the external users.
 
-This definition will be sufficient enough in order to understand consensus algorithms.
+* If one computer fails within a distributed system, then it should not affect the other computers. Failure is not propagated.
+* Time is not shared
+* concurrent processing
 
 #### Decentralised Systems
 
