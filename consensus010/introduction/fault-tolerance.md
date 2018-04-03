@@ -44,7 +44,7 @@ Agreement: All non-faulty nodes must choose the same value
 
 Validity: The output value is valid by the consensus protocol.
 
-If a system has safety and liveness, then it is said to be **correct.**
+If a protocol has safety and liveness, then it is said to be **correct.**
 
 Ideally, you want safety in all cases, and liveness debateable for some claims.
 
