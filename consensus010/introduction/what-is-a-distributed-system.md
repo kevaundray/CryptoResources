@@ -34,7 +34,7 @@ _The definitions for a decentralised system are referenced from Vitalik Buterin:
 
 ~~With a centralised and decentralised network, the question is a **who **, as in who is authorising the processes.~~
 
-Centralised distributed: Not possible, because if one node fails then 
+Centralised distributed: Not possible, because if one node, the main node, then the system is done. 
 
 Decentralised distributed: No single authority authorises the calculation, the results are shared upon each node.
 
