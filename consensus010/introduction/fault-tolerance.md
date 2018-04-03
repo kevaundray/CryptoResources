@@ -52,7 +52,15 @@ Ideally, you want safety in all cases, and liveness debateable for some claims.
 
 When a blockchain is not _safe_, the network will frequently experience block forks, where some nodes in the network think that their version of the blockchain is correct, while another set think they are looking at the one true blockchain. Network partitions.
 
-# 
+### FLP Impossibility Result
 
+In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
 
+* Instead of using a deterministic consensus protocol, we can use a randomised consensus protocol
+* Instead of using a fully async model, we can use a partially async model or a sync model or make some sync assumptions
+* Use a fault detector to detect the faulty nodes
+
+**Randomised protocol**
+
+Common coin, terminates with probability approaching one, similar to bitcoin, block consensus approaches one
 

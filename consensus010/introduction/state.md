@@ -2,6 +2,24 @@
 
 _Not suitable for consumption_
 
+In order to compose proofs or be certain of things, we must make assumptions about our model. We then build protocols around our assumptions, if our assumptions were to be invalidated, then anything that was built upon the assumption will also be invalid.
+
+A quick example:
+
+We are trying to reach consensus on how many people are over the age of 30?
+
+If I have a distributed system that just counts up the amount of people that are over 30 years old. So what happens is a client connects to the system and it asks "Are you over 30?" The client types enters "Yes" and the result is summed up.
+
+What assumptions have we made and are they weak or strong?
+
+we have assumed that the client speaks english. What if they enter "Si" ? How will our system react to this? Let's say it does not crash, then it is byzantine failure and we have no idea how it will affect the system.
+
+How do we strengthen our assumption so that this assumption will start to hold up in most cases?
+
+* Some way, only allow the client to enter YES or NO
+* Language converter
+* If we do not see a yes or no, the system should crash and we see that we can actually convert a byzantine fault into a fail-stop. The customer may not like it, and some systems do believe that if something is wrong, the system should just crash and not propagate any false information. Some others think we should fail-silently, which comes with it's own errors that we will not be discussing.
+
 # Timing Models
 
 When discussing distributed models, we must make reasonable assumptions about time. These assumptions can be categorised into three headers, network, process and clock assumptions.
@@ -48,15 +66,7 @@ In a system with partial async, if we have k nodes, we can reach consensus if le
 
 * Clock drift rate is known
 
-### FLP Impossibility Result
+### 
 
-In computer science, there is a result known as FLP impossibility result, that states that a **deterministic** consensus protocol cannot have liveliness, safety and fault tolerance in an **asynchronous** system. It can have two at maximum. In other words, it is impossible to reach consensus in a **fully asynchronous system** using a** deterministic consensus protocol** if even **one node** is **faulty.** There are many ways to circumvent this theory:
 
-* Instead of using a deterministic consensus protocol, we can use a randomised consensus protocol
-* Instead of using a fully async model, we can use a partially async model or a sync model or make some sync assumptions
-* Use a fault detector to detect the faulty nodes
-
-**Randomised protocol**
-
-Common coin, terminates with probability approaching one, similar to bitcoin, block consensus approaches one
 
