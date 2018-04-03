@@ -26,7 +26,7 @@ For example, In Bitcoin the assumption is made that it is impractical for 51% of
 
 # Liveliness / Termination
 
-A consensus protocol can also have a property known as liveliness. A consensus protocol can guarantee liveliness, if all non-faulty nodes can _eventually_ produce a value in the network and not get _stuck_. There is no time limit in this case and so we must use time models to determine appropriate response times.
+A consensus protocol can also have a property known as liveliness. A consensus protocol can guarantee liveliness, if all non-faulty nodes can _eventually_ produce a value in the network and not get _stuck_. ~~There is no time limit in this case and so we must use time models to determine appropriate response times.~~
 
 ##### What happens when a network uses a consensus protocol that does not have liveliness or is not 'live'?
 
