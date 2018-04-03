@@ -30,7 +30,7 @@ A consensus protocol can also have a property known as liveliness. A consensus p
 
 ##### What happens when a network uses a consensus protocol that does not have liveliness or is not 'live'?
 
-Without liveliness, a node can run the protocol algorithm in hopes to transition to a new state and get stuck. In Bitcoin, the node could be at some block, then upon receiving a new block it gets stuck trying to validate the block due to the block version changing. In this case, there is no more information that this node could receive that would allow it to get _unstuck_. Another example, is if the consensus protocol does not account for 50/50 votes, then the network could become stuck.
+Without liveliness, a node can run the protocol algorithm in hopes to transition to a new state and get stuck. In Bitcoin, the node could be at some block, then upon receiving a new block it gets stuck trying to validate the block due to the block version changing. In this case, there is no more information that this node could receive that would allow it to get _unstuck_. Another example, is if the consensus protocol does not account for 50/50 votes, then the network could become stuck. In this case, the network could not decide on a final output value.
 
 # Safety
 
