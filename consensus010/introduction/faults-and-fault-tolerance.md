@@ -31,15 +31,15 @@ There are seven main types of node failures. The less severe is known as fail-st
 
 #### Fail-Stop
 
-If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network immediately knows which node has stopped working. Therefore, one **assumption** that can be made with fail-stop failures, is that we know which node has stopped working.
+If a node fails and stops communicating with the rest of the network. Then it has **failed** and **stopped.** For example, the node crashes or the node is experiencing hardware problems. When a node fail-stops, the network immediately knows which node has stopped working. This can be done through a failure-detector in each node for example.Therefore, one **assumption** that can be made with fail-stop failures, is that we know which node has stopped working, when it has stopped.
 
 **Checkpoint/Restart**
 
-One solution for fail-stop failures, is to take regular checkpoints of the system and when the system fails. You reboot the system to the last good checkpoint. This is assuming that it is not a hardware problem.
+One solution for fail-stop failures, is to take regular checkpoints of the system and when the node fails. You reboot the system to the last good checkpoint. This is assuming that it is not a hardware problem.
 
 #### **Byzantine Failures**
 
-Byzantine failures are failures that do not cause the node to crash. Byzantine failures are the most severe types of failures in a distributed system because although they do not halt the machine, they can propagate false information and collude with other nodes experiencing byzantine failures.
+Byzantine failures are failures that do not cause the node to crash. Byzantine failures are the most severe types of failures in a distributed system because although they do not halt the machine, they can propagate false information and collude with other nodes experiencing byzantine failures. Byzantine failures encompass a lot of the other types of failures that we have not mentioned, so we cannot be sure what it happening with the machine.
 
 One example of a byzantine failure is corruption of data upon transmission. This will not cause the node receiving it to stop, but will result in incorrect calculations and depending upon the system, this could be catastrophic.
 
