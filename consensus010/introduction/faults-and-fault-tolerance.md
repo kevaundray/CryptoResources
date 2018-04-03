@@ -21,7 +21,7 @@ When building distributed systems it is important to account for the possible fa
 
 ### Network Failures
 
-When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning. These may not be discussed in this book, unless a consensus algorithm deals with it._
+When dealing with networks on a decentralised system, your goal when communicating with another node, is to either deliver information or receive information. Therefore most network failures, can be solved by using TCP/IP and SSL. _This book will mostly be going over the node failures. The other type of network failure not covered by TCP/IP and SSL is partitioning._
 
 ~~_May include reliable broadcast and atomic broadcast_~~
 
