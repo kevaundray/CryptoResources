@@ -56,7 +56,7 @@ In a system that uses a sync timing model, if there are k nodes, we can reach co
 
 * Hinted with a round model
 
-### Partial asyncronous models
+### Partial syncronous models
 
 * starts off as async, but eventually behaves like sync
 
