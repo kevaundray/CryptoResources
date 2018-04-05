@@ -26,3 +26,19 @@ _**C**_**orrectness:** means it is necessary for a distributed system to be able
 
 **Utility: **The  “usefulness” of a distributed payment system. This includes transaction time, computational power needed to participate in the network and technical proficiency required by the user to avoid being defrauded.
 
+# Ripples Definition Of Consensus
+
+1. \(C1\): Every nonfaulty node makes a decision in finite time 
+
+2. \(C2\): All nonfaulty nodes reach the same decision value
+
+3. \(C3\): 0 and 1 are both possible values for all nonfaulty nodes. \(This removes the trivial solution in which all nodes decide 0 or 1 regardless of the information they have been presented\).
+
+# Assumptions
+
+
+
+
+
+
+
