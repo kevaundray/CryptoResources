@@ -1,8 +1,12 @@
 # Ripple Consensus Protocol
 
+## The author is considering doing a ripple course?
+
+## 
+
 ## Short Summary
 
-The user submits a transaction to a validator 
+The user submits a transaction to a validator
 
 ## Longer Summary
 
