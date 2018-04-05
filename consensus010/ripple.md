@@ -2,15 +2,9 @@
 
 ## Short Summary
 
-
+The user submits a transaction to a validator 
 
 ## Longer Summary
-
-
-
-
-
-
 
 Outlining the definitions made by the ripple consensus white paper:
 
@@ -48,5 +42,12 @@ _**C**_**orrectness:** means it is necessary for a distributed system to be able
 
 # Goal Of Ripple Consensus Algorithm
 
-Achieve consensus at each ledger-close \(even if consensus is the trivial consensus of all transactions being rejected\), and that the trivial consensus will only be reached with a known probability, even in the face of Byzantine failures.
+Achieve consensus at each ledger-close \(even if consensus is the trivial consensus of all transactions being rejected\), and that the trivial consensus will only be reached with a known probability, even in the face of Byzantine failures
+
+# Explanation Of Algorithm
+
+* A server receives transactions within a period of time, four seconds for example. This period will be called a round.
+* At the end of the four seconds, the server then speaks with those on the UNL list and 
+
+
 
