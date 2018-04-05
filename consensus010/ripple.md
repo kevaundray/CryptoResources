@@ -2,7 +2,7 @@
 
 ## The author is considering doing a ripple course?
 
-## 
+## Let's first give an overview of them and analyse no?
 
 ## Short Summary
 
