@@ -20,3 +20,7 @@ _This means that if you would like to use the ripple network to send funds, it i
 
 **Validating A Transaction: ** Each node will be given a transaction  and they must decide on whether they think it is valid by assigning it a 0 or a 1. _This is similar to binary consensus._
 
+_**C**_**orrectness:** means it is necessary for a distributed system to be able to discern the difference between a correct and fraudulent transaction. _**This is different from the correctness property of a consensus protocol!**_
+
+_**Agreement: **_
+
