@@ -24,5 +24,5 @@ _**C**_**orrectness:** means it is necessary for a distributed system to be able
 
 **Agreement: **Refers to the problem of maintaining a **single global truth** in the face of a decentralized accounting system.
 
-**Utility: **The  “usefulness” of a distributed payment system. This includes transaction time and computational power needed to participate in the network.
+**Utility: **The  “usefulness” of a distributed payment system. This includes transaction time, computational power needed to participate in the network and technical proficiency required by the user.
 
