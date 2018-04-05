@@ -16,5 +16,7 @@ _This means that if you would like to use the ripple network to send funds, it i
 
 **Proposer**: Any server can broadcast transactions to be included in the consensus process, and every server attempts to include every valid transaction when a new consensus round starts. During the consensus process, however, only proposals from servers on the UNL of a server s are considered by s.
 
+**Nonfaulty** **Node**: nodes in the network that behave honestly and without error.
 
+**Validating A Transaction: ** Each node will be given a transaction  and they must decide on whether they think it is valid by assigning it a 0 or a 1.
 
