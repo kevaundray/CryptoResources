@@ -51,15 +51,6 @@ Achieve consensus at each ledger-close \(even if consensus is the trivial consen
 # Explanation Of Algorithm
 
 * A server receives transactions within a period of time, four seconds for example. This period will be called a round.
-* At the end of the four seconds, the server then speaks with those on the UNL list and
-
-* **Short Explanation?**
-
-* There is a set of validators on the network.
-* The validators all receive transactions broadcasted by users.
-* The validators are given 5 seconds to collect as many transactions as possible.
-* The validators all have a list of nodes that they trust.
-* If the majority of people that they trust believe a transaction is correct, then 
 
 
 
