@@ -55,3 +55,19 @@ Achieve consensus at each ledger-close \(even if consensus is the trivial consen
 
 
 
+
+
+
+
+
+
+
+
+
+
+**Short Explanation?**
+
+There is a set of validators on the network.
+
+
+
