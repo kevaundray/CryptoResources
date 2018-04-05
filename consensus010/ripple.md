@@ -1,6 +1,4 @@
-# Ripple
-
-
+# Ripple Consensus Protocol
 
 
 
