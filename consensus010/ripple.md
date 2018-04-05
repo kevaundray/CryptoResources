@@ -28,15 +28,15 @@ _**C**_**orrectness:** means it is necessary for a distributed system to be able
 
 # Ripples Definition Of Consensus
 
-1. \(C1\): Every nonfaulty node makes a decision in finite time 
+1. \(C1\): Every nonfaulty node makes a decision in finite time
 
 2. \(C2\): All nonfaulty nodes reach the same decision value
 
 3. \(C3\): 0 and 1 are both possible values for all nonfaulty nodes. \(This removes the trivial solution in which all nodes decide 0 or 1 regardless of the information they have been presented\).
 
-# Assumptions
+# Goal Of Ripple Consensus Algorithm
 
-
+Achieve consensus at each ledger-close \(even if consensus is the trivial consensus of all transactions being rejected\), and that the trivial consensus will only be reached with a known probability, even in the face of Byzantine failures.
 
 
 
