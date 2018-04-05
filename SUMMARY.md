@@ -42,4 +42,5 @@
 * [Proof Of Identity](consensus010/proof-of-identity.md)
 * [Glossary](consensus010/glossary.md)
 * [Notes](consensus010/notes.md)
+* [Ripple](consensus010/ripple.md)
 
