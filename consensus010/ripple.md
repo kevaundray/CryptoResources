@@ -1,5 +1,17 @@
 # Ripple Consensus Protocol
 
+## Short Summary
+
+
+
+## Longer Summary
+
+
+
+
+
+
+
 Outlining the definitions made by the ripple consensus white paper:
 
 **Server**: A server is any entity running the Ripple Server software \(as opposed to the Ripple Client software which only lets a user send and receive funds\), which participates in the consensus process.
@@ -37,8 +49,4 @@ _**C**_**orrectness:** means it is necessary for a distributed system to be able
 # Goal Of Ripple Consensus Algorithm
 
 Achieve consensus at each ledger-close \(even if consensus is the trivial consensus of all transactions being rejected\), and that the trivial consensus will only be reached with a known probability, even in the face of Byzantine failures.
-
-
-
-
 
