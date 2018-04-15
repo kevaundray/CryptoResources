@@ -1,34 +1,4 @@
-# 3905d7917f2b3429490b01cfb60d8f5b!
-
-# Problem
-
-#### Let's talk about community and responsibility. For crypto to be great, we all must believe in the technology, take responsibility for what we have started. Why does it need to be great? Because it will be here for the rest of your lives. And what we do now will shape the future of crypto and consequently our future, and our children's future, and their children's future.
-
-#### Whether you like it or not, crypto is here to stay and although most of you came for the bags, I need you to stay for the technology and the future. Our future.
-
-# I am Non Techy, I Still Want To Contribute
-
-* We do videos that will cater towards paying your taxes and explaining concepts to the non technical. Your feedback on these would help out a lot.
-
-* Every little helps. If you see something that you do not understand. I want to hear.
-
-* If you are confused about a topic concerning crypto. I want to hear.
-
-* Every question or problem you have about crypto, whether small or big, is important. Shoot me an email and I will do my best to answer you.
-
-* Spread the news about our project.
-
-* Donate towards the contributors, every satoshi helps!
-
-* Subscribe to our projects.
-
-# I am Techy And I Want To Contribute
-
-#### Thank you for choosing to contribute.
-
-If you want to help with any of the 010 books then make a pull request for the chosen cryptocurrency and or decentralised technology. Please try to keep it within the same format as Bitcoin010.
-
-You can never have enough proof reads, so if you find a word is mis-spelled then feel free to tell me. We all make mistakes.
+# 3905d7917f2b3429490b01cfb60d8f5b!(MD5)
 
 #### Here are the current milestones and Targets:
 
@@ -56,9 +26,13 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
   * [ ] 600 Readers
 * [ ] **Youtube Channel - TheLondonBlockChain**
   * [x] 50 Subscribers
-  * [ ] 60 Subscribers
+  * [x] 60 Subscribers
+  * [x] 70 Subscribers
+  * [ ] 80 Subscribers
   * [x] Course On Bitcoin 
-  * [ ] Beginner Course On Practical Ethereum Smart Contract \(In Progress\)
+  * [x] Beginner Course On Practical Ethereum Smart Contract 
+  * [x] Course on intro to distributed systems 
+  * [x] Course on popular consensus protocols (In Progress) 
   * [ ] Intermediate Course On Practical Ethereum Smart Contract
   * [ ] Advanced Course On Practical Ethereum Smart Contract
   * [ ] Course On Crypto Taxes
@@ -66,7 +40,6 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
   * [ ] Do 5 ICO reviews
   * [ ] Whitepaper analysis of 1 company
   * [ ] White paper analysis of five companies
-  * [ ] Do 1 ELI5 Concepts
 * [ ] **Smart Contract Coding Challenge**
   * [x] Complete 1 challenge
   * [ ] Complete 5 challneges
@@ -75,6 +48,7 @@ You can never have enough proof reads, so if you find a word is mis-spelled then
 * [ ] Ethereum010
 * [ ] Neo010
 * [ ] Stellar010
+* [ ] Consensus010 (In Progress)
 
 * [ ] Monero010
 
